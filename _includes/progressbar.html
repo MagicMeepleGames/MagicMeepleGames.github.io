@@ -8,6 +8,7 @@
       {{ endcharacter }}
       {% if endcharacter == "%" %}
       {% assign include.percent = include.percent | slice: 0, -1 %}
+      {{ include.percent }}
       {% endif %}
       {% if include.percent == "100" %}
       <span class="meter-bar full" style="width: 100%">
