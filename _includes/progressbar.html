@@ -5,6 +5,7 @@
     <div class="whole-meter">
       <span class="status-message">{{ include.status }} </span>
       {% assign endcharacter = include.percent | slice: -1 %}
+      {{ endcharacter }}
       {% if endcharacter == "%" %}
       {% assign include.percent = include.percent | slice: 0, -1 %}
       {% endif %}
