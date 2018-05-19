@@ -7,13 +7,15 @@
       {% assign endcharacter = include.percent | slice: -1 %}
       {{ endcharacter }}
       {% if endcharacter == "%" %}
-      {% assign include.percent = include.percent | slice: 0, -1 %}
-      {{ include.percent }}
+      {% assign width = include.percent | slice: 0, -1 %}
+      {% else %}
+      {% assign width = include.percent %}
+      {{ width }}
       {% endif %}
-      {% if include.percent == "100" %}
+      {% if width == "100" %}
       <span class="meter-bar full" style="width: 100%">
       {% else %}
-      <span class="meter-bar incomplete" style="width: {{ include.percent | times: 0.97 | round }}%">
+      <span class="meter-bar incomplete" style="width: {{ width | times: 0.97 | round }}%">
       {% endif %}
       </span>
     </div>
