@@ -34,8 +34,8 @@ body {
     // radial-gradient(circle at 50%  100%, $secondary-very-dark 10%, $secondary-dark 11%, $secondary-dark 23%, $secondary-very-dark 24%, $secondary-very-dark 30%, $secondary-dark 31%, $secondary-dark 43%, $secondary-very-dark 44%, $secondary-very-dark 50%, $secondary-dark 51%, $secondary-dark 63%, $secondary-very-dark 64%, $secondary-very-dark 71%, transparent 71%, transparent),
     // radial-gradient(circle at 100% 50%, $secondary-very-dark 5%, $secondary-dark 6%, $secondary-dark 15%, $secondary-very-dark 16%, $secondary-very-dark 20%, $secondary-dark 21%, $secondary-dark 30%, $secondary-very-dark 31%, $secondary-very-dark 35%, $secondary-dark 36%, $secondary-dark 45%, $secondary-very-dark 46%, $secondary-very-dark 49%, transparent 50%, transparent),
     // radial-gradient(circle at 0    50%, $secondary-very-dark 5%, $secondary-dark 6%, $secondary-dark 15%, $secondary-very-dark 16%, $secondary-very-dark 20%, $secondary-dark 21%, $secondary-dark 30%, $secondary-very-dark 31%, $secondary-very-dark 35%, $secondary-dark 36%, $secondary-dark 45%, $secondary-very-dark 46%, $secondary-very-dark 49%, transparent 50%, transparent);
-    background-image: url('assets/images/meeple-pattern.svg');
-    background-size: 100px 50px;
+    background-image: url('/assets/images/meeple-pattern.svg');
+    background-size: 8rem;
 }
 .main {
 	width: 65rem;
