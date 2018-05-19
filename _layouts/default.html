@@ -10,8 +10,12 @@
     {% assign mypages = site.pages | sort: "order" %}
     {% for nav in mypages %}
     {% if nav.category == "pages" and nav.title != page.title %}
-    <li><a href="{{ nav.url | absolute_url }}">{{ nav.title }}</a></li>
+    <li class="thispage" >
+    {% else %}
+    <li>
+        <a href="{{ nav.url | absolute_url }}">{{ nav.title }}</a>
     {% endif %}
+    </li>
     {% endfor %}
   </ul>
 </div>
