@@ -7,17 +7,19 @@
 <body>
 <div class="header">
   <ul>
-    {% assign mypages = site.pages | sort: "order" %}
+{% assign mypages = site.pages | sort: "order" %}
     {% for nav in mypages %}
-    {% if nav.category == "pages" and nav.title != page.title %}
-    <li class="thispage" >
-        {{ nav.title }}
-    {% else %}
-    <li>
-        <a href="{{ nav.url | absolute_url }}">{{ nav.title }}</a>
+    {% if nav.category == "pages" %}
+        {% if nav.title == page.title %}
+        <li>
+            <a href="{{ nav.url | absolute_url }}">{{ nav.title }}</a>
+        {% else %}
+        <li class="thispage" >
+            {{ nav.title }}
+        {% endif %}
+        </li>
     {% endif %}
-    </li>
-    {% endfor %}
+{% endfor %}
   </ul>
 </div>
 <div class="main">
