@@ -1,5 +1,5 @@
 ---
-title: Game Progress
+title: Shop
 layout: default
 category: pages
 order: 1
