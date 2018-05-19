@@ -161,3 +161,12 @@ div.menu li {
     -moz-box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem $complement-mid;
     box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem $complement-mid;
 }
+@media screen and (max-width : 1024px) {
+.header, .main, .footer {
+    width: 44rem;
+}
+.container {
+    width: 100%;
+    border-right: 0;
+}
+}
