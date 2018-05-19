@@ -11,6 +11,7 @@
     {% for nav in mypages %}
     {% if nav.category == "pages" and nav.title != page.title %}
     <li class="thispage" >
+        {{ nav.title }}
     {% else %}
     <li>
         <a href="{{ nav.url | absolute_url }}">{{ nav.title }}</a>
