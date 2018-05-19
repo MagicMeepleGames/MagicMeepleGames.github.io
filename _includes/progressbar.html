@@ -4,10 +4,10 @@
   <div class="project-status">Project Status:
     <div class="whole-meter">
       <span class="status-message">{{ include.status }} </span>
-      {% if include.percent == "100" %}
+      {% if include.percent == "100" or include.percent == "100%" %}
       <span class="meter-bar full" style="width: 100%">
       {% else %}
-      <span class="meter-bar incomplete" style="width: {{ include.percent | times: 0.96 | round }}%">
+      <span class="meter-bar incomplete" style="width: {{ include.percent }}%">
       {% endif %}
       </span>
     </div>
