@@ -11,7 +11,7 @@
       {% if include.percent == "100" %}
       <span class="meter-bar full" style="width: 100%">
       {% else %}
-      <span class="meter-bar incomplete" style="width: {{ include.percent }}%">
+      <span class="meter-bar incomplete" style="width: {{ include.percent | times: 0.97 | round }}%">
       {% endif %}
       </span>
     </div>
