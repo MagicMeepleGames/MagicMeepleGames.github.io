@@ -141,7 +141,10 @@ div.menu li {
 .project-status {
     flex-grow: 1;
 }
-
+.full {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
 /* float image */
 .float_image {
     position: relative;
@@ -192,5 +195,9 @@ div.menu li {
     height: 4rem;
     border-top-left-radius: 3rem;
     border-bottom-left-radius: 3rem;
+}
+.full {
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
 }
 }
