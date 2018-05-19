@@ -4,9 +4,9 @@
   <div class="project-status">Project Status:
     <div class="whole-meter">
       <span class="status-message">{{ include.status }} </span>
-      {% assign endcharacter include.percent | slice: -1 %}
+      {% assign endcharacter = include.percent | slice: -1 %}
       {% if endcharacter == "%" %}
-      {% assign include.percent include.percent | slice: 0, -1 %}
+      {% assign include.percent = include.percent | slice: 0, -1 %}
       {% endif %}
       {% if include.percent == "100" %}
       <span class="meter-bar full" style="width: 100%">
