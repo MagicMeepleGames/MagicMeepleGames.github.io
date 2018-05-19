@@ -4,7 +4,9 @@
   <div class="project-status">Project Status:
     <div class="whole-meter">
       <span class="status-message">{{ include.status }} </span>
-      <span class="meter-bar" style="width: {{ include.percent | times: 0.97 | round }}%"></span>
+      <span class="meter-bar {% if include.percent = "100" %}full{% endif %}"
+            style="width: {{ include.percent | times: 0.97 | round }}%">
+      </span>
     </div>
   </div>
 </div>
