@@ -1,5 +1,5 @@
 ---
-title: Shop
+title: Home
 layout: default
 category: pages
 order: 1
