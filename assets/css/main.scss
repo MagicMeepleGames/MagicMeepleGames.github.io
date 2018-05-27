@@ -35,8 +35,9 @@ body {
     // radial-gradient(circle at 100% 50%, $secondary-very-dark 5%, $secondary-dark 6%, $secondary-dark 15%, $secondary-very-dark 16%, $secondary-very-dark 20%, $secondary-dark 21%, $secondary-dark 30%, $secondary-very-dark 31%, $secondary-very-dark 35%, $secondary-dark 36%, $secondary-dark 45%, $secondary-very-dark 46%, $secondary-very-dark 49%, transparent 50%, transparent),
     // radial-gradient(circle at 0    50%, $secondary-very-dark 5%, $secondary-dark 6%, $secondary-dark 15%, $secondary-very-dark 16%, $secondary-very-dark 20%, $secondary-dark 21%, $secondary-dark 30%, $secondary-very-dark 31%, $secondary-very-dark 35%, $secondary-dark 36%, $secondary-dark 45%, $secondary-very-dark 46%, $secondary-very-dark 49%, transparent 50%, transparent);
     background-image: url('/assets/images/meeple-mandala.svg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 .main {
 	width: 65rem;
