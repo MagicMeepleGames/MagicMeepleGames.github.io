@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Progress
 layout: default
 category: pages
 order: 1
