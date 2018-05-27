@@ -6,6 +6,8 @@ order: 4
 ---
 # Penguicon, May 4-6, 2018, Westin Southfield, Michigan, USA
 
+{% include floatimage.html filename="Logo_Thanks.jpg" side="left" %}
+
 Trish and Ian were honored to be invited as Guests of Honor at Penguicon in Michigan, May 4-6. This also happens to be Overworld designer Nemo Rathwald's hometown convention, so fans had their first chance to meet all three together! 
 
 This was especially exciting for Magic Meeple, as we presented an entire series panels and how-to discussions, which isn't normally something we have the extra time to do while demoing games, running a booth, etc. But it isn't every convention that we're there as special guests, either! 
