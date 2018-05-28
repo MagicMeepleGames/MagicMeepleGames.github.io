@@ -148,9 +148,12 @@ div.menu li {
 /* float image */
 .floatimage {
     position: relative;
-    height: 8rem;
-    width: 10rem;
-    border: 0.5rem solid $complement-mid
+    height: 12rem;
+    width: 18rem;
+    border: 0.5rem solid $complement-mid;
+    margin: 1rem;
+    padding: 1rem;
+    background-size: cover;
 }
 .floatimage > span.bottom {
     position: absolute;
