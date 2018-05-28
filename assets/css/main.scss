@@ -97,11 +97,10 @@ body {
     background-color: $complement-light;
     clear: both;
     margin: 1rem;
-    border-radius: 0.5rem;
-    border-color: $complement-dark;
 }
 .progressbar > div {
     float: left;
+    margin: 0.5rem;
 }
 .inline-logo, .inline-hero {
     width: 12rem;
@@ -112,7 +111,6 @@ body {
     background-size: cover;
 }
 .inline-logo {
-    margin: 0.5rem;
     background-size: contain;
 }
 .whole-meter {
