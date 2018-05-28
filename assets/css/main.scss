@@ -146,13 +146,13 @@ div.menu li {
     border-bottom-right-radius: 1rem;
 }
 /* float image */
-.float_image {
+.floatimage {
     position: relative;
     height: 8rem;
     width: 10rem;
     border: 0.5rem solid $complement-mid
 }
-.float_image > span.bottom {
+.floatimage > span.bottom {
     position: absolute;
     bottom: 0;
 }
