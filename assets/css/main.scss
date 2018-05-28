@@ -163,9 +163,10 @@ div.menu li {
     color: $complement-very-light;
     font-size: large;
     font-weight: bold;
-    -webkit-box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem $complement-mid;
-    -moz-box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem $complement-mid;
-    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem $complement-mid;
+    text-shadow: 0.1rem 0.1rem #755B12,
+                 -0.1rem -0.1rem #755B12,
+                 -0.1rem 0.1rem #755B12,
+                 0.1rem -0.1rem #755B12;
 }
 /* footer */
 .footer {
