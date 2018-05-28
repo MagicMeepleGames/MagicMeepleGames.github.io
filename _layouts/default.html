@@ -7,6 +7,12 @@
 </head>
 <body>
 <div class="header">
+  <div class="social-nav-group">
+  {% include social_media.html filename="twitter-logo-meeple.png" url="https://twitter.com/MagicMeeple" %}
+  {% include social_media.html filename="facebook-logo-meeple.png" url="https://www.facebook.com/MagicMeepleGames/" %}
+  {% include social_media.html filename="instagram-logo-meeple.png" url="https://www.instagram.com/magicmeeplegames/" %}
+  {% include social_media.html filename="instagram-logo-meeple.png" url="https://www.instagram.com/magicmeeplegames/" %}
+  </div>
   <ul>
 {% assign mypages = site.pages | sort: "order" %}
     {% for nav in mypages %}
