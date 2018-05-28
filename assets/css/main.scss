@@ -45,7 +45,7 @@ body {
 	text-align: left;
 }
 .header {
-	height: 16rem;
+	height: 12.5rem;
 	background: url("/assets/images/magic-meeple-games-logo.png") no-repeat 14rem;
 	background-position: 1rem 1rem;
 }
@@ -68,7 +68,7 @@ body {
 .header ul {
 	list-style: none;
 	position: absolute;
-	top: 10rem;
+	top: 9.5rem;
 	left: 10rem;
 }
 .header li, div.menu li {
@@ -100,8 +100,8 @@ body {
 }
 .social {
     float: left;
-    height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2rem;
     margin: 0.5rem;
     border-radius: 1rem;
     border: 0.5rem solid white;
