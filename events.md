@@ -6,7 +6,7 @@ order: 4
 ---
 # Penguicon, May 4-6, 2018, Westin Southfield, Michigan, USA
 
-{% include floatimage.html filename="Logo_Thanks.jpg" side="left" caption-vert-align="bottom" caption="Penguicon 2018" %}
+{% include floatimage.html filename="penguicon-2018-ian-trish.jpg" side="left" caption-vert-align="bottom" caption="Penguicon 2018" %}
 
 Trish and Ian were honored to be invited as Guests of Honor at Penguicon in Michigan, May 4-6. This also happens to be Overworld designer Nemo Rathwald's hometown convention, so fans had their first chance to meet all three together! 
 
