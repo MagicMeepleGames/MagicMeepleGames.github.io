@@ -1,6 +1,12 @@
 <div class="progressbar">
+  {% if include.heroimage %}
+  <div class="inline-hero" style="background-image: url(assets/images/{{ include.heroimage }})" role="img" alt="{{ include.alt }}">
+  </div>
+  {% endif %}
+  {% if include.logo %}
   <div class="inline-logo" style="background-image: url(assets/images/{{ include.logo }})" role="img" alt="{{ include.alt }}">
   </div>
+  {% endif %}
   <div class="project-status">Project Status:
     <div class="whole-meter">
       <span class="status-message">{{ include.status }} </span>
