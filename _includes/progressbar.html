@@ -1,6 +1,6 @@
 <div class="progressbar">
   {% if include.heroimage %}
-  <div class="inline-hero" style="background-image: url(assets/images/{{ include.heroimage }})" role="img" alt="{{ include.alt }}">
+  <div class="inline-hero" style="background-image: url(assets/images/{{ include.heroimage | replace: " ", "%20" }})" role="img" alt="{{ include.alt }}">
   </div>
   {% endif %}
   {% if include.logo %}
