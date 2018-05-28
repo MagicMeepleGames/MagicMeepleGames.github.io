@@ -100,8 +100,14 @@ body {
 }
 .social {
     float: left;
-    height: 1rem;
-    width: 1rem;
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    border: 0.5rem solid white;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .social > span {
   position: absolute; 
