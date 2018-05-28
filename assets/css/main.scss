@@ -110,8 +110,13 @@ body {
 .inline-logo, .inline-hero {
     width: 12rem;
     background-position: center;
-    background-size: contain;
     background-repeat: no-repeat;
+}
+.inline-hero {
+    background-size: cover;
+}
+.inline-logo {
+    background-size: contain;
 }
 .whole-meter {
     display: flex;
