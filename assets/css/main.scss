@@ -73,15 +73,24 @@ body {
 	top: 9rem;
 	left: 9rem;
 }
-.header li,
-div.menu li {
+.header li, div.menu li {
     font-size: large;
     font-weight: bold;
     float: left;
     background-color: $primary-light;
     padding: 1rem;
-    margin: 0 0.5rem 0 0.5rem;
-    border-radius: 1rem;
+}
+.header ul>li {
+    border-left: 0.1rem solid $primary-very-light;    
+    border-right: 0.1rem solid $primary-mid;
+}
+.header ul>li:first-child {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.header ul>li:last-child {
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
 /* Progress Bars */
