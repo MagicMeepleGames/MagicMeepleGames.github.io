@@ -223,7 +223,11 @@ body {
 /* responsive styles for mobile devices */
 @media screen and (max-width : 1024px) {
 .header {
-    
+    top: 3rem;
+    background-size: 
+}
+.social-nav-group {
+    top: -3.7rem;
 }
 .header, .main, .footer {
     width: 44rem;
