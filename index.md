@@ -1,5 +1,5 @@
 ---
-title: Progress
+title: Projects
 layout: default
 category: pages
 order: 1
