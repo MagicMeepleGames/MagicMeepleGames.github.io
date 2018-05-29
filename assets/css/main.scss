@@ -224,7 +224,8 @@ body {
 @media screen and (max-width : 1024px) {
 .header {
     top: 3rem;
-    background-size: 
+    height: 16rem;
+    background-size: contain;
 }
 .social-nav-group {
     top: -3.7rem;
