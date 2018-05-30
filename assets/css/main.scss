@@ -42,20 +42,20 @@ body {
 	background: url("/assets/images/magic-meeple-games-logo.png") no-repeat 14rem;
 	background-position: 1rem 1rem;
 }
-.header-tab-background {
+.header-tab-background, .header-bottom-background {
     position: absolute;
-    left: 12rem;
-    height: 10rem;
+    left: 11.5rem;
+}
+.header-tab-background {
+    height: 9rem;
     width: 33rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
 .header-bottom-background {
-    position: absolute;
-    top: 11rem;
-    left: 12rem;
-    height: 5rem;
-    width: 100%;
+    top: 10.5rem;
+    height: 6rem;
+    width: 67rem;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
