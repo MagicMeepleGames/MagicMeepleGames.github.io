@@ -42,7 +42,26 @@ body {
 	background: url("/assets/images/magic-meeple-games-logo.png") no-repeat 14rem;
 	background-position: 1rem 1rem;
 }
-.container {
+.header-tab-background {
+    position: absolute;
+    left: 12rem;
+    height: 10rem;
+    width: 33rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.header-bottom-background {
+    position: absolute;
+    top: 11rem;
+    left: 12rem;
+    height: 5rem;
+    width: 100%;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.header-tab-background, .main, .footer {
+    background-color: rgba(131,164,185,0.8);
 }
 .header, .main, .footer{
 	position: relative;
@@ -50,7 +69,6 @@ body {
 	margin: 0 auto;
 	margin-bottom: 2rem;
 	padding: 1rem;
-	background-color: rgba(131,164,185,0.8);
 	width: 65rem;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -220,6 +238,26 @@ body {
     height: 16rem;
     background-size: contain;
     margin-bottom: 4rem;
+}
+.tab-background {
+    position: absolute;
+    left: 12rem;
+    background-color: rgba(131,164,185,0.8);
+    height: 10rem;
+    width: 33rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.bottom-background {
+    position: absolute;
+    top: 11rem;
+    left: 12rem;
+    background-color: rgba(131,164,185,0.8);
+    height: 5rem;
+    width: 100%;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 .social-nav-group {
     top: -3.7rem;
