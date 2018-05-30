@@ -214,15 +214,20 @@ body {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
-/* float image */
-.floatimage {
+/* images */
+.floatimage, .full-size-image {
     position: relative;
     height: 12rem;
-    width: 12rem;
     border: 0.5rem solid $complement-mid;
     margin: 1rem;
     padding: 1rem;
     background-size: cover;
+}
+.floatimage {
+    width: 12rem;
+}
+.full-size-image {
+    width: 100%
 }
 .floatimage > span.bottom {
     position: absolute;
