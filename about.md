@@ -20,9 +20,9 @@ Trish has been heavily involved with gaming conventions (including Phoenix Comic
 
 Then they debuted with a successful Kickstarter campaign for Darkrock Ventures (designed by Michael Eskue of Council of Verona/TableTop fame), followed that up with another successful Kickstarter campaign for Fire of Eidolon, and yet another for Overworld in 2017.
 
-Keep track of all their upcoming projects on Facebook, Instagram, YouTube, BoardGameGeek, and their own website.
-
 # Nemo Rathwald
+
+{% include full-width-image.html filename="nemorathwaldname.jpeg" %}
 
 "Overworld" is Nemo's first game to be published, but will not be the last. Nemo specializes in game components that physically prevent you from breaking rules, so you don't have to remember them.
 
