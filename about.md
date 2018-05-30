@@ -6,15 +6,15 @@ order: 2
 ---
 # Publishers: Ian and Trish Stedman
 
-{% include floatimage.html filename="ian-stedman.jpg" side="left" caption-vert-align="bottom" caption="Ian Stedman" %}
+{% include floatimage.html filename="ian-stedman.jpg" side="left" caption-vert-align="top" caption="Ian Stedman" %}
+
+{% include floatimage.html filename="trish-stedman.jpg" side="right" caption-vert-align="top" caption="Trish Stedman" %}
 
 Magic Meeple Games is an independent tabletop games design, development, & publishing company based in Phoenix, Arizona and co-owned by Ian and Trish Stedman.
 
 MMG began when Michael Coe, founder of Gamelyn Games, approached Ian and Trish to co-publish a project with him. Ian and Trish (who have over 15 years combined involvement in various games industries) officially formed MMG in 2015.
 
 Ian has had a lifelong passion for gaming, and is the designer of Magnum Opus from Clever Mojo Games and several other self-publishing projects.
-
-{% include floatimage.html filename="trish-stedman.jpg" side="left" caption-vert-align="bottom" caption="Trish Stedman" %}
 
 Trish has been heavily involved with gaming conventions (including Phoenix Comicon, RinCon, and Crit Hit) for years as an experienced event planner.
 
