@@ -236,11 +236,12 @@ body {
 }
 .progressbar {
     display: block;
+    padding-top: 0.5rem;
 }
 .progressbar>div {
     font-size: xx-large;
     float: none;
-    width: 100%;
+    width: 97%;
     height: 10rem;
 }
 .whole-meter {
