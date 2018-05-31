@@ -1,7 +1,7 @@
 ---
 title: Message Sent
 layout: default
-category: pages
+category: hidden
 order: 5
 ---
 # Thank You For Contacting Us
