@@ -6,7 +6,7 @@ order: 5
 ---
 
 <script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='submitted.html';}"></iframe>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='sent.html';}"></iframe>
 <form action="https://docs.google.com/forms/d/e/1FAIpQLSedW_sHoUVpwC_j7bvXpsbaqq8pn7vfZjwqkp8D_S9NJZgMFA/formResponse" target="hidden_iframe" onsubmit="submitted=true;"
   method="POST" id="mG61Hd">
   <div class="freebirdFormviewerViewFormCard">
