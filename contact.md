@@ -15,7 +15,9 @@ order: 5
     <div class="freebirdFormviewerViewFormContent ">
       <div class=freebirdFormviewerViewNoPadding>
         <div class="freebirdFormviewerViewHeaderHeader">
-            # Contact Magic Meeple Games
+          <div class="freebirdFormviewerViewHeaderTitleRow">
+            <div class="freebirdFormviewerViewHeaderTitle freebirdCustomFont" dir="auto" role="heading" aria-level="1">Contact Magic Meeple Games</div>
+          </div>
           <div class="freebirdFormviewerViewHeaderDescription" dir="auto">Please allow five business days for an email response. It is our pleasure to hear from you.</div>
           <div jsname="F0H8Yc" class="freebirdCommonViewSecurequizSecureQuizBannerContainer">
           </div>
