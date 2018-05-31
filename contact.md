@@ -1,6 +1,6 @@
 ---
 title: Contact Us
-layout: form
+layout: default
 category: pages
 order: 5
 ---
