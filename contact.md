@@ -15,26 +15,22 @@ order: 5
 
 <p>All fields are required to be filled in. Please allow five business days for an email response. It is our pleasure to hear from you.</p>
 
-<h2>Your Email:</h2>
+<h2>Your Email: <input type="email" tabindex="0" max-length="70" name="emailAddress" required /></h2>
 
-<input type="email" tabindex="0" max-length="70" name="emailAddress" required />
-
-<h2>Your Name:</h2>
-
-<input type="text" tabindex="1" max-length="70" name="entry.1924108681" required />
+<h2>Your Name: <input type="text" tabindex="1" max-length="70" name="entry.1924108681" required /></h2>
 
 <h2>Your Topic:</h2>
 
-<input type="radio" name="entry.1466018481" id="topic-parts-replacement" value="Parts Replacement" tabindex="2"><label for="parts-replacement">Parts Replacement</label>
+<p><input type="radio" name="entry.1466018481" id="topic-parts-replacement" value="Parts Replacement" tabindex="2"><label for="parts-replacement">- Parts Replacement</label></p>
 
-<input type="radio" name="entry.1466018481" id="topic-rules-question" value="Rules Question" tabindex="3"><label for="topic-other">Rules Question</label>
+<p><input type="radio" name="entry.1466018481" id="topic-rules-question" value="Rules Question" tabindex="3"><label for="topic-other">- Rules Question</label></p>
 
-<input type="radio" name="entry.1466018481" id="topic-retailer-contact" value="Retailer Contact" tabindex="5"><label for="topic-other">Retailer Contact</label>
+<p><input type="radio" name="entry.1466018481" id="topic-retailer-contact" value="Retailer Contact" tabindex="5"><label for="topic-other">- Retailer Contact</label></p>
 
-<input type="radio" name="entry.1466018481" id="topic-other" value="Other" tabindex="4" checked><label for="topic-other">Other</label>
+<p><input type="radio" name="entry.1466018481" id="topic-other" value="Other" tabindex="4" checked><label for="topic-other">- Other</label></p>
 
 <h2>Your Message:</h2>
 
-<textarea name="entry.1856670343" rows="5" required ></textarea>
+<p><textarea name="entry.1856670343" rows="5" style="width: 90%" required ></textarea></p>
 
-<input type="submit" value="Send" />
+<p><input type="submit" value="Send" /></p>
