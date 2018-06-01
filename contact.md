@@ -21,13 +21,13 @@ order: 5
 
 <h2>Your Topic:</h2>
 
-<p><input type="radio" name="entry.1466018481" id="topic-parts-replacement" value="Parts Replacement" tabindex="2"><label for="topic-parts-replacement">- Parts Replacement</label></p>
+<p class="radio-btn"><input type="radio" name="entry.1466018481" id="topic-parts-replacement" value="Parts Replacement" tabindex="2"><label for="topic-parts-replacement">Parts Replacement</label></p>
 
-<p><input type="radio" name="entry.1466018481" id="topic-rules-question" value="Rules Question" tabindex="3"><label for="topic-rules-question">- Rules Question</label></p>
+<p class="radio-btn"><input type="radio" name="entry.1466018481" id="topic-rules-question" value="Rules Question" tabindex="3"><label for="topic-rules-question">Rules Question</label></p>
 
-<p><input type="radio" name="entry.1466018481" id="topic-retailer-contact" value="Retailer Contact" tabindex="4"><label for="topic-retailer-contact">- Retailer Contact</label></p>
+<p class="radio-btn"><input type="radio" name="entry.1466018481" id="topic-retailer-contact" value="Retailer Contact" tabindex="4"><label for="topic-retailer-contact">Retailer Contact</label></p>
 
-<p><input type="radio" name="entry.1466018481" id="topic-other" value="Other" tabindex="5" checked><label for="topic-other">- Other</label></p>
+<p class="radio-btn"><input type="radio" name="entry.1466018481" id="topic-other" value="Other" tabindex="5" checked><label for="topic-other">Other</label></p>
 
 <h2>Your Message:</h2>
 
