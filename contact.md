@@ -24,7 +24,7 @@ order: 5
           <div class="freebirdFormviewerViewHeaderRequiredLegend" aria-hidden="true" dir="auto">* Required</div>
         </div>
       </div>
-      <div class=freebirdFormviewerViewItemList role="list">
+      <div class="freebirdFormviewerViewItemList" role="list">
         <div role="listitem" class="freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem freebirdFormviewerViewEmailCollectionField"
           jsname="ibnC6b" jscontroller="rDGJeb" jsaction="sPvj8e:e4JwSe,vwKRrd;" data-required="true" data-validation-operation="102"
           data-validation-type="2">
