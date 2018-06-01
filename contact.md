@@ -13,7 +13,7 @@ order: 5
 
 <h1>Contact Magic Meeple Games</h1>
 
-<p>All fields are required to be filled in. Please allow five business days for an email response. It is our pleasure to hear from you.</p>
+<p>We'll need all fields filled in, please. Give us five business days for an email response, OK? It will be our pleasure to talk to you!</p>
 
 <h2>Your Email: <input type="email" tabindex="0" max-length="70" name="emailAddress" required /></h2>
 
