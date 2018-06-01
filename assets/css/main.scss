@@ -76,6 +76,7 @@ body {
 }
 
 /* Navigation */
+
 .header ul {
 	list-style: none;
 	position: absolute;
@@ -152,6 +153,7 @@ body {
 }
 
 /* Progress Bars */
+
 .progressbar {
     display: flex;
     background-color: $complement-light;
@@ -214,7 +216,9 @@ body {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
+
 /* images */
+
 .floatimage, .full-size-image {
     position: relative;
     height: 12rem;
@@ -242,12 +246,21 @@ body {
                  -0.1rem 0.1rem #755B12,
                  0.1rem -0.1rem #755B12;
 }
+
 /* footer */
+
 .footer {
+    display: flex;
     font-size: small;
     font-style: oblique;
 }
+
+.footer > p {
+    margin: 0 3rem;
+}
+
 /* forms */
+
 input[type=text], input[type=email] {
     display: block;
     width: 90%;
@@ -255,12 +268,11 @@ input[type=text], input[type=email] {
     margin: 0.5rem;
     font-size: 1rem;
     line-height: 1.5;
-    border: 1px solid $complement-very-light;
+    border: .1rem solid $complement-very-light;
     border-radius: .25rem;
 }
-input[type=submit], input[type=radio], label {
+input[type=submit], .radio-btn {
     cursor: pointer;
-    -webkit-appearance: button;
     color: $complement-very-light;
     background-color: $primary-mid;
     border-color: $primary-mid;
@@ -269,20 +281,27 @@ input[type=submit], input[type=radio], label {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
+    border: .1rem solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
 }
-input:invalid {
-    background-color: $complement-light;
+input[type=radio]:checked {
+    display: none;
 }
+input[type=radio]:checked + label:before {
+    content: '\9633 ';
+}
+input[type=radio]:checked + label:before {
+    content: '\2713 ';
+}
+input[type=text]:invalid, input[type=email]:invalid {
+    border: .1rem solid $complement-light;
+}
+
 /* responsive styles for mobile devices */
+
 @media screen and (max-width : 1024px) {
 .header {
     top: 3rem;
