@@ -1,9 +1,14 @@
 ---
-title: Retailer Locator
+title: Retailers
 layout: default
 category: pages
 order: 3
 ---
+
+# Info for Retailers
+
+Darkrock Ventures: Inventory Status: In Stock. Marketing Kit.
+Fire Of Eidolon: Inventory Status: In Stock. Marketing Kit.
 
 # Retailer Locator
 
