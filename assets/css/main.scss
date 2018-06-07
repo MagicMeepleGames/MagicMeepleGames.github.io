@@ -38,9 +38,10 @@ body {
 	text-align: left;
 }
 .header {
-        height: 13rem;
+        height: 14rem;
         background: url("/assets/images/magic-meeple-games-logo.svg") no-repeat;
-        background-position: 1rem 1rem;
+        background-position: 1rem 0;
+	background-size: 36rem;
 }
 // .header-tab-background, .header-bottom-background {
 //     position: absolute;
@@ -82,7 +83,7 @@ body {
 	list-style: none;
 	position: absolute;
 	bottom: 0;
-	left: 14rem;
+	right: 0;
 }
 .header li, div.menu li {
     font-size: large;
@@ -189,6 +190,7 @@ body {
 .whole-meter > span {
     display: block;
     position: absolute;
+    line-height: initial;
 }
 .status-message {
     z-index: 100;
@@ -212,6 +214,7 @@ body {
 }
 .project-status {
     flex-grow: 1;
+    font-weight: bold;
 }
 .p100 {
     border-top-right-radius: 1rem;
