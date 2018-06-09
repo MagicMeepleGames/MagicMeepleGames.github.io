@@ -5,15 +5,6 @@ category: pages
 order: 5
 ---
 
-{% for game in site.data.games %}
-<button
-    class="snipcart-add-item"
-    data-item-id={{ game.id }}
-    data-item-name={{ game.title }}
-    data-item-price={{ game.price }}
-    data-item-weight={{ game.weight }}
-    data-item-url={{ game.url }}
-    data-item-description={{ game.description }}
-        Buy {{ game.title }}
-</button>
+{% for game in site.data.products %}
+{% include product.html name={{ product.name }} box-image-filename={{ product.box-image-filename }} price={{ product.price }} description={{product.description}} weight={{ product.weight }} url={{ product.url }} %}
 {% endfor %}
