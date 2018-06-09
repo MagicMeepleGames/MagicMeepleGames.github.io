@@ -1,18 +1,20 @@
 - name: Darkrock Ventures
-  sales-text: This is a wonderful game. Please buy it.
+  id: 1
+  description: This is a wonderful game. Please buy it.
   box-image-filename: darkrock-ventures-box.png
   closeup-image-filename: darkrock-ventures-closeup.png
-  price: $45.99
-  weight: 300
+  price: $44.99
+  weight: 500
   link-to-rules: http://magicmeeplegames.com
   link-to-facebook: http://magicmeeplegames.com
   link-to-bgg: http://magicmeeplegames.com
 
 - name: Overworld
-  sales-text: This is where you type the text of another description.
+  id: 04
+  description: This is where you type the text of another description.
   box-image-filename: overworld-box.png
   closeup-image-filename: overworld-closeup.png
-  price: $45.99
+  price: $34.99
   weight: 300
   link-to-rules: http://magicmeeplegames.com
   link-to-facebook: http://magicmeeplegames.com
