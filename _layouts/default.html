@@ -6,9 +6,11 @@
   <link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
   <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico"  | absolute_url }}" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500|Josefin+Sans:300,600" rel="stylesheet" type="text/css">
+  {% if page.title == "shop" %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="YOUR_API_KEY" id="snipcart"></script>
   <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+  {% endif %}
 </head>
 <body>
 <div class="header-tab-background"></div>
