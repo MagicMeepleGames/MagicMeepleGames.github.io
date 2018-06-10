@@ -1,6 +1,11 @@
 {% for p in include.products %}
 <div class="product">
-    <img class="box-image" src="assets/images/{{ p.box-image-filename }}" />
+{% if p.box-image-filename %}
+{% capture box-image-filename %}
+assets/images/{{ p.box-image-filename }}
+{% endcapture %}
+    <img class="box-image" src=box-image-filename />
+{% endif %}
     <h1>{{ p.name }}</h1>
     <p class="price">{{ p.price }}</p>
     <p class="number-of-players">{{ p.number-of-players }}</p>
@@ -8,12 +13,30 @@
     <p class="length">{{ p.length }}</p>
     <p>{{ p.description }}</p>
     <button class="snipcart-add-item"
-      data-item-id="{{ p.id }}"
-      data-item-name="{{ p.name }}"
-      data-item-price="{{ p.price }}"
-      data-item-weight="{{ p.weight }}"
-      data-item-url="{{ p.url }}"
-      data-item-description="{{ p.description }}"
+{% capture id %}
+{{ p.id }}
+{% endcapture %}
+{% capture name %}
+{{ p.name }}
+{% endcapture %}
+{% capture price %}
+{{ p.price }}
+{% endcapture %}
+{% capture weight %}
+{{ p.weight }}
+{% endcapture %}
+{% capture url %}
+{{ p.url }}
+{% endcapture %}
+{% capture description %}
+{{ p.description }}
+{% endcapture %}
+      data-item-id=id
+      data-item-name=name
+      data-item-price=price
+      data-item-weight=weight
+      data-item-url=url
+      data-item-description=description
     >
       Buy
     </button>
