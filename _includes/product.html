@@ -1,25 +1,11 @@
 {% for p in include.products %}
-{% capture box-image-filename %}
-assets/images/{{ p.box-image-filename }}
-{% endcapture %}
-{% capture id %}
-{{ p.id }}
-{% endcapture %}
-{% capture name %}
-{{ p.name }}
-{% endcapture %}
-{% capture price %}
-{{ p.price }}
-{% endcapture %}
-{% capture weight %}
-{{ p.weight }}
-{% endcapture %}
-{% capture url %}
-{{ p.url }}
-{% endcapture %}
-{% capture description %}
-{{ p.description }}
-{% endcapture %}
+{% capture box-image-filename %}assets/images/{{ p.box-image-filename }}{% endcapture %}
+{% capture id %}{{ p.id }}{% endcapture %}
+{% capture name %}{{ p.name }}{% endcapture %}
+{% capture price %}{{ p.price }}{% endcapture %}
+{% capture weight %}{{ p.weight }}{% endcapture %}
+{% capture url %}{{ p.url }}{% endcapture %}
+{% capture description %}{{ p.description }}{% endcapture %}
 <div class="product">
     <img class="box-image" src=box-image-filename />
     <h1>{{ p.name }}</h1>
@@ -30,3 +16,4 @@ assets/images/{{ p.box-image-filename }}
     <p>{{ description }}</p>
     <p><button class="snipcart-add-item" data-item-id=id data-item-name=name data-item-price=price data-item-weight=weight data-item-url=url data-item-description=description >Buy</button></p>
 </div>
+{% endfor %}
