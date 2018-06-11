@@ -1,5 +1,5 @@
 <div class="product">
-    <img class="box-image" src=box-image-filename />
+    <img class="box-image" src={{ include.box-image-filename }} />
     <h1>{{ include.name }}</h1>
     <p class="price">{{ include.price }}</p>
     <p class="number-of-players">{{ include.number-of-players }}</p>
@@ -7,7 +7,7 @@
     <p class="length">{{ include.length }}</p>
     <p>{{ include.description }}</p>
     <p>
-        <button class="snipcart-add-item" data-item-id=include.id data-item-name=include.name data-item-price=include.price data-item-weight=include.weight data-item-url=include.url data-item-description=include.description >
+        <button class="snipcart-add-item" data-item-id={{ include.id }} data-item-name={{ include.name }} data-item-price={{ include.price }} data-item-weight={{ include.weight }} data-item-url={{ include.url }} data-item-description={{ include.description }} >
             Buy
         </button>
     </p>
