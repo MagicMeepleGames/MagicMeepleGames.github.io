@@ -5,7 +5,7 @@ category: pages
 order: 5
 ---
 
-Order direct from the publisher. Our online store is always open!
+## You can order our games direct from us. Our online store is always open!
 
 {% for p in site.data.products %}
 {% capture box-image-filename %}assets/images/{{ p.box-image-filename }}{% endcapture %}
