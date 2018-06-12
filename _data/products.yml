@@ -15,7 +15,7 @@
 - name: Overworld
   id: 04
   description: This is where you type the text of another description.
-  box-image-filename: overworld-box.png
+  box-image-filename: Overworld-box-image-500px.png
   closeup-image-filename: overworld-closeup.png
   price: $34.99
   min-players: 1
