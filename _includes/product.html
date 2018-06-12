@@ -7,13 +7,22 @@
 {% else %}
 {% assign players = "" %}
 {% endif %}
+{% capture player-range %}
+<span class="players">{{ players }}</span>
+{% endcapture %}
+{% capture age-range %}
+<span class="age-range">ages {{ include.ages }}</span>
+{% endcapture %}
+{% capture length %}
+<span class="length">{{ include.length }}</span>
+{% endcapture %}
 <div class="product">
     <div class="box-image" style="background-image: url({{ include.box-image-filename }})" >
     </div>
     <h1>{{ include.name }}</h1>
     <h2 class="price">{{ include.price }}</h2>
     <h3 class="info">
-        <span class="number-of-players">{{ players }}</span> ages <span class="age-range">{{ include.age-range }}</span> <span class="length">{{ include.length }}</span>
+        {{ player-range }} {{age-range }} {{ length }}
     </h3>
     <p class="description">{{ include.description }}</p>
     <p>
