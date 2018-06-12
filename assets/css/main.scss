@@ -314,15 +314,21 @@ input[type=radio]:checked + label:before {
     margin: 1rem;
     background-color: $complement-very-light;
     border: 0.5rem solid $complement-dark;
+    display: inline-block;
 }
 .box-image {
-    height: 18rem;
+    height: 12rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 .product h2, .product h3 {
     color: $complement-dark;
+    display: inline-block;
+    margin: 0 1rem 0 0;
+}
+.price, .description {
+    float: left;
 }
 button.snipcart-add-item {
     font-size: x-large;
@@ -331,7 +337,7 @@ button.snipcart-add-item {
     border-radius: 0.5rem;
     padding: 0.5rem 2rem;
     background-color: $primary-dark;
-    color: $secondary-very-light;
+    color: $complement-very-light;
     border-left: 0.1rem solid $primary-mid;
     border-right: 0.1rem solid $primary-very-dark;
 }
