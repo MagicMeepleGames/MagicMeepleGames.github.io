@@ -305,7 +305,7 @@ input[type=radio]:checked + label:before {
     left: -1.25rem;
 }
 
-/* Shop */
+/* shop */
 
 .product {
     height: 24rem;
@@ -323,6 +323,17 @@ input[type=radio]:checked + label:before {
 }
 .product h2, .product h3 {
     color: $complement-dark;
+}
+button.snipcart-add-item {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Alegreya Sans SC;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    background-color: $primary-dark;
+    color: $secondary-very-light;
+    border-left: 0.1rem solid $primary-mid;
+    border-right: 0.1rem solid $primary-very-dark;
 }
 
 /* responsive styles for mobile devices */
