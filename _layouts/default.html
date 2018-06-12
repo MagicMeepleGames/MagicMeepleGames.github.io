@@ -23,7 +23,6 @@
   {% include social_media.html filename="instagram-logo-meeple.png" caption="Instagram" link="https://www.instagram.com/magicmeeplegames/" %}
   {% include social_media.html filename="bgg-logo-meeple.png" caption="BoardGameGeek" link="https://boardgamegeek.com/boardgamepublisher/29569/magic-meeple-games" %}
   </div>
-  <div><a href="#" class="snipcart-checkout">Checkout</a></div>
   <ul>
 {% assign mypages = site.pages | sort: "order" %}
     {% for nav in mypages %}
@@ -38,6 +37,7 @@
         </li>
     {% endif %}
 {% endfor %}
+    <li><a href="#" class="snipcart-checkout">Checkout</a></li>
   </ul>
 </div>
 <div class="main">
