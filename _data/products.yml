@@ -4,6 +4,9 @@
   box-image-filename: darkrock-ventures-box.png
   closeup-image-filename: darkrock-ventures-closeup.png
   price: $44.99
+  min-players: 2
+  max-players: 5
+  ages: 12 and up
   weight: 500
   link-to-rules: http://magicmeeplegames.com
   link-to-facebook: http://magicmeeplegames.com
@@ -15,6 +18,9 @@
   box-image-filename: overworld-box.png
   closeup-image-filename: overworld-closeup.png
   price: $34.99
+  min-players: 1
+  max-players: 4
+  ages: 12 and up
   weight: 300
   link-to-rules: http://magicmeeplegames.com
   link-to-facebook: http://magicmeeplegames.com
