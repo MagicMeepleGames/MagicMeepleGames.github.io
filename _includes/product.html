@@ -22,7 +22,11 @@
     <h1>{{ include.name }}</h1>
     <h2 class="price">{{ include.price }}</h2>
     <h3 class="info">
-        {{ player-range }} {{age-range }} {{ length }}
+        {{ player-range }}
+        {% if include.ages %}
+        {{age-range }}
+        {% endif %}
+        {{ length }}
     </h3>
     <p class="description">{{ include.description }}</p>
     <p>
