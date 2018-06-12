@@ -308,7 +308,6 @@ input[type=radio]:checked + label:before {
 /* shop */
 
 .product {
-    height: 24rem;
     width: 24rem;
     padding: 1rem;
     margin: 1rem;
@@ -334,10 +333,10 @@ button.snipcart-add-item {
     font-size: x-large;
     font-weight: bold;
     font-family: Alegreya Sans SC;
-    border-radius: 0.5rem;
+    color: white;
     padding: 0.5rem 2rem;
     background-color: $primary-dark;
-    color: $complement-very-light;
+    border-radius: 0.5rem;
     border-left: 0.1rem solid $primary-mid;
     border-right: 0.1rem solid $primary-very-dark;
 }
