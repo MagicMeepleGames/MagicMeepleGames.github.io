@@ -10,6 +10,7 @@ order: 5
 <div class="snipcart-summary">
     Number of items: <span class="snipcart-total-items"></span>
     Total price: <span class="snipcart-total-price"></span>
+    <a href="#" class="snipcart-user-email snipcart-user-profile"> Customer dashboard </a>
 </div>
 
 {% for p in site.data.products %}
