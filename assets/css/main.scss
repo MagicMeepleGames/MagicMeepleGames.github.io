@@ -305,6 +305,26 @@ input[type=radio]:checked + label:before {
     left: -1.25rem;
 }
 
+/* Shop */
+
+.product {
+    height: 24rem;
+    width: 24rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: $complement-very-light;
+    border: 0.5rem solid $complement-dark;
+}
+.box-image {
+    height: 18rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.product h2, .product h3 {
+    color: $complement-dark;
+}
+
 /* responsive styles for mobile devices */
 
 @media screen and (max-width : 1024px) {
