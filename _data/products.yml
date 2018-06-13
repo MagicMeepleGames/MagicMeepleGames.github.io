@@ -11,6 +11,7 @@
   link-to-rules: http://magicmeeplegames.com
   link-to-facebook: http://magicmeeplegames.com
   link-to-bgg: http://magicmeeplegames.com
+  snes: false
 
 - name: Darkrock Ventures Expansion Pack
   id: 2
@@ -25,6 +26,7 @@
   link-to-rules: http://magicmeeplegames.com
   link-to-facebook: http://magicmeeplegames.com
   link-to-bgg: http://magicmeeplegames.com
+  snes: false
 
 - name: Fire Of Eidolon
   id: 3
@@ -39,7 +41,7 @@
   link-to-rules: http://magicmeeplegames.com
   link-to-facebook: http://magicmeeplegames.com
   link-to-bgg: http://magicmeeplegames.com
-
+  snes: true
 
 - name: Overworld
   id: 4
@@ -54,3 +56,4 @@
   link-to-rules: http://magicmeeplegames.com
   link-to-facebook: http://magicmeeplegames.com
   link-to-bgg: http://magicmeeplegames.com
+  snes: true
