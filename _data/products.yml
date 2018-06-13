@@ -12,13 +12,14 @@
   link-to-facebook: http://magicmeeplegames.com
   link-to-bgg: http://magicmeeplegames.com
   snes: false
+  availability: In Stock
 
 - name: Darkrock Ventures Expansion Pack
   id: 2
   description: Description text goes here.
   box-image-filename: darkrock-ventures-expansion-pack-box-image-500px.png
   closeup-image-filename: darkrock-ventures-expansion-pack-closeup.png
-  price: $15.99
+  price: $4.99
   min-players: 2
   max-players: 5
   ages: 12 and up
@@ -27,6 +28,7 @@
   link-to-facebook: http://magicmeeplegames.com
   link-to-bgg: http://magicmeeplegames.com
   snes: false
+  availability: In Stock
 
 - name: Fire Of Eidolon
   id: 3
@@ -42,6 +44,7 @@
   link-to-facebook: http://magicmeeplegames.com
   link-to-bgg: http://magicmeeplegames.com
   snes: true
+  availability: In Stock
 
 - name: Overworld
   id: 4
@@ -57,3 +60,4 @@
   link-to-facebook: http://magicmeeplegames.com
   link-to-bgg: http://magicmeeplegames.com
   snes: true
+  availability: Coming Soon
