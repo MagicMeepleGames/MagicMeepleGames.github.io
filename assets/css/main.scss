@@ -198,7 +198,10 @@ h1 {
     display: block;
     position: absolute;
     line-height: initial;
-    text-shadow: 0.05rem 0.05rem $complement-very-light, -0.05rem -0.05rem $complement-very-light;
+    text-shadow:  0.05rem 0.05rem  $complement-very-light,
+                 -0.05rem -0.05rem $complement-very-light,
+                 -0.05rem 0.05rem  $complement-very-light,
+                  0.05rem -0.05rem $complement-very-light;
 }
 .status-message {
     z-index: 100;
