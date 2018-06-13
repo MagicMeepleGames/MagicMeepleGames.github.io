@@ -12,8 +12,37 @@
   link-to-facebook: http://magicmeeplegames.com
   link-to-bgg: http://magicmeeplegames.com
 
+- name: Darkrock Ventures Expansion Pack
+  id: 2
+  description: Description text goes here.
+  box-image-filename: darkrock-ventures-expansion-pack-box-image-500px.png
+  closeup-image-filename: darkrock-ventures-expansion-pack-closeup.png
+  price: $15.99
+  min-players: 2
+  max-players: 5
+  ages: 12 and up
+  weight: 60
+  link-to-rules: http://magicmeeplegames.com
+  link-to-facebook: http://magicmeeplegames.com
+  link-to-bgg: http://magicmeeplegames.com
+
+- name: Fire Of Eidolon
+  id: 3
+  description: These descriptive blurbs will probably be one or two sentences in length.
+  box-image-filename: fire-of-eidolon-box-image-500px.png
+  closeup-image-filename: overworld-closeup.png
+  price: $34.99
+  min-players: 1
+  max-players: 6
+  ages: 12 and up
+  weight: 300
+  link-to-rules: http://magicmeeplegames.com
+  link-to-facebook: http://magicmeeplegames.com
+  link-to-bgg: http://magicmeeplegames.com
+
+
 - name: Overworld
-  id: 04
+  id: 4
   description: This is where you type the text of another description.
   box-image-filename: Overworld-box-image-500px.png
   closeup-image-filename: overworld-closeup.png
