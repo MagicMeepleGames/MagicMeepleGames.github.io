@@ -1,9 +1,11 @@
 {% if include.min-players and include.max-players %}
-{% assign players = include.min-players + " to " + include.max-players + " players" %}
+{% assign players = include.min-players | append: " to " %}
+{% assign players = players | append: include.max-players %}
+{% assign players = players | append: | " players" %}
 {% elsif include.min-players %}
-{% assign players = include.min-players + " players" %}
+{% assign players = include.min-players | append: " players" %}
 {% elsif include.max-players %}
-{% assign players = include.max-players + " players" %}
+{% assign players = include.max-players | append: " players" %}
 {% else %}
 {% assign players = "" %}
 {% endif %}
@@ -11,11 +13,14 @@
 <span class="players">{{ players }}</span>
 {% endcapture %}
 {% if include.ages-official and include.ages-community %}
-{% assign age-range = "ages " + include.ages-official + " (" + include.ages-community + ")" %}
+{% assign age-range = "ages " | append: include.ages-official %}
+{% assign age-range = age-range | append: " (" %}
+{% assign age-range = age-range | append: include.ages-community %}
+{% assign age-range = age-range | append: ")" %}
 {% elsif include.ages-official %}
-{% assign age-range = "ages " + include.ages-official %}
+{% assign age-range = "ages " | append: include.ages-official %}
 {% elsif include.ages-community %}
-{% assign age-range = "ages " + include.ages-community %}
+{% assign age-range = "ages " | append: include.ages-community %}
 {% else %}
 {% assign age-range = "" %}
 {% endif %}
