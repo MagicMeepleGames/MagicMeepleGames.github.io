@@ -1,5 +1,4 @@
 - name: Darkrock Ventures
-  id: 1
   product-code: MMG001
   designer: Michael Eskue
   developer: Andrew Enriquez, Ian Stedman
@@ -36,7 +35,6 @@
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/darkrock-ventures-asteroid-mining-in-deep-space-bo
 
 - name: Darkrock Ventures Expansion Pack
-  id: 2
   short-description: Includes ten new cards to enhance your *Darkrock Ventures* experience!
   long-description: "Contains ten brand new, unique cards to add to your Darkrock Ventures base game: 5 New Research Cards. 5 New Corporate Sponsors cards. 1 Proof of Purchase card (not used in gameplay)."
   box-image: darkrock-ventures-expansion-pack-box-image-500px.png
