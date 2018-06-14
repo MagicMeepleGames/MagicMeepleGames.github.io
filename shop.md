@@ -14,7 +14,7 @@ order: 5
 </div>
 
 {% for p in site.data.products %}
-{% capture box-image-filename %}assets/images/{{ p.box-image-filename }}{% endcapture %}
+{% capture box-image %}assets/images/{{ p.box-image }}{% endcapture %}
 {% assign id = p.id %}
 {% assign name = p.name %}
 {% assign current-msrp = p.current-msrp %}
