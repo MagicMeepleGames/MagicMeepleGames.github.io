@@ -17,7 +17,7 @@
   setup-time: 10 (mins)
   teach-learn-time: 15 (mins)
   complexity: 2.4 (out of 5)
-  short-descripton: Darkrock Ventures is a worker placement game about mining and exporting in hostile outer-space. Players will control a mining company working in harsh conditions to acquire the most credits to win.
+  short-description: Darkrock Ventures is a worker placement game about mining and exporting in hostile outer-space. Players will control a mining company working in harsh conditions to acquire the most credits to win.
   long-description: Competitive Worker-placement meets clever dice-manipulation, take control of your own asteroid mining company and compete to extract the most minerals for the most cash before the asteroid is depleted. also, you're all under constant assault by alien marauders. Includes Solo and Co-Op variant expansions.
   box-image: darkrock-ventures-box-500px.png
   game-contents-image: darkrock-ventures-closeup1.jpg
@@ -37,7 +37,8 @@
 
 - name: Darkrock Ventures Expansion Pack
   id: 2
-  description: Description text goes here.
+  short-description: Includes ten new cards to enhance your *Darkrock Ventures* experience!
+  long-description: "Contains ten brand new, unique cards to add to your Darkrock Ventures base game: 5 New Research Cards. 5 New Corporate Sponsors cards. 1 Proof of Purchase card (not used in gameplay)."
   box-image: darkrock-ventures-expansion-pack-box-image-500px.png
   closeup-image: darkrock-ventures-expansion-pack-closeup.png
   current-msrp: $4.99
