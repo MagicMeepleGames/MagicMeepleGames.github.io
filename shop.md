@@ -20,7 +20,11 @@ order: 5
 {% assign current-msrp = p.current-msrp %}
 {% assign weight = p.weight| plus:0 %}
 {% assign url = p.url %}
+{% assign min-players = p.min-players %}
+{% assign max-players = p.max-players %}
 {% assign play-time = p.play-time %}
+{% assign ages-community = p.ages-community %}
+{% assign ages-official = p.ages-official %}
 {% assign short-description = p.short-description %}
-{% include product.html id=id box-image=box-image name=name current-msrp=current-msrp weight=weight url=url description=short-description %}
+{% include product.html id=id box-image=box-image name=name current-msrp=current-msrp weight=weight url=url description=short-description min-players=min-players max-players=max-players ages-community=ages-community ages-official=ages-official %}
 {% endfor %}
