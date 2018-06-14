@@ -10,11 +10,20 @@
 {% capture player-range %}
 <span class="players">{{ players }}</span>
 {% endcapture %}
+{% if include.ages-official and include.ages-community %}
+{% assign age-range = "ages " + include.ages-official + " (" + include.ages-community + ")" %}
+{% elsif include.ages-official %}
+{% assign age-range = "ages " + include.ages-official %}
+{% elsif include.ages-community %}
+{% assign age-range = "ages " + include.ages-community %}
+{% else %}
+{% assign age-range = "" %}
+{% endif %}
 {% capture age-range %}
-<span class="age-range">ages {{ include.ages }}</span>
+<span class="age-range">{{ include.age-range }}</span>
 {% endcapture %}
-{% capture length %}
-<span class="length">{{ include.length }}</span>
+{% capture play-time %}
+<span class="play-time">{{ include.play-time }}</span>
 {% endcapture %}
 <div class="product">
     <div class="box-image" style="background-image: url({{ include.box-image-filename }})" >
@@ -23,14 +32,12 @@
     <h2 class="price">{{ include.price }}</h2>
     <h3 class="info">
         {{ player-range }}
-        {% if include.ages %}
-        {{age-range }}
-        {% endif %}
-        {{ length }}
+        {{ age-range }}
+        {{ play-time }}
     </h3>
-    <p class="description">{{ include.description }}</p>
+    <p class="short-description">{{ include.short-description }}</p>
     <p>
-        <button class="snipcart-add-item" data-item-id="{{ include.id }}" data-item-name="{{ include.name }}" data-item-price="{{ include.price }}" data-item-weight="{{ include.weight }}" data-item-url="https://magicmeeplegames.github.io/shop.html" data-item-description="{{ include.description }}" >
+        <button class="snipcart-add-item" data-item-id="{{ include.id }}" data-item-name="{{ include.name }}" data-item-price="{{ include.current-msrp }}" data-item-weight="{{ include.weight }}" data-item-url="https://magicmeeplegames.github.io/shop.html" data-item-short-description="{{ include.short-description }}" >
             Buy
         </button>
     </p>
