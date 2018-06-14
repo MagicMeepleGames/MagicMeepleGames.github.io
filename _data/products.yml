@@ -40,7 +40,7 @@
   description: Description text goes here.
   box-image: darkrock-ventures-expansion-pack-box-image-500px.png
   closeup-image: darkrock-ventures-expansion-pack-closeup.png
-  price: $4.99
+  current-msrp: $4.99
   min-players: 2
   max-players: 5
   ages: 12 and up
