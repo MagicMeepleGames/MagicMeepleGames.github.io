@@ -8,7 +8,8 @@
   publisher: Magic Meeple Games & Gamelyn Games
   ages-official: 14+
   ages-community: 12+
-  players: 1-5
+  min-players: 1
+  max-players: 5
   solo-mode: yes
   cooperative-mode: yes
   competitive-mode: yes
@@ -18,7 +19,7 @@
   complexity: 2.4 (out of 5)
   short-descripton: Darkrock Ventures is a worker placement game about mining and exporting in hostile outer-space. Players will control a mining company working in harsh conditions to acquire the most credits to win.
   long-description: Competitive Worker-placement meets clever dice-manipulation, take control of your own asteroid mining company and compete to extract the most minerals for the most cash before the asteroid is depleted�also, you�re all under constant assault by alien marauders. Includes Solo and Co-Op variant expansions.
-  box-image-filename: darkrock-ventures-box.png
+  box-image: darkrock-ventures-box.png
   game-contents-image: darkrock-ventures-closeup1.jpg, darkrock-ventures-closeup2.jpg
   closeup-front-image: DRV_Box_Face.png
   closeup-back-image: DRV_Box_Back.png
@@ -59,7 +60,8 @@
   publisher: Magic Meeple Games
   ages-official: 14+
   ages-community: 10+
-  players: 1-6
+  min-players: 1
+  max-players: 6
   solo-mode: yes
   cooperative-mode: yes
   competitive-mode: no
@@ -69,7 +71,7 @@
   complexity: 1.9 (out of 5)
   short-descripton: This quick-playing, diceless, co-operative Dungeon crawl for 1-6 Players is like a romp through classic 1990s video games! Explore the dungeon, collect the tokens of power, and escape with the Fire of Eidolon before the dungeon is destroyed around you by the evil agents of Vorax!
   long-description: The Fire of Eidolon is the quintessential source of light magic in your world and it has been stolen by the agents of the Dark Sorcerer, a being of untold power and horror who intends to bury it forever in the very same void that imprisons him, even if that means sealing you inside with it! It is up to you and your band of brave Heroes to recover the Fire of Eidolon and extract it from the dark void Dungeon before its arcane light is extinguished forever. Your quest is to search through the Dungeon before you, Challenge the horrors inside for their trophies, and Break the three Dark Relics sealing the Fire to reclaim it...and then you have to escape. Are you up to the challenge?
-  box-image-filename: FoE_Box_3d.png
+  box-image: FoE_Box_3d.png
   game-contents-image: FoE_contentsphoto.jpg
   closeup-front-image: FoE_Box_Face.jpg
   closeup-back-image: FoE_Box_Back.jpg
@@ -94,7 +96,8 @@
   publisher: Magic Meeple Games
   ages-official: 14+
   ages-community: TBA
-  players: 1-4 (5 with Add-on)
+  min-players: 1
+  max-players: 4 (5 with Add-on)
   solo-mode: yes
   cooperative-mode: no
   competitive-mode: yes
@@ -104,7 +107,7 @@
   complexity: TBA
   short-descripton: Strategic, diceless, tile placement/area control game for 1-4 with a retro videogame flair, all in a super-portable package!
   long-description: In every classic JRPG, the heroes encountered a mysterious stranger, who gave them a map to a dungeon, and stocked them with potions, keys, and other provisions. But how was the map drawn? How did the wise stranger learn of all these dire warnings? In Overworld, you are the hero's mysterious mentor. All those years before you sent the hero to the underworld, you mapped the Overworld! By laying tiles, you will seek to claim regions of Forests or Mountains with your Bird meeples, and regions of Reefs or Whirlpools with your Ship meeples. When the tiles form a hole in the world, the player who explored the most tiles there will place a Dungeon Door meeple into the hole. Can you foresee uncertain spots in the geography, indeterminate in the distance? Will you uncover a dungeon... or wander the repeating pixel textures forever?
-  box-image-filename: OVW_Box_3d.png
+  box-image: OVW_Box_3d.png
   game-contents-image: OVW_ppc_contents.jpg
   closeup-front-image: OVW_Box_Face.jpg
   closeup-back-image: OVW_Box_Back.jpg
