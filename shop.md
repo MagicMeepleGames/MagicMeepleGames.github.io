@@ -17,9 +17,10 @@ order: 5
 {% capture box-image-filename %}assets/images/{{ p.box-image-filename }}{% endcapture %}
 {% assign id = p.id %}
 {% assign name = p.name %}
-{% assign price = p.price %}
-{% assign weight = p.weight %}
+{% assign current-msrp = p.current-msrp %}
+{% assign weight = p.weight| plus:0 %}
 {% assign url = p.url %}
-{% assign description = p.description %}
-{% include product.html id=id box-image-filename=box-image-filename name=name price=price weight=weight url=url description=description %}
+{% assign play-time = p.play-time %}
+{% assign short-description = p.short-description %}
+{% include product.html id=id box-image=box-image name=name current-msrp=current-msrp weight=weight url=url description=short-description %}
 {% endfor %}
