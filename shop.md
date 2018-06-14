@@ -15,7 +15,7 @@ order: 5
 
 {% for p in site.data.products %}
 {% capture box-image %}assets/images/{{ p.box-image }}{% endcapture %}
-{% assign id = p.id %}
+{% assign product-code = p.product-code %}
 {% assign name = p.name %}
 {% assign current-msrp = p.current-msrp %}
 {% assign weight = p.weight| plus:0 %}
@@ -26,5 +26,5 @@ order: 5
 {% assign ages-community = p.ages-community %}
 {% assign ages-official = p.ages-official %}
 {% assign short-description = p.short-description %}
-{% include product.html id=id box-image=box-image name=name current-msrp=current-msrp weight=weight url=url description=p.short-description min-players=min-players max-players=max-players ages-community=ages-community ages-official=ages-official %}
+{% include product.html product-code=product-code box-image=box-image name=name current-msrp=current-msrp weight=weight url=url description=p.short-description min-players=min-players max-players=max-players ages-community=ages-community ages-official=ages-official %}
 {% endfor %}
