@@ -26,5 +26,5 @@ order: 5
 {% assign ages-community = p.ages-community %}
 {% assign ages-official = p.ages-official %}
 {% assign short-description = p.short-description %}
-{% include product.html id=id box-image=box-image name=name current-msrp=current-msrp weight=weight url=url description=short-description min-players=min-players max-players=max-players ages-community=ages-community ages-official=ages-official %}
+{% include product.html id=id box-image=box-image name=name current-msrp=current-msrp weight=weight url=url description=p.short-description min-players=min-players max-players=max-players ages-community=ages-community ages-official=ages-official %}
 {% endfor %}
