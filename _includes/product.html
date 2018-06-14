@@ -1,7 +1,7 @@
 {% if include.min-players and include.max-players %}
 {% assign players = include.min-players | append: " to " %}
 {% assign players = players | append: include.max-players %}
-{% assign players = players | append: | " players" %}
+{% assign players = players | append: " players" %}
 {% elsif include.min-players %}
 {% assign players = include.min-players | append: " players" %}
 {% elsif include.max-players %}
