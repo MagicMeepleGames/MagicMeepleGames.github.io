@@ -357,6 +357,8 @@ button.snipcart-add-item {
 
 .snipcart-checkout {
     background-image: url(assets/images/shopping-cart.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .snip-layout {
     color: $primary-mid;
