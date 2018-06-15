@@ -344,13 +344,49 @@ input[type=radio]:checked + label:before {
 button.snipcart-add-item {
     font-size: x-large;
     font-weight: bold;
-    font-family: Alegreya Sans SC;
-    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
     padding: 0.5rem 2rem;
     background-color: $primary-dark;
     border-radius: 0.5rem;
     border-left: 0.1rem solid $primary-mid;
     border-right: 0.1rem solid $primary-very-dark;
+}
+
+/* snipcart customization */
+
+.snip-layout {
+    color: $primary-mid;
+    font-family: "Josefin Sans", sans-serif;
+}
+.snip-layout__main-container {
+    border: .5rem solid #021A29;
+    background-color: $complement-very-light;
+}
+.snip-header, .snip-footer {
+    background-color: $primary-dark;
+}
+.snip-header__title {
+    color: $primary-light;
+}
+.snip-header__total {
+    background-color: $primary-very-dark;
+}
+.snip-header__total-label{
+    color: $complement-light;
+}
+.snip-btn {
+    padding: 0.5rem 2rem;
+    background-color: $primary-dark;
+    border-radius: 0.5rem;
+    border-left: 0.1rem solid $primary-mid;
+    border-right: 0.1rem solid $primary-very-dark;
+}
+.snip-table tr {
+    border-bottom: 1px solid $primary-light;
+}
+.snip-actions {
+    border-top: 1px solid $primary-light;
 }
 
 /* responsive styles for mobile devices */
