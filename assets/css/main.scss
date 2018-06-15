@@ -360,6 +360,9 @@ li.cart {
     background-repeat: no-repeat;
     background-position: center;
 }
+li.cart a {
+    text-decoration: none;
+}
 .snip-layout {
     color: $primary-mid;
     font-family: "Josefin Sans", sans-serif;
