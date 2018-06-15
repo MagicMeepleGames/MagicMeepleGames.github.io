@@ -354,11 +354,11 @@ button.snipcart-add-item {
 }
 
 /* snipcart customization */
-
-.snipcart-checkout {
+li.cart {
     background-image: url(assets/images/shopping-cart.svg);
-    background-size: contain;
+    background-size: 1.5rem;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .snip-layout {
     color: $primary-mid;
