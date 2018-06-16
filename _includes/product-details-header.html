@@ -5,18 +5,43 @@
 </div>
 <div class="credits">
 <ul>
+{% if product.designer %}
 <li>Designer: {{ product.designer }}.</li>
+{% endif %}
+{% if product.artist %}
 <li>Artist: {{ product.artist }}.</li>
+{% endif %}
+{% if product.developer %}
 <li>Developer: {{ product.developer }}.</li>
+{% endif %}
+{% if product.publisher %}
 <li>Publisher: {{ product.publisher }}.</li>
+{% endif %}
 </ul>
 </div>
 <div class="price">
 <p>{{ product.product-code }} {{ product.current-msrp }}</p>
 </div>
 <div class="gameplay">
-<p>For {{ product.min-players }} to {{ product.max-players }} players ages {{ product.ages-official }} ({{ product.ages-community }}). Play time 
-{{ product.play-time }}. Setup time {{ product.setup-time }}. Time to teach and learn {{ product.teach-learn-time }}. Complexity {{ product.complexity }}.</p>
+<p>For {{ product.min-players }} to {{ product.max-players }} players 
+{% if product.ages-official %}
+ages {{ product.ages-official }}
+{% endif %}
+{% if product.ages-community %}
+({{ product.ages-community }}). 
+{% endif %}
+{% if product.play-time %}
+Play time {{ product.play-time }}.
+{% endif %}
+{% if product.setup-time %}
+Setup time {{ product.setup-time }}.
+{% endif %}
+{% if product.teach-learn-time %}
+Time to teach and learn {{ product.teach-learn-time }}.
+{% endif %}
+{% if product.complexity %}
+Complexity {{ product.complexity }}.</p>
+{% endif %}
 </div>
 <div class="short-description">
 <p>{{ product.short-description }}</p>
@@ -25,13 +50,23 @@
 <p>{{ product.long-description }}</p>
 </div>
 <div class="expanded-by">
+{% if product.expansions-product %}
 <p>Expansions product.: {{ product.expansions-product. }}</p>
+{% endif %}
+{% if product.expansions-sold-separately %}
 <p>Expansions sold separately: {{ product.expansions-sold-seperately }} </p>
+{% endif %}
 </div>
 <div class="links">
 <ul>
+{% if product.link-to-rule %}
 <li>Rules: {{ product.link-to-rules }}</li>
+{% endif %}
+{% if product.link-to-bgg %}
 <li>Boardgamegeek: {{ product.link-to-bgg }}</li>
+{% endif %}
+{% if product.link-to-kickstarter %}
 <li>Kickstarter: {{ product.link-to-kickstarter }}</li>
+{% endif %}
 </ul>
 </div>
