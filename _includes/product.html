@@ -32,8 +32,9 @@
 {% endcapture %}
 <div class="product">
     <div class="box-image" style="background-image: url({{ p.box-image }})" >
+        <a href="{{ site.url }}/{{ p.name | slugify }}.html ></a>
     </div>
-    <h1><a href="{{ p.url }}">{{ p.name }}</a></h1>
+    <h1><a href="{{ site.url }}/{{ p.name | slugify }}.html">{{ p.name }}</a></h1>
     <h2 class="price">${{ p.current-msrp | replace: "$", "" }}</h2>
     <h3 class="info">
         {{ player-range }}
