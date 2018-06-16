@@ -44,3 +44,6 @@ test
 <li>Kickstarter: {{ p.link-to-kickstarter }}</li>
 </ul>
 </div>
+{% for product in site.details.products %}
+{% include product-details-header.html %}
+{% endfor %}
