@@ -14,17 +14,5 @@ order: 5
 </div>
 
 {% for p in site.data.products %}
-{% capture box-image %}assets/images/{{ p.box-image }}{% endcapture %}
-{% assign product-code = p.product-code %}
-{% assign name = p.name %}
-{% assign current-msrp = p.current-msrp %}
-{% assign weight = p.weight| plus:0 %}
-{% assign url = p.url %}
-{% assign min-players = p.min-players %}
-{% assign max-players = p.max-players %}
-{% assign play-time = p.play-time %}
-{% assign ages-community = p.ages-community %}
-{% assign ages-official = p.ages-official %}
-{% assign short-description = p.short-description %}
-{% include product.html product-code=product-code box-image=box-image name=name current-msrp=current-msrp weight=weight url=url short-description=short-description min-players=min-players max-players=max-players ages-community=ages-community ages-official=ages-official %}
+{% include product.html %}
 {% endfor %}
