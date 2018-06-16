@@ -109,6 +109,7 @@ h1 {
     float: left;
     background-color: $primary-light;
     padding: 0.5rem 1rem 0.5rem 1rem;
+    height: min-content;
 }
 .header ul>li, .top-bar ul>li {
     border-left: 0.1rem solid $primary-very-light;    
