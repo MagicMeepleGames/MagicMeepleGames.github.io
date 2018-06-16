@@ -26,7 +26,6 @@ body {
     font-family: "Josefin Sans", "Proxima Nova", Helvetica, Corbel, sans-serif;
     text-decoration: none;
     line-height: 1.5rem;
-    padding: 1rem;
     background-color: $secondary-dark;
     background-image: url(/assets/images/meeple-mandala.svg), url(/assets/images/meeple-pattern.svg);
     background-size: cover, 2rem;
@@ -36,6 +35,18 @@ body {
 	width: 65rem;
 	margin: 1rem;
 	text-align: left;
+}
+.top-bar {
+    position: absolute;
+    top: 0;
+    width: 60rem;
+    margin: auto;
+}
+ul.product-nav {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 .header {
         height: 14rem;
@@ -65,7 +76,7 @@ body {
 .main, .footer {
     background-color: rgba(131,164,185,0.9);
 }
-.header, .main, .subheader, .footer{
+.header, .main, .footer{
 	position: relative;
 	clear: both;
 	margin: 0 auto;
@@ -86,28 +97,28 @@ h1 {
 
 /* Navigation */
 
-.header ul, .subheader url {
+.header ul, .top-nav ul {
 	list-style: none;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 }
-.header li, .subheader li, div.menu li {
+.header li, .top-nav li, div.menu li {
     font-size: large;
     font-weight: bold;
     float: left;
     background-color: $primary-light;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
-.header ul>li, .subheader ul>li {
+.header ul>li, .top-nav ul>li {
     border-left: 0.1rem solid $primary-very-light;    
     border-right: 0.1rem solid $primary-mid;
 }
-.header ul>li:first-child, .subheader ul>li:first-child {
+.header ul>li:first-child, .top-nav ul>li:first-child {
     border-top-left-radius: .5rem;
     border-bottom-left-radius: .5rem;
 }
-.header ul>li:last-child, .subheader ul>li:last-child {
+.header ul>li:last-child, .top-nav ul>li:last-child {
     border-top-right-radius: .5rem;
     border-bottom-right-radius: .5rem;
 }
