@@ -1,2 +1,37 @@
-{% assign p = include.p %}
-<h1>{{ p.title }} - {{ p.availability }}</h1>
+<h1>{{ include.title }} - {{ include.availability }}</h1>
+<div class="details-box-image" style="background-image: url({{ include.box-image }})">
+</div>
+<div class="details-game-contents-image" style="background-image: url({{ include.game-contents-image }})">
+</div>
+<div class="credits">
+<ul>
+<li>Designer: {{ include.designer }}.</li>
+<li>Artist: {{ include.artist }}.</li>
+<li>Developer: {{ include.developer }}.</li>
+<li>Publisher: {{ include.publisher }}.</li>
+</ul>
+</div>
+<div class="price">
+<p>{{ include.product-code }} {{ include.current-msrp }}</p>
+</div>
+<div class="gameplay">
+<p>Ages {{ include.ages-official }} ({{ ages-community }}) For {{ min-players }} to {{ max-players }} players. Play time 
+{{ play-time }}. Setup time {{ setup-time }}. Time to teach and learn {{ teach-learn-time }}. Complexity {{ complexity }}.</p>
+</div>
+<div class="short-description">
+<p>{{ include.short-description }}</p>
+</div>
+<div class="short-description">
+<p>{{ include.long-description }}</p>
+</div>
+<div class="expanded-by">
+<p>Expansions included: {{ include.expansions-included }}</p>
+<p>Expansions sold separately: {{ expansions-sold-seperately }} </p>
+</div>
+<div class="links">
+<ul>
+<li>Rules: {{ link-to-rules }}</li>
+<li>Boardgamegeek: {{ link-to-bgg }}</li>
+<li>Kickstarter: {{ link-to-kickstarter }}</li>
+</ul>
+</div>
