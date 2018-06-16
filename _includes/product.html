@@ -1,48 +1,48 @@
-{% if include.min-players and include.max-players %}
-{% assign players = include.min-players | append: " to " %}
-{% assign players = players | append: include.max-players %}
+{% if p.min-players and p.max-players %}
+{% assign players = p.min-players | append: " to " %}
+{% assign players = players | append: p.max-players %}
 {% assign players = players | append: " players" %}
-{% elsif include.min-players %}
-{% assign players = include.min-players | append: " players" %}
-{% elsif include.max-players %}
-{% assign players = include.max-players | append: " players" %}
+{% elsif p.min-players %}
+{% assign players = p.min-players | append: " players" %}
+{% elsif p.max-players %}
+{% assign players = p.max-players | append: " players" %}
 {% else %}
 {% assign players = "" %}
 {% endif %}
 {% capture player-range %}
 <span class="players">{{ players }}</span>
 {% endcapture %}
-{% if include.ages-official and include.ages-community %}
-{% assign age-range = "ages " | append: include.ages-official %}
+{% if p.ages-official and p.ages-community %}
+{% assign age-range = "ages " | append: p.ages-official %}
 {% assign age-range = age-range | append: " (" %}
-{% assign age-range = age-range | append: include.ages-community %}
+{% assign age-range = age-range | append: p.ages-community %}
 {% assign age-range = age-range | append: ")" %}
-{% elsif include.ages-official %}
-{% assign age-range = "ages " | append: include.ages-official %}
-{% elsif include.ages-community %}
-{% assign age-range = "ages " | append: include.ages-community %}
+{% elsif p.ages-official %}
+{% assign age-range = "ages " | append: p.ages-official %}
+{% elsif p.ages-community %}
+{% assign age-range = "ages " | append: p.ages-community %}
 {% else %}
 {% assign age-range = "" %}
 {% endif %}
 {% capture age-range %}
-<span class="age-range">{{ include.age-range }}</span>
+<span class="age-range">{{ p.age-range }}</span>
 {% endcapture %}
 {% capture play-time %}
-<span class="play-time">{{ include.play-time }}</span>
+<span class="play-time">{{ p.play-time }}</span>
 {% endcapture %}
 <div class="product">
-    <div class="box-image" style="background-image: url({{ include.box-image }})" >
+    <div class="box-image" style="background-image: url({{ p.box-image }})" >
     </div>
-    <h1><a href="{{ include.url }}">{{ include.name }}</a></h1>
-    <h2 class="price">${{ include.current-msrp | replace: "$", "" }}</h2>
+    <h1><a href="{{ p.url }}">{{ p.name }}</a></h1>
+    <h2 class="price">${{ p.current-msrp | replace: "$", "" }}</h2>
     <h3 class="info">
         {{ player-range }}
         {{ age-range }}
         {{ play-time }}
     </h3>
-    <p class="short-description">{{ include.short-description }}</p>
+    <p class="short-description">{{ p.short-description }}</p>
     <p>
-        <button class="snipcart-add-item" data-item-id="{{ include.product-code }}" data-item-name="{{ include.name }}" data-item-price="{{ include.current-msrp }}" data-item-weight="{{ include.weight | replace: 'g', '' }}" data-item-url="https://magicmeeplegames.github.io/shop.html" data-item-short-description="{{ include.short-description }}" >
+        <button class="snipcart-add-item" data-item-id="{{ p.product-code }}" data-item-name="{{ p.name }}" data-item-price="{{ p.current-msrp }}" data-item-weight="{{ p.weight | replace: 'g', '' }}" data-item-url="https://magicmeeplegames.github.io/shop.html" data-item-short-description="{{ p.short-description }}" >
             Buy
         </button>
     </p>
