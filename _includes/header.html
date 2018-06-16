@@ -1,0 +1,44 @@
+<div class="header-tab-background"></div>
+<div class="header-bottom-background"></div>
+<div class="header">
+  <div class="social-nav-group">
+  {% include social_media.html filename="twitter-logo-meeple.png" caption="Twitter" link="https://twitter.com/MagicMeeple" %}
+  {% include social_media.html filename="facebook-logo-meeple.png" caption="Facebook" link="https://www.facebook.com/MagicMeepleGames/" %}
+  {% include social_media.html filename="youtube-logo-meeple.png" caption="YouTube" link="https://www.youtube.com/channel/UCx532eGVNzuMkGaEohETucQ" %}
+  {% include social_media.html filename="instagram-logo-meeple.png" caption="Instagram" link="https://www.instagram.com/magicmeeplegames/" %}
+  {% include social_media.html filename="bgg-logo-meeple.png" caption="BoardGameGeek" link="https://boardgamegeek.com/boardgamepublisher/29569/magic-meeple-games" %}
+  </div>
+  <ul class="pages-nav">
+{% assign pages = site.pages | sort: "order" %}
+  {% for nav in pages %}
+  {% if nav.category == "pages" %}
+    {% if nav.title == page.title %}
+    <li class="thispage" >
+        {{ nav.title }}
+    {% else %}
+    <li>
+      <a href="{{ nav.url | absolute_url }}">{{ nav.title }}</a>
+    {% endif %}
+    </li>
+  {% endif %}
+{% endfor %}
+    <li class="cart"><a href="#" class="snipcart-checkout">&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+  </ul>
+</div>
+<div class="subheader">
+  <ul class="product-nav">
+{% assign games = site.pages | sort: "order" %}
+  {% for nav in games %}
+  {% if nav.category == "games" %}
+    {% if nav.title == page.title %}
+    <li class="thispage" >
+      {{ nav.title }}
+    {% else %}
+    <li>
+      <a href="{{ nav.url | absolute_url }}">{{ nav.title }}</a>
+    {% endif %}
+    </li>
+  {% endif %}
+{% endfor %}
+  </ul>
+</div>
