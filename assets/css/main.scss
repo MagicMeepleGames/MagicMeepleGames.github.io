@@ -65,7 +65,7 @@ body {
 .main, .footer {
     background-color: rgba(131,164,185,0.9);
 }
-.header, .main, .footer{
+.header, .main, .subheader, .footer{
 	position: relative;
 	clear: both;
 	margin: 0 auto;
@@ -86,30 +86,30 @@ h1 {
 
 /* Navigation */
 
-.header ul {
+.header ul, .subheader url {
 	list-style: none;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 }
-.header li, div.menu li {
+.header li, .subheader li, div.menu li {
     font-size: large;
     font-weight: bold;
     float: left;
     background-color: $primary-light;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
-.header ul>li {
+.header ul>li, .subheader ul>li {
     border-left: 0.1rem solid $primary-very-light;    
     border-right: 0.1rem solid $primary-mid;
 }
-.header ul>li:first-child {
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+.header ul>li:first-child, .subheader ul>li {
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
 }
-.header ul>li:last-child {
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+.header ul>li:last-child, .subheader ul>li:last-child {
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
 }
 
 /* Social Media Links */
