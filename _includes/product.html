@@ -33,7 +33,7 @@
 <div class="product">
     <div class="box-image" style="background-image: url({{ include.box-image }})" >
     </div>
-    <h1>{{ include.name }}</h1>
+    <h1><a href="{{ include.url }}">{{ include.name }}</a></h1>
     <h2 class="price">${{ include.current-msrp | replace: "$", "" }}</h2>
     <h3 class="info">
         {{ player-range }}
@@ -45,6 +45,5 @@
         <button class="snipcart-add-item" data-item-id="{{ include.product-code }}" data-item-name="{{ include.name }}" data-item-price="{{ include.current-msrp }}" data-item-weight="{{ include.weight | replace: 'g', '' }}" data-item-url="https://magicmeeplegames.github.io/shop.html" data-item-short-description="{{ include.short-description }}" >
             Buy
         </button>
-        <span><a href="{{ include.url }}">More info</a></span>
     </p>
 </div>
