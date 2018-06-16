@@ -13,6 +13,6 @@ order: 5
     <a href="#" class="snipcart-user-email snipcart-user-profile"> Customer dashboard </a>
 </div>
 
-{% for p in site.data.products %}
+{% for product in site.data.products %}
 {% include product.html %}
 {% endfor %}
