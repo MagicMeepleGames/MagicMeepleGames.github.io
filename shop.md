@@ -1,6 +1,6 @@
 ---
 title: Shop
-layout: default
+layout: shop
 category: pages
 order: 5
 ---
