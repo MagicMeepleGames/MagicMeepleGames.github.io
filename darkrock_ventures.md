@@ -4,6 +4,7 @@ layout: product-details
 category: games
 order: 1
 published: true
+p: Darkrock Ventures
 ---
 {% assign p = site.data.products[page.title] %}
 <h1>{{ p.title }} - {{ p.availability }}</h1>
