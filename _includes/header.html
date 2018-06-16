@@ -25,20 +25,3 @@
     <li class="cart"><a href="#" class="snipcart-checkout">&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
   </ul>
 </div>
-<div class="subheader">
-  <ul class="product-nav">
-{% assign games = site.pages | sort: "order" %}
-  {% for nav in games %}
-  {% if nav.category == "games" %}
-    {% if nav.title == page.title %}
-    <li class="thispage" >
-      {{ nav.title }}
-    {% else %}
-    <li>
-      <a href="{{ nav.url | absolute_url }}">{{ nav.title }}</a>
-    {% endif %}
-    </li>
-  {% endif %}
-{% endfor %}
-  </ul>
-</div>
