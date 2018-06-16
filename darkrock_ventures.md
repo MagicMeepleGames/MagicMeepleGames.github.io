@@ -5,7 +5,6 @@ category: games
 order: 1
 published: true
 ---
-test
 {% assign p = site.data.products[page.title] %}
 <h1>{{ p.title }} - {{ p.availability }}</h1>
 <div class="details-box-image" style="background-image: url({{ p.box-image }})">
