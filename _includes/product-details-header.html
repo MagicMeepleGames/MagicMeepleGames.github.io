@@ -1,37 +1,37 @@
-<h1>{{ include.title }} - {{ include.availability }}</h1>
-<div class="details-box-image" style="background-image: url({{ include.box-image }})">
+<h1>{{ product.title }} - {{ product.availability }}</h1>
+<div class="details-box-image" style="background-image: url({{ product.box-image }})">
 </div>
-<div class="details-game-contents-image" style="background-image: url({{ include.game-contents-image }})">
+<div class="details-game-contents-image" style="background-image: url({{ product.game-contents-image }})">
 </div>
 <div class="credits">
 <ul>
-<li>Designer: {{ include.designer }}.</li>
-<li>Artist: {{ include.artist }}.</li>
-<li>Developer: {{ include.developer }}.</li>
-<li>Publisher: {{ include.publisher }}.</li>
+<li>Designer: {{ product.designer }}.</li>
+<li>Artist: {{ product.artist }}.</li>
+<li>Developer: {{ product.developer }}.</li>
+<li>Publisher: {{ product.publisher }}.</li>
 </ul>
 </div>
 <div class="price">
-<p>{{ include.product-code }} {{ include.current-msrp }}</p>
+<p>{{ product.product-code }} {{ product.current-msrp }}</p>
 </div>
 <div class="gameplay">
-<p>Ages {{ include.ages-official }} ({{ ages-community }}) For {{ min-players }} to {{ max-players }} players. Play time 
-{{ play-time }}. Setup time {{ setup-time }}. Time to teach and learn {{ teach-learn-time }}. Complexity {{ complexity }}.</p>
+<p>Ages {{ product.ages-official }} ({{ product.ages-community }}) For {{ product.min-players }} to {{ product.max-players }} players. Play time 
+{{ product.play-time }}. Setup time {{ product.setup-time }}. Time to teach and learn {{ product.teach-learn-time }}. Complexity {{ product.complexity }}.</p>
 </div>
 <div class="short-description">
-<p>{{ include.short-description }}</p>
+<p>{{ product.short-description }}</p>
 </div>
 <div class="short-description">
-<p>{{ include.long-description }}</p>
+<p>{{ product.long-description }}</p>
 </div>
 <div class="expanded-by">
-<p>Expansions included: {{ include.expansions-included }}</p>
-<p>Expansions sold separately: {{ expansions-sold-seperately }} </p>
+<p>Expansions product.: {{ product.expansions-product. }}</p>
+<p>Expansions sold separately: {{ product.expansions-sold-seperately }} </p>
 </div>
 <div class="links">
 <ul>
-<li>Rules: {{ link-to-rules }}</li>
-<li>Boardgamegeek: {{ link-to-bgg }}</li>
-<li>Kickstarter: {{ link-to-kickstarter }}</li>
+<li>Rules: {{ product.link-to-rules }}</li>
+<li>Boardgamegeek: {{ product.link-to-bgg }}</li>
+<li>Kickstarter: {{ product.link-to-kickstarter }}</li>
 </ul>
 </div>
