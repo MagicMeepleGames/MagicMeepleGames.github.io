@@ -31,7 +31,7 @@
 <span class="play-time">{{ p.play-time }}</span>
 {% endcapture %}
 <div class="product">
-    <div class="box-image" style="background-image: url(assets/images{{ p.box-image }})" >
+    <div class="box-image" style="background-image: url(assets/images/{{ p.box-image }})" >
         <a href="{{ site.url }}/{{ p.name | slugify }}.html ></a>
     </div>
     <h1><a href="{{ site.url }}/{{ p.name | slugify }}.html">{{ p.name }}</a></h1>
