@@ -97,28 +97,28 @@ h1 {
 
 /* Navigation */
 
-.header ul, .top-nav ul {
+.header ul, .top-bar ul {
 	list-style: none;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 }
-.header li, .top-nav li, div.menu li {
+.header li, .top-bar li, div.menu li {
     font-size: large;
     font-weight: bold;
     float: left;
     background-color: $primary-light;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
-.header ul>li, .top-nav ul>li {
+.header ul>li, .top-bar ul>li {
     border-left: 0.1rem solid $primary-very-light;    
     border-right: 0.1rem solid $primary-mid;
 }
-.header ul>li:first-child, .top-nav ul>li:first-child {
+.header ul>li:first-child, .top-bar ul>li:first-child {
     border-top-left-radius: .5rem;
     border-bottom-left-radius: .5rem;
 }
-.header ul>li:last-child, .top-nav ul>li:last-child {
+.header ul>li:last-child, .top-bar ul>li:last-child {
     border-top-right-radius: .5rem;
     border-bottom-right-radius: .5rem;
 }
