@@ -1,7 +1,7 @@
-<h1>{{ product.title }} - {{ product.availability }}</h1>
+<h1>{{ product.name }} - {{ product.availability }}</h1>
 <div class="details-box-image" style="background-image: url({{ product.box-image }})">
 </div>
-<div class="details-game-contents-image" style="background-image: url({{ product.game-contents-image }})">
+<div class="details-game-contents-image" style="background-image: url(assets/images/{{ product.game-contents-image }})">
 </div>
 <div class="credits">
 <ul>
@@ -15,7 +15,7 @@
 <p>{{ product.product-code }} {{ product.current-msrp }}</p>
 </div>
 <div class="gameplay">
-<p>Ages {{ product.ages-official }} ({{ product.ages-community }}) For {{ product.min-players }} to {{ product.max-players }} players. Play time 
+<p>For {{ product.min-players }} to {{ product.max-players }} players ages {{ product.ages-official }} ({{ product.ages-community }}). Play time 
 {{ product.play-time }}. Setup time {{ product.setup-time }}. Time to teach and learn {{ product.teach-learn-time }}. Complexity {{ product.complexity }}.</p>
 </div>
 <div class="short-description">
