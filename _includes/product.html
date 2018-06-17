@@ -37,16 +37,16 @@
         </div>
         <h1><a href="{{ site.url }}/{{ p.name | slugify }}.html">{{ p.name }}</a></h1>
         <h2 class="price">${{ p.current-msrp | replace: "$", "" }}</h2>
+        <p>
+            <button class="snipcart-add-item" data-item-id="{{ p.product-code }}" data-item-name="{{ p.name }}" data-item-price="{{ p.current-msrp }}" data-item-weight="{{ p.weight | replace: 'g', '' }}" data-item-url="https://magicmeeplegames.github.io/shop.html" data-item-short-description="{{ p.short-description }}" >
+                Buy
+            </button>
+        </p>
         <h3 class="info">
             {{ player-range }}
             {{ age-range }}
             {{ play-time }}
         </h3>
         <p class="short-description">{{ p.short-description }}</p>
-        <p>
-            <button class="snipcart-add-item" data-item-id="{{ p.product-code }}" data-item-name="{{ p.name }}" data-item-price="{{ p.current-msrp }}" data-item-weight="{{ p.weight | replace: 'g', '' }}" data-item-url="https://magicmeeplegames.github.io/shop.html" data-item-short-description="{{ p.short-description }}" >
-                Buy
-            </button>
-        </p>
     </div>
 </div>
