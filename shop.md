@@ -12,7 +12,8 @@ order: 5
     Total price: <span class="snipcart-total-price"></span>
     <a href="#" class="snipcart-user-email snipcart-user-profile"> Customer dashboard </a>
 </div>
-
+<div class="products">
 {% for p in site.data.products %}
 {% include product.html %}
 {% endfor %}
+</div>
