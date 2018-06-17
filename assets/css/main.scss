@@ -369,13 +369,13 @@ input[type=radio]:checked + label:before {
     width: 100%;
     height: 100%;
     overflow:hidden;
-    text-indent:100%;
+    text-indent:112%;
     white-space:nowrap;
 }
 .product h2, .product h3 {
     color: $complement-dark;
-    display: inline-block;
-    margin: 0 1rem 0 0;
+    display: inline-grid;
+    margin: 0 0.25rem 0.25rem;
 }
 .price, .description {
     float: left;
