@@ -43,9 +43,15 @@
         <h2>
             <span class="price">${{ p.current-msrp | replace: "$", "" }}</span>
         </h2>
+        {% if player-range %}
         <h3 class="players">{{ player-range }} </h3>
+        {% endif %}
+        {% if age-range %}
         <h3 class="ages">{{ age-range }}</h3>
+        {% endif %}
+        {% if play-time %}
         <h3 class="time">{{ play-time }}</h3>
+        {% endif %}
         <h1><a href="{{ site.url }}/{{ p.name | slugify }}.html">{{ p.name }}</a></h1>
         <p class="short-description">{{ p.short-description }}</p>
     </div>
