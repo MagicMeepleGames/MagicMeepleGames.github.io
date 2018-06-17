@@ -35,7 +35,6 @@
         <div class="box-image" style="background-image: url(assets/images/{{ p.box-image }})" >
             <a href="{{ site.url }}/{{ p.name | slugify }}.html" >More info about {{ p.name }}</a>
         </div>
-        <h1><a href="{{ site.url }}/{{ p.name | slugify }}.html">{{ p.name }}</a></h1>
         <h2>
             <span class="price">${{ p.current-msrp | replace: "$", "" }}</span>
             <button class="snipcart-add-item" data-item-id="{{ p.product-code }}" data-item-name="{{ p.name }}" data-item-price="{{ p.current-msrp }}" data-item-weight="{{ p.weight | replace: 'g', '' }}" data-item-url="https://magicmeeplegames.github.io/shop.html" data-item-short-description="{{ p.short-description }}" >
@@ -47,6 +46,7 @@
             {{ age-range }}
             {{ play-time }}
         </h3>
+        <h1><a href="{{ site.url }}/{{ p.name | slugify }}.html">{{ p.name }}</a></h1>
         <p class="short-description">{{ p.short-description }}</p>
     </div>
 </div>
