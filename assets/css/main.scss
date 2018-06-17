@@ -134,6 +134,7 @@ h1 {
     width: 34rem;
 }
 .home-link {
+    position: absolute;
     height: 100%;
     width: 100%;
 }
@@ -358,6 +359,14 @@ input[type=radio]:checked + label:before {
     background-size: contain;
     background-position: center;
 }
+.details-box-image>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+}
 .product h2, .product h3 {
     color: $complement-dark;
     display: inline-block;
@@ -379,6 +388,19 @@ button.snipcart-add-item {
     border-right: 0.1rem solid $primary-very-dark;
 }
 
+/* product details pages */
+
+.details-box-image {
+    float: left;
+    height: 20rem;
+    width: 20rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.details-game-contents-image {
+    width: 100%;
+    height: 20rem;
+}
 /* snipcart customization */
 li.cart {
     background-image: url(assets/images/shopping-cart.svg);
