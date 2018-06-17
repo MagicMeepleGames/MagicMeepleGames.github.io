@@ -347,11 +347,15 @@ input[type=radio]:checked + label:before {
 
 .product {
     width: 17rem;
+    display: inline-grid;
+    position: relative;
+}
+.product-frame {
     padding: 1rem;
     margin: 1rem;
     background-color: $complement-very-light;
     border: 0.5rem solid $complement-dark;
-    display: inline-grid;
+    position: relative;
 }
 .box-image {
     height: 12rem;
