@@ -359,6 +359,7 @@ input[type=radio]:checked + label:before {
 }
 .box-image {
     height: 12rem;
+    margin-bottom: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
