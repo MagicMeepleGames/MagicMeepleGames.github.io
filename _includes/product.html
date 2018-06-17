@@ -31,20 +31,24 @@
 <span class="play-time">{{ p.play-time }}</span>
 {% endcapture %}
 <div class="product">
-    <div class="box-image" style="background-image: url(assets/images/{{ p.box-image }})" >
-        <a href="{{ site.url }}/{{ p.name | slugify }}.html" >More info about {{ p.name }}</a>
+    <div class="product-left-col">
+        <div class="box-image" style="background-image: url(assets/images/{{ p.box-image }})" >
+            <a href="{{ site.url }}/{{ p.name | slugify }}.html" >More info about {{ p.name }}</a>
+        </div>
+        <h2 class="price">${{ p.current-msrp | replace: "$", "" }}</h2>
+        <h3 class="info">
+            {{ player-range }}
+            {{ age-range }}
+            {{ play-time }}
+        </h3>
     </div>
-    <h1><a href="{{ site.url }}/{{ p.name | slugify }}.html">{{ p.name }}</a></h1>
-    <h2 class="price">${{ p.current-msrp | replace: "$", "" }}</h2>
-    <h3 class="info">
-        {{ player-range }}
-        {{ age-range }}
-        {{ play-time }}
-    </h3>
-    <p class="short-description">{{ p.short-description }}</p>
-    <p>
-        <button class="snipcart-add-item" data-item-id="{{ p.product-code }}" data-item-name="{{ p.name }}" data-item-price="{{ p.current-msrp }}" data-item-weight="{{ p.weight | replace: 'g', '' }}" data-item-url="https://magicmeeplegames.github.io/shop.html" data-item-short-description="{{ p.short-description }}" >
-            Buy
-        </button>
-    </p>
+    <div class="product-right-col">
+        <h1><a href="{{ site.url }}/{{ p.name | slugify }}.html">{{ p.name }}</a></h1>
+        <p class="short-description">{{ p.short-description }}</p>
+        <p>
+            <button class="snipcart-add-item" data-item-id="{{ p.product-code }}" data-item-name="{{ p.name }}" data-item-price="{{ p.current-msrp }}" data-item-weight="{{ p.weight | replace: 'g', '' }}" data-item-url="https://magicmeeplegames.github.io/shop.html" data-item-short-description="{{ p.short-description }}" >
+                Buy
+            </button>
+        </p>
+    </div>
 </div>
