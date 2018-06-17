@@ -15,6 +15,8 @@
 {% include header.html %}
 <div class="main">
 <div class="container">
+  {{ product.name }}
+  {{ page.title }}
 {% for product in site.data.products %}
 {% if product.name == page.title %}
 {% include product-details-header.html %}
