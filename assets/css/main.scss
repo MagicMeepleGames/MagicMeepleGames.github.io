@@ -390,8 +390,10 @@ button.snipcart-add-item {
     padding: 0.5rem 2rem;
     background-color: $primary-dark;
     border-radius: 0.5rem;
-    border-left: 0.1rem solid $primary-mid;
-    border-right: 0.1rem solid $primary-very-dark;
+    border-top: 0.2rem solid $primary-mid;
+    border-right: 0.2rem solid $primary-very-dark;
+    border-bottom: 0.2rem solid $primary-very-dark;
+    border-left: 0.2rem solid $primary-mid;
 }
 
 /* product details pages */
