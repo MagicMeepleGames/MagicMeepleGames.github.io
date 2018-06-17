@@ -15,10 +15,10 @@
 {% include header.html %}
 <div class="main">
 <div class="container">
-  {{ product.name }}
-  {{ page.title }}
+  Page title {{ page.title }}
 {% for product in site.data.products %}
-{% if product.name == page.title %}
+  Product name {{ product.name }}
+  {% if product.name == page.title %}
 {% include product-details-header.html %}
 {% endif %}
 {% endfor %}
