@@ -30,6 +30,7 @@
   expansions-included:  All Kickstarter Stretch Goals, Solo/Co-operative Variant, 2-Player Variant, Research Deck
   expansions-sold-seperately: Darkrock Ventures Expansion Pack #1
   availability: Now available
+  available: true
   link-to-rules: https://boardgamegeek.com/filepage/118140/darkrock-ventures-official-rulebook
   link-to-bgg: https://boardgamegeek.com/boardgame/166418/darkrock-ventures
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/darkrock-ventures-asteroid-mining-in-deep-space-bo
@@ -49,6 +50,7 @@
   link-to-bgg: http://magicmeeplegames.com
   snes: false
   availability: In Stock
+  available: true
 
 - name: Fire of Eidolon
   product-code: MMG101
@@ -85,6 +87,7 @@
   link-to-rules: https://boardgamegeek.com/filepage/151678/fire-eidolon-official-rulebook
   link-to-bgg: https://boardgamegeek.com/boardgame/190333/fire-eidolon
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/fire-of-eidolon-16-bit-inspired-co-op-dungeon-boar
+  available: true
 
 - name: Overworld
   product-code: MMG201
@@ -118,6 +121,7 @@
   expansions-included:  Airship Tile, Provisions Expansion, Towns Expansion, Solo Quest Mode
   expansions-sold-seperately: Summoners (5th Player) Expansion
   availability: Shipping Soon
+  available: false
   link-to-rules: https://boardgamegeek.com/filepage/162519/overworld-rulebook-optimized
   link-to-bgg: https://boardgamegeek.com/boardgame/220843/overworld
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/overworld-16-bit-tile-placement-and-exploration-bo
@@ -128,4 +132,5 @@
   current-msrp: 19.99
   short-description: ...with lingenberry sauce.
   availability: Out of stock
+  available: false
   weight: TBA
