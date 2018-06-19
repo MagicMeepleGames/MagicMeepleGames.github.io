@@ -482,6 +482,9 @@ li.cart a {
 /* responsive styles for mobile devices */
 
 @media screen and (max-width : 1024px) {
+body {
+    padding-top: 2rem;
+}
 .header {
     top: 3rem;
     height: 16rem;
@@ -502,7 +505,7 @@ li.cart a {
     top: 12rem;
 }
 .header, .main, .footer {
-    width: 44rem;
+    width: 50rem;
 }
 .container {
     width: 100%;
