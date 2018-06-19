@@ -396,7 +396,7 @@ button.snipcart-add-item {
     border-bottom: 0.2rem solid $primary-very-dark;
     border-left: 0.2rem solid $primary-mid;
 }
-.product-frame.coming-soon:after {
+.product-frame.ribbon:after {
     content: "Coming Soon!";
     color: transparent;
     position: absolute;
@@ -408,6 +408,16 @@ button.snipcart-add-item {
     border-left: 3rem solid transparent;
     font-weight: bold;
 }
+.product.ribbon:after {
+    color: white;
+    font-weight: bold;
+    right: 24px;
+    top: 63px;
+}
+.product.coming-soon:after {
+    content: "Coming Soon!";
+}
+
 /* product details pages */
 
 .details-box-image {
