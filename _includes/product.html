@@ -30,7 +30,7 @@
 {% capture play-time %}
 <span class="play-time">{{ p.play-time }}</span>
 {% endcapture %}
-{% if available == true %}
+{% if p.available == true %}
 <div class="product">
     <div class="product-frame">
 {% else %}
@@ -41,7 +41,7 @@
             <a href="{{ site.url }}/{{ p.name | slugify }}.html" >More info about {{ p.name }}</a>
         </div>
         <h2>
-        {% if available == true %}
+        {% if p.available == true %}
             <button class="snipcart-add-item btn-buy" data-item-id="{{ p.product-code }}" data-item-name="{{ p.name }}" data-item-price="{{ p.current-msrp }}" data-item-weight="{{ p.weight | replace: 'g', '' }}" data-item-url="https://magicmeeplegames.github.io/shop.html" data-item-description="{{ p.short-description }}" >
                 Buy
             </button>    
