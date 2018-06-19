@@ -46,14 +46,9 @@
                 Buy
             </button>    
         {% else %}
-            {{ p.availability }}
-        {% endif %}
-        </h2>
-        <h2>
             <button disabled>
-                {{ p.availability }}
-            </button>    
-        </h2>
+            {{ p.availability }}
+            </button>
         {% endif %}
         <h2>
             <span class="price">${{ p.current-msrp | replace: "$", "" }}</span>
