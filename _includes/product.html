@@ -1,3 +1,4 @@
+{% assign available = p.availability | slugify %}
 {% if p.min-players and p.max-players %}
 {% assign players = p.min-players | append: " to " %}
 {% assign players = players | append: p.max-players %}
@@ -30,12 +31,17 @@
 {% capture play-time %}
 <span class="play-time">{{ p.play-time }}</span>
 {% endcapture %}
+{% if test-whether available
+{% if available == "in-stock" or "now-available" %}
 <div class="product">
     <div class="product-frame">
+{% else %}
+<div class="product ribbon coming-soon">
+    <div class="product-frame ribbon">
+{% endif %}
         <div class="box-image" style="background-image: url(assets/images/{{ p.box-image }})" >
             <a href="{{ site.url }}/{{ p.name | slugify }}.html" >More info about {{ p.name }}</a>
         </div>
-        {% assign test-whether-available = p.availability | slugify %}
         {% if test-whether-available == "in-stock" or "now-available" %}
         <h2>
             <button class="snipcart-add-item" data-item-id="{{ p.product-code }}" data-item-name="{{ p.name }}" data-item-price="{{ p.current-msrp }}" data-item-weight="{{ p.weight | replace: 'g', '' }}" data-item-url="https://magicmeeplegames.github.io/shop.html" data-item-description="{{ p.short-description }}" >
