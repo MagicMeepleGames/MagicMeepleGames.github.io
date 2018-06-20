@@ -63,7 +63,7 @@ Nemo got into game design in 2003, at the first Penguicon (a convention of all g
 
 He laser-cuts his game prototypes at the local hackerspace i3Detroit, where he teaches classes on how to use Adobe Illustrator to create cutting paths for machine tools.
   
-## Michael Lipton - _Game Designer: **Fire of Eidolon**, Game Designer: **Incoming Transmission**_\
+## Michael Lipton - _Game Designer: **Fire of Eidolon**, Game Designer: **Incoming Transmission**_
 
 ## Tiffany “TJ” Johnston – _Director of Staffing_
 Tiffany brings 14 years of convention experience to Magic Meeple Games. She is responsible for all of Magic Meeple Game’s staffing and staff training. Her team can tackle any issue and the attendees will continue having an amazing experience. She inspires loyalty and excellence in her team and they would follow her through a war zone (typically known as a convention).
