@@ -9,9 +9,9 @@
   ages-community: 12+
   min-players: 1
   max-players: 5
-  solo-mode: yes
-  cooperative-mode: yes
-  competitive-mode: yes
+  solo-mode: true
+  cooperative-mode: true
+  competitive-mode: true
   play-time: 30-45 (mins)
   setup-time: 10 (mins)
   teach-learn-time: 15 (mins)
@@ -78,9 +78,9 @@
   ages-community: 10+
   min-players: 1
   max-players: 6
-  solo-mode: yes
-  cooperative-mode: yes
-  competitive-mode: no
+  solo-mode: true
+  cooperative-mode: true
+  competitive-mode: false
   play-time: 30-45 (mins)
   setup-time: 5 (mins)
   teach-learn-time: 10 (mins)
@@ -112,16 +112,16 @@
   graphic-designer: Matt Arnold, Ian Stedman
   publisher: Magic Meeple Games
   ages-official: 14+
-  ages-community: TBA
+#  ages-community: TBA
   min-players: 1
   max-players: 4 (5 with Add-on)
-  solo-mode: yes
-  cooperative-mode: no
-  competitive-mode: yes
+  solo-mode: true
+  cooperative-mode: false
+  competitive-mode: true
   play-time: 30-40 (mins)
   setup-time: 5 (mins)
   teach-learn-time: 15 (mins)
-  complexity: TBA
+#  complexity: TBA
   short-description: Strategic, diceless, tile placement/area control game for 1-4 with a retro videogame flair, all in a super-portable package!
   long-description: In every classic JRPG, the heroes encountered a mysterious stranger, who gave them a map to a dungeon, and stocked them with potions, keys, and other provisions. But how was the map drawn? How did the wise stranger learn of all these dire warnings? In Overworld, you are the hero's mysterious mentor. All those years before you sent the hero to the underworld, you mapped the Overworld! By laying tiles, you will seek to claim regions of Forests or Mountains with your Bird meeples, and regions of Reefs or Whirlpools with your Ship meeples. When the tiles form a hole in the world, the player who explored the most tiles there will place a Dungeon Door meeple into the hole. Can you foresee uncertain spots in the geography, indeterminate in the distance? Will you uncover a dungeon... or wander the repeating pixel textures forever?
   box-image: Overworld-box-image-500px.png
@@ -141,11 +141,38 @@
   link-to-bgg: https://boardgamegeek.com/boardgame/220843/overworld
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/overworld-16-bit-tile-placement-and-exploration-bo
 
-- name: Magic Meatballs
-  product-code: MM999
+- name: Overworld Summoners 5th Player Expansion
+  product-code: MMG201a
   designer: Nemo Rathwald
-  current-msrp: 19.99
-  short-description: ...with lingenberry sauce.
-  availability: Out of stock
-  available: false
+  developer: Ian Stedman
+  artist: Jeff Perryman, Matt Arnold, Ian Stedman
+  graphic-designer: Matt Arnold, Ian Stedman
+  publisher: Magic Meeple Games
+  ages-official: no change
+  ages-community: TBA
+  players: 1-5
+  solo-mode: true
+  cooperative-mode: semi-cooperative
+  competitive-mode: true
+  play-time: +10 Minutes
+  setup-time: no change
+  teach-learn-time: +10 Minutes
+  complexity: Small increase from base game
+  short-descripton: Expand your <em>Overworld</em> experience with playing pieces to add a 5th player to the game, as well as new tiles and tokens for the <em>Summoners</em> game variant! (Base game required to play)
+  long-description: <em>Overworld Summoners</em> expands the base game to 5 players with additional tiles and tokens to facilitate ALL of the additional rules found in the booklet, including the <em>Summoners</em> variant! Also introduces Desert and Glacier regions to the game!
+#  box-image-filename: TBA
+#  game-contents-image: TBA
+#  closeup-front-image: TBA
+#  closeup-back-image: TBA
+  original-msrp: 9.99
+  current-msrp: 9.99
   weight: TBA
+  wholesale-price: 5.00
+  case-quantity: TBA
+  expands: Overworld
+  availability: Shipping Soon
+  available: false
+  link-to-rules: https://boardgamegeek.com/filepage/162519/overworld-rulebook-optimized
+  link-to-bgg: TBA
+  link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/overworld-16-bit-tile-placement-and-exploration-bo
+  
