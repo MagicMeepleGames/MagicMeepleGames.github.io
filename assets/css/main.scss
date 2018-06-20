@@ -401,7 +401,7 @@ button.btn-buy:disabled {
     border: none;
 }
 .product-frame.ribbon:after {
-    content: "Coming Soon!";
+    content: attr('data-availability');
     color: transparent;
     position: absolute;
     right: -55px;
