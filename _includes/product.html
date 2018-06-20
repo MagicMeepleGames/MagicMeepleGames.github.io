@@ -34,7 +34,7 @@
 <div class="product">
     <div class="product-frame">
 {% else %}
-<div class="product ribbon coming-soon">
+<div class="product ribbon coming-soon" data-availability="{{ p.availability }}">
     <div class="product-frame ribbon" data-availability="{{ p.availability }}">
 {% endif %}
         <div class="box-image" style="background-image: url(assets/images/{{ p.box-image }})" >
