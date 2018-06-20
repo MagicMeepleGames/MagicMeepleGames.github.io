@@ -401,7 +401,7 @@ button.btn-buy:disabled {
     border: none;
 }
 .product-frame.ribbon:after {
-    content: attr('data-availability');
+    content: "";
     color: transparent;
     position: absolute;
     right: -55px;
@@ -413,15 +413,13 @@ button.btn-buy:disabled {
     font-weight: bold;
 }
 .product.ribbon:after {
+    content: attr("data-availability");
     color: white;
     font-weight: bold;
     position: absolute;
     transform: rotate(45deg);
     right: 24px;
     top: 63px;
-}
-.product.coming-soon:after {
-    content: "Coming Soon!";
 }
 
 /* product details pages */
