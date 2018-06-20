@@ -35,22 +35,36 @@
   link-to-bgg: https://boardgamegeek.com/boardgame/166418/darkrock-ventures
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/darkrock-ventures-asteroid-mining-in-deep-space-bo
 
-- name: Darkrock Ventures Expansion Pack
-  short-description: Includes ten new cards to enhance your <em>Darkrock Ventures</em> experience!
-  long-description: "Contains ten brand new, unique cards to add to your Darkrock Ventures base game: 5 New Research Cards. 5 New Corporate Sponsors cards. 1 Proof of Purchase card (not used in gameplay)."
-  box-image: darkrock-ventures-expansion-pack-1-packaging-image-500px.png
-  closeup-image: darkrock-ventures-expansion-pack-closeup.png
-  current-msrp: $4.99
-  min-players: 2
-  max-players: 5
-  ages: 12 and up
-  weight: 60
-  link-to-rules: http://magicmeeplegames.com
-  link-to-facebook: http://magicmeeplegames.com
-  link-to-bgg: http://magicmeeplegames.com
-  snes: false
-  availability: In Stock
-  available: true
+- name: "Darkrock Ventures Expansion Pack #1"
+  product-code: MMG001a
+  designer: Michael Eskue
+  developer: Ian Stedman
+  artist: Naomi Robinson
+  graphic-designer: Darrell Louder, Ian Stedman
+  publisher: Magic Meeple Games & Gamelyn Games
+  ages-official: no change
+  ages-community: no change
+  players: no change
+  play-time: no change
+  setup-time: no change
+  teach-learn-time: no change
+  complexity: no change
+  short-descripton: "Darkrock Ventures Expansion Pack #1 adds ten (10) additional cards to expand the <em>Darkrock Ventures base game. (Requires Darkrock Ventures base game to play)"
+  long-description: "Darkrock Ventures Expansion Pack #1 includes an additional ten cards: 5 new Research Cards and 5 new Corporate Sponsors cards. They can be included into any game mode in Darkrock Ventures that uses these cards! (Not a stand-alone game. Requires Darkrock Ventures base game to play.)"
+  box-image-filename: 500px_DRVExpPack1.jpg
+  game-contents-image: 500px_DRV_ExpPack1Contents.jpg, DRV_ExpPack1Contents.jpg
+  closeup-front-image: DRV_ExpPack1_CoverCard_Front.jpg
+  closeup-back-image: n/a
+  original-msrp: 4.99
+  current-msrp: 4.99
+  weight: 21g
+  wholesale-price: 2.50
+  case-qty: n/a
+  expands: Darkrock Ventures
+  availability: Now available
+  link-to-rules: https://boardgamegeek.com/filepage/118140/darkrock-ventures-official-rulebook
+  link-to-bgg: https://boardgamegeek.com/boardgameexpansion/208856/darkrock-ventures-expansion-pack-1
+  link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/darkrock-ventures-asteroid-mining-in-deep-space-bo
 
 - name: Fire of Eidolon
   product-code: MMG101
