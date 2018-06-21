@@ -124,7 +124,7 @@
 #  complexity: TBA
   short-description: Strategic, diceless, tile placement/area control game for 1-4 with a retro videogame flair, all in a super-portable package!
   long-description: In every classic JRPG, the heroes encountered a mysterious stranger, who gave them a map to a dungeon, and stocked them with potions, keys, and other provisions. But how was the map drawn? How did the wise stranger learn of all these dire warnings? In Overworld, you are the hero's mysterious mentor. All those years before you sent the hero to the underworld, you mapped the Overworld! By laying tiles, you will seek to claim regions of Forests or Mountains with your Bird meeples, and regions of Reefs or Whirlpools with your Ship meeples. When the tiles form a hole in the world, the player who explored the most tiles there will place a Dungeon Door meeple into the hole. Can you foresee uncertain spots in the geography, indeterminate in the distance? Will you uncover a dungeon... or wander the repeating pixel textures forever?
-  box-image: Overworld-box-image-500px.png
+  box-image: overworld-box-image-500px.png
   game-contents-image: OVW_ppc_contents.jpg
   closeup-front-image: OVW_Box_Face.jpg
   closeup-back-image: OVW_Box_Back.jpg
