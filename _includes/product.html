@@ -37,7 +37,7 @@
 <div class="product ribbon coming-soon" data-availability="{{ p.availability }}">
     <div class="product-frame ribbon" data-availability="{{ p.availability }}">
 {% endif %}
-        <div class="box-image" style="background-image: url(assets/images/{{ p.box-image }})" >
+        <div class="box-image" style="background-image: url(assets/images/{{ p.name | slugify }}/{{ p.box-image }})" >
             <a href="{{ site.url }}/{{ p.name | slugify }}.html" >More info about {{ p.name }}</a>
         </div>
         <h2>
