@@ -1,10 +1,10 @@
 <h1>{{ product.name }} - {{ product.availability }}</h1>
 {% if product.box-image %}
-<div class="details-box-image" style="background-image: url(assets/images/{{ product.box-image }})">
+<div class="details-box-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.box-image }})">
 </div>
 {% endif %}
 {% if product.game-contents-image %}
-<div class="details-game-contents-image" style="background-image: url(assets/images/{{ product.game-contents-image }})">
+<div class="details-game-contents-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.game-contents-image }})">
 </div>
 {% endif %}
 <div class="credits">
