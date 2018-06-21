@@ -424,16 +424,23 @@ button.btn-buy:disabled {
 
 /* product details pages */
 
-.details-box-image {
-    float: left;
-    height: 20rem;
-    width: 20rem;
+.details-box-image, .details-game-contents-image {
     background-repeat: no-repeat;
+    background-position: center;
+    margin: 2rem;
+}
+
+.details-box-image {
+    width: 24rem;
+    height: 24rem;
+    float: left;
     background-size: contain;
 }
 .details-game-contents-image {
-    width: 100%;
-    height: 20rem;
+    width: 36rem;
+    height: 36rem;
+    float: right;
+    background-size: cover;
 }
 /* snipcart customization */
 li.cart {
