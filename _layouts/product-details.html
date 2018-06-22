@@ -21,18 +21,16 @@
 {% assign product-name = product.name | slugify %}
 {% if product-name == page-title %}
 {% include product-details-header.html %}
-{% assign expands = product.expands | slugify %}
 {% endif %}
 {% endfor %}
 
-{% if expands %}
 {% for product in site.data.products %}
-{% assign product-name = product.name | slugify  %}
-{% if product-name == expands %}
+{% assign product-expands = product.expands | slugify  %}
+{% if page-title == product-expands %}
 {% include product-details-header.html %}
 {% endif %}
 {% endfor %}
-{% endif %}
+
 {{ content }}
 </div>
 </div>
