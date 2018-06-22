@@ -16,13 +16,23 @@
 {% include header.html %}
 <div class="main">
 <div class="container">
+{% assign page-title = page.title | slugify %}
 {% for product in site.data.products %}
 {% assign product-name = product.name | slugify %}
-{% assign page-title = page.title | slugify %}
 {% if product-name == page-title %}
+{% include product-details-header.html %}
+{% assign expands = product.expands | slugify %}
+{% endif %}
+{% endfor %}
+
+{% if expands %}
+{% for product in site.data.products %}
+{% assign product-name = product.name | slugify  %}
+{% if product-name == expands %}
 {% include product-details-header.html %}
 {% endif %}
 {% endfor %}
+{% endif %}
 {{ content }}
 </div>
 </div>

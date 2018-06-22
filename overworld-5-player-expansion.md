@@ -1,7 +1,7 @@
 ---
 title: Overworld 5 Player Expansion
 layout: product-details
-category: games
+category: expansions
 order: 5
 published: true
 ---
