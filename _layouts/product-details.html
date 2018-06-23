@@ -16,8 +16,7 @@
 {% endcapture %}
 {% for product in site.data.products %}
 {% assign product-name = product.name | slugify %}
-{% if product-name == page-title %}
-{% if product.game-contents-image %}
+{% if product-name == page-title and product.game-contents-image %}
 {% capture body-tag %}
 <body class="product-details-page" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.game-contents-image }})">
 {% endcapture %}
