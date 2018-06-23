@@ -442,12 +442,15 @@ button.btn-buy:disabled {
     float: right;
     background-size: cover;
 }
+.gameplay {
+    float: left;
+}
 .gameplay li {
-    color: $primary-very-light;
-    background-color: $complement-dark;
+    color: $complement-very-light;
+    background-color: $primary-dark;
     margin: .25rem;
     padding: 1rem;
-    float: left;
+    list-style-type: none;
 }
 .price {
     color: $complement-dark;
