@@ -424,7 +424,7 @@ button.btn-buy:disabled {
 
 /* product details pages */
 
-.product-details-page-background {
+.product-details-page {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -434,8 +434,10 @@ button.btn-buy:disabled {
 }
 .grid {
     display: grid;
-    grid-template-columns: 12rem 18rem 12rem;
-    grid-template-rows: 6rem 18rem 6rem;
+    grid-template-columns: 18rem 24rem 18rem;
+    grid-template-rows: 6rem 24rem 14rem;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
 }
 .grid h1 {
     grid-column: 1 / span 3;
@@ -452,7 +454,7 @@ button.btn-buy:disabled {
 }
 .grid .gameplay {
     grid-column: 1;
-    grid-row: 1 / span 2;
+    grid-row: 2;
 }
 .gameplay li {
     color: $complement-very-light;
@@ -463,7 +465,7 @@ button.btn-buy:disabled {
 }
 .grid .details-box-image {
     grid-column: 2;
-    grid-row: 2 / span 2;
+    grid-row: 2;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

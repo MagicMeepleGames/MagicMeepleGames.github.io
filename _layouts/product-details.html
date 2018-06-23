@@ -19,7 +19,7 @@
 {%   if product-name == page-title %}
 {%     if product.game-contents-image %}
 {%     capture body-tag %}
-<body class="product-details-page-background" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.game-contents-image }})">
+<body class="product-details-page" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.game-contents-image }})">
 {%     endcapture %}
 {%     endif %}
 {% endfor %}
