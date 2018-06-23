@@ -16,9 +16,12 @@
 {% endcapture %}
 {% for product in site.data.products %}
 {% assign product-name = product.name | slugify %}
+{% if product.game-contents-image %}
+{% assign background = "product-details-background" %}
+{% endif %}
 {% if product-name == page-title %}
 {% capture body-tag %}
-<body class="product-details-page" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.game-contents-image }})">
+<body class="product-details-page {{ background }}" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.game-contents-image }})">
 {% endcapture %}
 {% endif %}
 {% endfor %}
