@@ -379,7 +379,7 @@ input[type=radio]:checked + label:before {
     display: inline-grid;
     margin: 0 0.25rem 0.25rem;
 }
-.price, .description {
+.product .price, .product .description {
     float: left;
     margin: 0 1rem 0 0;    
 }
@@ -424,37 +424,73 @@ button.btn-buy:disabled {
 
 /* product details pages */
 
-.details-box-image, .details-game-contents-image {
+.product-details-page-background {
     background-repeat: no-repeat;
     background-position: center;
-    margin: 2rem;
-}
-
-.details-box-image {
-    width: 24rem;
-    height: 24rem;
-    float: left;
-    background-size: contain;
-}
-.details-game-contents-image {
-    width: 50rem;
-    height: 36rem;
-    float: right;
     background-size: cover;
 }
-.gameplay {
-    float: left;
+.product-details-page .main {
+    background-color: unset;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 12rem 18rem 12rem;
+    grid-template-rows: 6rem 18rem 6rem;
+}
+.grid h1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    text-shadow: 0.1rem 0.1rem #ddd, -0.1rem 0.1rem #ddd, 0.1rem -0.1rem #ddd, -0.1rem -0.1rem #ddd;
+    text-shadow: 0.1rem 0.1rem $primary-color-light,
+                -0.1rem 0.1rem $primary-color-light,
+                0.1rem -0.1rem $primary-color-light,
+                -0.1rem -0.1rem $primary-color-light;
+}
+.grid .text-box {
+    background-color: $primary-very-light;
+    padding: .5rem;
+}
+.grid .gameplay {
+    grid-column: 1;
+    grid-row: 1 / span 2;
 }
 .gameplay li {
     color: $complement-very-light;
     background-color: $primary-dark;
     margin: .25rem;
-    padding: 1rem;
+    padding: .5rem;
     list-style-type: none;
 }
-.price {
+.grid .details-box-image {
+    grid-column: 2;
+    grid-row: 2 / span 2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.grid .price {
+    grid-column: 3;
+    grid-row: 2;
     color: $complement-dark;
 }
+.grid .credits {
+    grid-column: 3;
+    grid-row: 3;
+    font-style: oblique;
+}
+.grid .short-description {
+    grid-column: 1;
+    grid-row: 3;
+}
+.grid .long-description {
+    grid-column: 2;
+    grid-row: 3;
+}
+.grid .links {
+    grid-column: 3;
+    grid-row: 3;
+}
+
 /* snipcart customization */
 li.cart {
     background-image: url(/assets/images/shopping-cart.svg);

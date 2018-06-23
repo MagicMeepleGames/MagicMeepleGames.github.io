@@ -1,3 +1,4 @@
+<div class="grid">
 <h1>{{ product.name }} - {{ product.availability }}</h1>
 <div class="gameplay">
 <ul>
@@ -28,25 +29,21 @@ ages {{ product.ages-official }}
 <div class="details-box-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.box-image }})">
 </div>
 {% endif %}
-{% if product.game-contents-image %}
-<div class="details-game-contents-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.game-contents-image }})">
-</div>
-{% endif %}
 <div class="price">
     {% if product.available == true %}
     <button class="snipcart-add-item btn-buy"
-            data-item-id="{{ product.product-code }}"
-            data-item-name="{{ product.name }}"
-            data-item-price="{{ product.current-msrp }}"
-            data-item-weight="{{ product.weight | replace: 'g', '' }}"
-            data-item-url="https://magicmeeplegames.github.io/shop.html"
-            data-item-description="{{ product.short-description }}" >
-        Buy
-    </button>
-    {% endif %}
-    <h3>${{ product.current-msrp }}</h3>
+    data-item-id="{{ product.product-code }}"
+    data-item-name="{{ product.name }}"
+    data-item-price="{{ product.current-msrp }}"
+    data-item-weight="{{ product.weight | replace: 'g', '' }}"
+    data-item-url="https://magicmeeplegames.github.io/shop.html"
+    data-item-description="{{ product.short-description }}" >
+    Buy
+</button>
+{% endif %}
+<h3>${{ product.current-msrp }}</h3>
 </div>
-<div class="credits">
+<div class="credits text-box">
 <ul>
 {% if product.designer %}
 <li>Designer: {{ product.designer }}.</li>
@@ -62,21 +59,21 @@ ages {{ product.ages-official }}
 {% endif %}
 </ul>
 </div>
-<div class="short-description">
+<div class="short-description text-box">
 <p>{{ product.short-description }}</p>
 </div>
-<div class="short-description">
+<div class="long-description text-box">
 <p>{{ product.long-description }}</p>
 </div>
-<div class="expanded-by">
+<!-- <div class="expanded-by text-box">
 {% if product.expansions-product %}
 <p>Expansions product.: {{ product.expansions-product. }}</p>
 {% endif %}
 {% if product.expansions-sold-separately %}
 <p>Expansions sold separately: {{ product.expansions-sold-seperately }} </p>
 {% endif %}
-</div>
-<div class="links">
+</div> -->
+<div class="links text-box">
 <ul>
 {% if product.link-to-rule %}
 <li>Rules: {{ product.link-to-rules }}</li>
@@ -88,4 +85,6 @@ ages {{ product.ages-official }}
 <li>Kickstarter: {{ product.link-to-kickstarter }}</li>
 {% endif %}
 </ul>
+</div>
+<!-- end of grid: -->
 </div>
