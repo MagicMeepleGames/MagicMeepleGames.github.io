@@ -2,12 +2,14 @@
 <div class="gameplay">
 <ul>
 <li>For {{ product.min-players }} to {{ product.max-players }} players</li>
+<li>
 {% if product.ages-official %}
-<li>ages {{ product.ages-official }}</li>
+ages {{ product.ages-official }} 
 {% endif %}
 {% if product.ages-community %}
-<li>({{ product.ages-community }}).</li>
+({{ product.ages-community }}).
 {% endif %}
+</li>
 {% if product.play-time %}
 <li>Play time {{ product.play-time }}.</li>
 {% endif %}
