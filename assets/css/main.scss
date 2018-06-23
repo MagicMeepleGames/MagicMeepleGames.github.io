@@ -440,13 +440,23 @@ button.btn-buy:disabled {
     grid-row-gap: 2rem;
 }
 .grid h1 {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
     grid-row: 1;
+}
+.grid h1, .grid.price {
     text-shadow: 0.1rem 0.1rem #ddd, -0.1rem 0.1rem #ddd, 0.1rem -0.1rem #ddd, -0.1rem -0.1rem #ddd;
     text-shadow: 0.1rem 0.1rem $primary-light,
                 -0.1rem 0.1rem $primary-light,
                 0.1rem -0.1rem $primary-light,
                 -0.1rem -0.1rem $primary-light;
+}
+.grid .buy {
+    grid-column: 3;
+    grid-row: 1;
+    color: $primary-dark;
+    font-size: x-large;
+    font-size: xx-large;
+    font-weight: bold;
 }
 .grid .text-box {
     background-color: $primary-very-light;
@@ -469,11 +479,6 @@ button.btn-buy:disabled {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-}
-.grid .price {
-    grid-column: 3;
-    grid-row: 2;
-    color: $complement-dark;
 }
 .grid .credits {
     grid-column: 3;

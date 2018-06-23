@@ -29,7 +29,7 @@ ages {{ product.ages-official }}
 <div class="details-box-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.box-image }})">
 </div>
 {% endif %}
-<div class="price">
+<div class="buy">
     {% if product.available == true %}
     <button class="snipcart-add-item btn-buy"
     data-item-id="{{ product.product-code }}"
@@ -41,7 +41,7 @@ ages {{ product.ages-official }}
     Buy
 </button>
 {% endif %}
-<h3>${{ product.current-msrp }}</h3>
+<span class="price">${{ product.current-msrp }}</span>
 </div>
 <div class="credits text-box">
 <ul>
@@ -76,13 +76,13 @@ ages {{ product.ages-official }}
 <div class="links text-box">
 <ul>
 {% if product.link-to-rule %}
-<li>Rules: {{ product.link-to-rules }}</li>
+<li><a href="{{ product.link-to-rules }}">Rules</a></li>
 {% endif %}
 {% if product.link-to-bgg %}
-<li>Boardgamegeek: {{ product.link-to-bgg }}</li>
+<li><a href="{{ product.link-to-bgg }}">Boardgamegeek</a></li>
 {% endif %}
 {% if product.link-to-kickstarter %}
-<li>Kickstarter: {{ product.link-to-kickstarter }}</li>
+<li><a href="{{ product.link-to-kickstarter }}">Kickstarter</a></li>
 {% endif %}
 </ul>
 </div>
