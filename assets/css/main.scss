@@ -435,7 +435,7 @@ button.btn-buy:disabled {
 .grid {
     display: grid;
     grid-template-columns: 18rem 24rem 18rem;
-    grid-template-rows: 6rem 24rem 14rem;
+    grid-template-rows: 6rem 12rem 12rem 14rem;
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
 }
@@ -443,18 +443,21 @@ button.btn-buy:disabled {
     grid-column: 1 / span 2;
     grid-row: 1;
 }
-.grid h1, .grid.price {
-    text-shadow: 0.1rem 0.1rem #ddd, -0.1rem 0.1rem #ddd, 0.1rem -0.1rem #ddd, -0.1rem -0.1rem #ddd;
-    text-shadow: 0.1rem 0.1rem $primary-light,
-                -0.1rem 0.1rem $primary-light,
-                0.1rem -0.1rem $primary-light,
-                -0.1rem -0.1rem $primary-light;
+.grid h1, .grid .buy {
+    align-self: center;
+    text-shadow: 0.1rem 0.1rem #ddd,
+                -0.1rem 0.1rem #ddd,
+                0.1rem -0.1rem #ddd,
+                -0.1rem -0.1rem #ddd,
+                0 .1rem #ddd,
+                0 -.1rem #ddd,
+                .1rem 0 #ddd,
+                -.1rem 0 #ddd;
 }
 .grid .buy {
     grid-column: 3;
     grid-row: 1;
     color: $primary-dark;
-    font-size: x-large;
     font-size: xx-large;
     font-weight: bold;
 }
@@ -464,7 +467,7 @@ button.btn-buy:disabled {
 }
 .grid .gameplay {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 2 / span 2;
 }
 .gameplay li {
     color: $complement-very-light;
@@ -475,27 +478,27 @@ button.btn-buy:disabled {
 }
 .grid .details-box-image {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 2 / span 2;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 .grid .credits {
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 2;
     font-style: oblique;
-}
-.grid .short-description {
-    grid-column: 1;
-    grid-row: 3;
-}
-.grid .long-description {
-    grid-column: 2;
-    grid-row: 3;
 }
 .grid .links {
     grid-column: 3;
     grid-row: 3;
+}
+.grid .short-description {
+    grid-column: 1;
+    grid-row: 4;
+}
+.grid .long-description {
+    grid-column: 2 / span 2;
+    grid-row: 4;
 }
 
 /* snipcart customization */
