@@ -437,10 +437,20 @@ button.btn-buy:disabled {
     background-size: contain;
 }
 .details-game-contents-image {
-    width: 36rem;
+    width: 50rem;
     height: 36rem;
     float: right;
     background-size: cover;
+}
+.gameplay li {
+    color: $primary-very-light;
+    background-color: $complement-dark;
+    margin: .25rem;
+    padding: 1rem;
+    float: left;
+}
+.price {
+    color: $complement-dark;
 }
 /* snipcart customization */
 li.cart {
@@ -517,6 +527,7 @@ body {
 .container {
     width: 100%;
     border-right: 0;
+    padding: 0 6rem;
 }
 .progressbar {
     display: block;

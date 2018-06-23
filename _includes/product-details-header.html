@@ -1,4 +1,27 @@
 <h1>{{ product.name }} - {{ product.availability }}</h1>
+<div class="gameplay">
+<ul>
+<li>For {{ product.min-players }} to {{ product.max-players }} players</li>
+{% if product.ages-official %}
+<li>ages {{ product.ages-official }}</li>
+{% endif %}
+{% if product.ages-community %}
+<li>({{ product.ages-community }}).</li>
+{% endif %}
+{% if product.play-time %}
+<li>Play time {{ product.play-time }}.</li>
+{% endif %}
+{% if product.setup-time %}
+<li>Setup time {{ product.setup-time }}.</li>
+{% endif %}
+{% if product.teach-learn-time %}
+<li>Time to teach and learn {{ product.teach-learn-time }}.</li>
+{% endif %}
+{% if product.complexity %}
+<li>Complexity {{ product.complexity }}.</li>
+{% endif %}
+</ul>
+</div>
 {% if product.box-image %}
 <div class="details-box-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.box-image }})">
 </div>
@@ -7,6 +30,10 @@
 <div class="details-game-contents-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.game-contents-image }})">
 </div>
 {% endif %}
+<div class="price">
+    <h2>{{ product.product-code }}</h2>
+    <h3>{{ product.current-msrp }}</h3>
+</div>
 <div class="credits">
 <ul>
 {% if product.designer %}
@@ -22,31 +49,6 @@
 <li>Publisher: {{ product.publisher }}.</li>
 {% endif %}
 </ul>
-</div>
-<div class="price">
-<p>{{ product.product-code }} {{ product.current-msrp }}</p>
-</div>
-<div class="gameplay">
-<p>For {{ product.min-players }} to {{ product.max-players }} players 
-{% if product.ages-official %}
-ages {{ product.ages-official }}
-{% endif %}
-{% if product.ages-community %}
-({{ product.ages-community }}). 
-{% endif %}
-{% if product.play-time %}
-Play time {{ product.play-time }}.
-{% endif %}
-{% if product.setup-time %}
-Setup time {{ product.setup-time }}.
-{% endif %}
-{% if product.teach-learn-time %}
-Time to teach and learn {{ product.teach-learn-time }}.
-{% endif %}
-{% if product.complexity %}
-Complexity {{ product.complexity }}.
-{% endif %}
-</p>
 </div>
 <div class="short-description">
 <p>{{ product.short-description }}</p>
