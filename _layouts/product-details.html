@@ -14,6 +14,7 @@
 {% capture body-tag %}
 <body class="product-details-page">
 {% endcapture %}
+{% assign page-title = page.title | slugify %}
 {% for product in site.data.products %}
 {% assign product-name = product.name | slugify %}
 {% if product.game-contents-image %}
@@ -30,7 +31,6 @@
 {% include header.html %}
 <div class="main">
 <div class="container">
-{% assign page-title = page.title | slugify %}
 {% for product in site.data.products %}
 {% assign product-name = product.name | slugify %}
 {% if product-name == page-title %}
