@@ -523,39 +523,40 @@ li.cart {
 }
 li.cart a {
     text-decoration: none;
+    color: transparent;
 }
 .snip-layout {
-    color: $primary-mid;
-    font-family: "Josefin Sans", sans-serif;
+    color: $primary-mid !important;
+    font-family: "Josefin Sans", sans-serif !important;
 }
 .snip-layout__main-container {
-    border: .5rem solid #021A29;
-    background-color: $complement-very-light;
+    border: .5rem solid #021A29 !important;
+    background-color: $complement-very-light !important;
 }
 .snip-header, .snip-footer {
-    background-color: $primary-dark;
+    background-color: $primary-dark !important;
 }
 .snip-header__title {
-    color: $primary-light;
+    color: $primary-light !important;
 }
 .snip-header__total {
-    background-color: $primary-very-dark;
+    background-color: $primary-very-dark !important;
 }
 .snip-header__total-label{
-    color: $complement-light;
+    color: $complement-light !important;
 }
 .snip-btn {
-    padding: 0.5rem 2rem;
-    background-color: $primary-dark;
-    border-radius: 0.5rem;
-    border-left: 0.1rem solid $primary-mid;
-    border-right: 0.1rem solid $primary-very-dark;
+    padding: 0.5rem 2rem !important;
+    background-color: $primary-dark !important;
+    border-radius: 0.5rem !important;
+    border-left: 0.1rem solid $primary-mid !important;
+    border-right: 0.1rem solid $primary-very-dark !important;
 }
 .snip-table tr {
-    border-bottom: 1px solid $primary-light;
+    border-bottom: 1px solid $primary-light !important;
 }
 .snip-actions {
-    border-top: 1px solid $primary-light;
+    border-top: 1px solid $primary-light !important;
 }
 
 /* responsive styles for mobile devices */
