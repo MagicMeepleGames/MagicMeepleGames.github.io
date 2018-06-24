@@ -1,7 +1,6 @@
 <div class="grid">
 <h1>{{ product.name }} - {{ product.availability }}</h1>
-<div class="gameplay">
-<ul>
+<ul class="gameplay">
 <li>For {{ product.min-players }} to {{ product.max-players }} players</li>
 <li>
 {% if product.ages-official %}
@@ -24,7 +23,6 @@ ages {{ product.ages-official }}
 <li>Complexity {{ product.complexity }}.</li>
 {% endif %}
 </ul>
-</div>
 {% if product.box-image %}
 <div class="details-box-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.box-image }})">
 </div>
