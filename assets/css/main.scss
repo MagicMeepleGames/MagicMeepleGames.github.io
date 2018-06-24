@@ -442,10 +442,11 @@ button.btn-buy:disabled {
 .grid {
     border: 2rem solid $primary-very-light;
     display: grid;
-    grid-template-columns: 8rem 34rem 18rem;
+    grid-template-columns: 11rem 31rem 18rem;
     grid-template-rows: 4rem 12rem 12rem 14rem;
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
+    margin-bottom: 2rem;
 }
 .grid h1 {
     background-color: $primary-very-light;
