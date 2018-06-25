@@ -1,7 +1,10 @@
+<div class="friends-of-the-meeple">
+<h2>Friends Of The Meeple</h2>
 <marquee behavior="alternate">
 {% for static_file in site.static_files %}
 {% if static_file.path contains 'FriendsOftheMeeple' %}
-<img src="{{ static_file.name }}" alt="">
+<img src="assets/images/FriendsOftheMeeple/{{ static_file.name }}" alt="">
 {% endif %}
 {% endfor %}
 </marquee>
+</div>
