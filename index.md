@@ -16,8 +16,8 @@ order: 1
     {% include carousel.html %}
 
     <div class="tweet-stream">
-        <h2>Tweets by @MagicMeeple</h2>
-        <a class="twitter-timeline" href="https://twitter.com/MagicMeeple?ref_src=twsrc%5Etfw" data-chrome="transparent noheader nofooter" width="300" data-tweet-limit="3">Tweets by @MagicMeeple</a>
+        <h2>Tweets by <a href="https://twitter.com/MagicMeeple">@MagicMeeple</a></h2>
+        <a class="twitter-timeline" href="https://twitter.com/MagicMeeple?ref_src=twsrc%5Etfw" data-chrome="transparent noheader nofooter" width="100%" data-tweet-limit="3">Tweets by @MagicMeeple</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </div>
