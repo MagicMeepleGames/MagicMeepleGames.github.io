@@ -568,10 +568,8 @@ li.cart a {
 /* "Friends Of The Meeple" Carousel */
 .home-grid {
     display: grid;
-    grid-template-columns: 20rem 20rem 20rem;
+    grid-template-columns: 22rem 22rem 22rem;
     grid-template-rows: 55rem;
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem;
 }
 .friends-of-the-meeple {
     grid-row: 1;
@@ -579,7 +577,7 @@ li.cart a {
 }
 marquee {
     border: 1rem solid $complement-dark;
-    width: 20rem;
+    width: 89%;
     height: 10rem;
 }
 marquee img {
@@ -588,6 +586,11 @@ marquee img {
   }
 .tweet-stream {
     grid-column: 1;
+}
+.home-grid-col {
+    background-color: $complement-light;
+    padding: .5rem;
+    margin: 1rem;
 }
 
 /* responsive styles for mobile devices */

@@ -13,11 +13,19 @@ order: 1
 {% include progressbar.html logo="/darkrock-ventures/darkrock_ventures-500px.png" alt="Darkrock Ventures" percent="100%" status="In stock now! Click here!" link="/shop.html" %}
 
 <div class="home-grid">
-    {% include carousel.html %}
-
-    <div class="tweet-stream">
+    <div class="friends-of-the-meeple home-grid-col">
+        <h2>Friends Of The Meeple</h2>
+        <marquee behavior="alternate">
+            {% for static_file in site.static_files %}
+            {% if static_file.path contains 'FriendsOftheMeeple' %}
+            <img src="assets/images/FriendsOftheMeeple/{{ static_file.name }}">
+            {% endif %}
+            {% endfor %}
+        </marquee>
+    </div>
+    <div class="tweet-stream home-grid-col">
         <h2>Tweets by <a href="https://twitter.com/MagicMeeple">@MagicMeeple</a></h2>
-        <a class="twitter-timeline" href="https://twitter.com/MagicMeeple?ref_src=twsrc%5Etfw" data-chrome="transparent noheader nofooter" width="100%" data-tweet-limit="3">Tweets by @MagicMeeple</a>
+        <a class="twitter-timeline" href="https://twitter.com/MagicMeeple?ref_src=twsrc%5Etfw" data-chrome="transparent noheader nofooter" width="100%" data-tweet-limit="3"></a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </div>
