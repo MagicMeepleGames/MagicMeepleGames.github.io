@@ -155,7 +155,7 @@
   min-players: 1
   max-players: 5
   solo-mode: true
-  cooperative-mode: semi-cooperative
+  cooperative-mode: false
   competitive-mode: true
   play-time: 10 more minutes
   setup-time: no additional setup time
@@ -178,4 +178,38 @@
   link-to-rules: https://boardgamegeek.com/filepage/162519/overworld-rulebook-optimized
   link-to-bgg: TBA
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/overworld-16-bit-tile-placement-and-exploration-bo
-  
+
+- name: Incoming Transmission
+  product-code: MMG301
+  designer: Michael Lipton
+#  developer: Ian Stedman
+#  artist: 
+  graphic-designer: Matt Arnold
+  publisher: Magic Meeple Games
+#  ages-official: 
+#  ages-community: 
+  min-players: 1
+  max-players: 5
+  solo-mode: true
+  cooperative-mode: true
+  competitive-mode: false
+#  play-time: 
+#  setup-time: 
+#  teach-learn-time: 
+#  complexity: 
+#  short-description: 
+#  long-description: 
+#  box-image-filename: 
+#  game-contents-image: 
+#  closeup-front-image: 
+#  closeup-back-image: 
+#  original-msrp: 
+#  current-msrp: 
+#  weight: 
+#  wholesale-price: 
+#  case-quantity: 
+  availability: In Development
+  available: false
+#  link-to-rules: 
+#  link-to-bgg: 
+#  link-to-kickstarter: 
