@@ -54,10 +54,10 @@ ul.product-nav {
     justify-content: center;
 }
 .header {
-        height: 14rem;
-	top: 2rem;
-        background: url("/assets/images/magic-meeple-games-logo.svg") no-repeat;
-        background-position: 1rem 0;
+    height: 16rem;
+    top: 2rem;
+    background: url("/assets/images/magic-meeple-games-logo.svg") no-repeat;
+    background-position: -2rem -1rem;
 	background-size: 36rem;
 }
 // .header-tab-background, .header-bottom-background {
@@ -374,6 +374,9 @@ input[type=radio]:checked + label:before {
 
 /* shop */
 
+.snipcart-summary {
+    padding-left: 5rem;
+}
 .product {
     width: 22rem;
     display: inline-grid;
@@ -565,7 +568,7 @@ li.cart a {
 }
 .snip-layout__main-container {
     border: .5rem solid #021A29 !important;
-    background-color: $complement-very-light !important;
+    background-color: #eee !important;
 }
 .snip-header, .snip-footer {
     background-color: $primary-dark !important;
@@ -580,7 +583,7 @@ li.cart a {
     color: $complement-light !important;
 }
 .snip-btn {
-    padding: 0.5rem 2rem !important;
+    color: #eee;
     background-color: $primary-dark !important;
     border-radius: 0.5rem !important;
     border-left: 0.1rem solid $primary-mid !important;
@@ -591,6 +594,9 @@ li.cart a {
 }
 .snip-actions {
     border-top: 1px solid $primary-light !important;
+}
+.snip-footer__copyright {
+    color: #eee !important;
 }
 
 /* "Friends Of The Meeple" Carousel */
