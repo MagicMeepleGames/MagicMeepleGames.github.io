@@ -81,13 +81,13 @@ ul.product-nav {
 // .header-tab-background, .header-bottom-background, 
 .main, .footer {
     background-color: rgba(131,164,185,0.9);
+    border: 1rem solid $primary-light;
 }
 .header, .main, .footer{
 	position: relative;
 	clear: both;
 	margin: 0 auto;
 	margin-bottom: 2rem;
-	padding: 1rem;
 	width: 68rem;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -96,7 +96,7 @@ ul.product-nav {
 
 /* featured content on the page */
 
-h1 {
+h1, h2, h3 {
 	color: $primary-dark;
 	line-height: 1;
 }
