@@ -6,6 +6,8 @@ CritHit.png
 	https://www.kickstarter.com/projects/crithit/crit-hit-3-arizonas-tabletop-gaming-convention
 DMG.png
 	https://www.dailymagicgames.com/
+Gatekeeper.png
+	https://www.gatekeepergaming.com/
 GeekCraft.png
 	http://geek-craft.com/
 GG.png
