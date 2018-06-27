@@ -81,7 +81,7 @@ ul.product-nav {
 // .header-tab-background, .header-bottom-background, 
 .main, .footer {
     background-color: rgba(131,164,185,0.9);
-    border: 1rem solid $primary-light;
+    border: 1rem solid $primary-very-light;
 }
 .header, .main, .footer{
 	position: relative;
@@ -104,6 +104,9 @@ h1, h2, h3 {
 	line-height: 1;
 }
 h1 {
+    margin: 0;
+    margin-left: -5rem;
+    margin-bottom: 1rem;
     background-color: $primary-very-light;
     padding: 1rem;
     border-bottom-right-radius: 3rem;
@@ -115,6 +118,9 @@ h1 {
                 0 -.1rem #ddd,
                 .1rem 0 #ddd,
                 -.1rem 0 #ddd;
+}
+h2, h3 {
+    padding-left: 5rem;
 }
 
 /* Navigation */
