@@ -119,7 +119,7 @@ ul.product-nav {
     padding-left: 5rem;
 }
 
-.pages .container p, .pages .container ul {
+.pages .container p, .pages .container uls {
     padding-left: 5rem;
     padding-right: 5rem;
 }
@@ -374,6 +374,9 @@ input[type=radio]:checked + label:before {
 
 /* shop */
 
+.shop h3 {
+    padding: 0 5rem;
+}
 .snipcart-summary {
     padding-left: 5rem;
 }
@@ -583,7 +586,7 @@ li.cart a {
     color: $complement-light !important;
 }
 .snip-btn {
-    color: #eee;
+    color: #eee !important;
     background-color: $primary-dark !important;
     border-radius: 0.5rem !important;
     border-left: 0.1rem solid $primary-mid !important;

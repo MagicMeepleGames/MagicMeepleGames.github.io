@@ -4,6 +4,7 @@ layout: shop
 category: pages
 order: 5
 ---
+#Shop
 
 ## You can order our games direct from us. Our online store is always open!
 
