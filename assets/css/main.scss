@@ -477,8 +477,6 @@ button.btn-buy:disabled {
 .grid {
     border: 2rem solid $primary-very-light;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(11rem, 31rem));
-    grid-template-rows: auto;
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
     margin-bottom: 2rem;
@@ -627,6 +625,7 @@ marquee img:hover:after {
 }
 .tweet-stream {
     grid-column: 1;
+    grid-row: 1 / span 2;
 }
 .home-grid-col {
     background-color: $complement-light;

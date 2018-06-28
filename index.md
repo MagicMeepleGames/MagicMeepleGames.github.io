@@ -17,9 +17,11 @@ order: 1
         <h2>Friends Of The Meeple</h2>
         <marquee behavior="alternate">
             {% for friend in site.data.friends %}
-            <a href="{{ friend.url }}"><img src="assets/images/FriendsOftheMeeple/{{ friend.filename }}" data-caption="{{ friend.name }}"></a>
+            <a href="{{ friend.url }}"><img src="assets/images/FriendsOftheMeeple/{{ friend.filename }}" data-caption="{{ friend.name }}" target="_blank" ></a>
             {% endfor %}
         </marquee>
+    </div>
+    <div class="character">
     </div>
     <div class="tweet-stream home-grid-col">
         <h2>Tweets by <a href="https://twitter.com/MagicMeeple">@MagicMeeple</a></h2>
