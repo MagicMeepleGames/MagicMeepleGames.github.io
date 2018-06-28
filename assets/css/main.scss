@@ -620,6 +620,11 @@ marquee img {
     max-width: 100%;
     object-fit: cover;
   }
+marquee img:hover:after {
+    content: attr(data-caption);
+    position: absolute;
+    bottom: -1.25rem;
+}
 .tweet-stream {
     grid-column: 1;
 }

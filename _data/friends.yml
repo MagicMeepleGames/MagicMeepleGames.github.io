@@ -1,0 +1,45 @@
+- name: Boardgamegeek
+  filename: BGG.png
+  url: https://boardgamegeek.com/boardgamepublisher/29569/magic-meeple-games
+- name: Cascade Games
+  filename: Cascade.png
+  url: https://www.cascadegames.com/
+- name: Crit Hit! 3 Gaming Convention
+  filename: CritHit.png
+  url: https://www.kickstarter.com/projects/crithit/crit-hit-3-arizonas-tabletop-gaming-convention
+- name: Daily Magic Games
+  filename: DMG.png
+  url: https://www.dailymagicgames.com/
+- name: Gatekeeper Games
+  filename: Gatekeeper.png
+  url: https://www.gatekeepergaming.com/
+- name: Geek-Craft
+  filename: GeekCraft.png
+  url: http://geek-craft.com/
+- name: Gamelyn Games
+  filename: GG.png
+  url: https://www.gamelyngames.com/
+- name: Imperial Outpost Game Store
+  filename: IOG.png
+  url: https://www.facebook.com/imperial.outpost.7/
+- name: Kickstarter
+  filename: KS.png
+  url: https://www.kickstarter.com/profile/magicmeeplegames
+- name: Punchboard Media
+  filename: PBM.png
+  url: https://www.punchboardmedia.com/
+- name: RinCon Game Convention
+  filename: RinCon.png
+  url: http://rincongames.com/
+- name: The Game Crafter
+  filename: TGC.png
+  url: thegamecrafter.com
+- name: Talon Strikes Studios
+  filename: TSS.png
+  url: http://talonstrikes.com/
+- name: Tabletopia
+  filename: TT.png
+  url: https://tabletopia.com/games/fire-of-eidolon
+- name: Tabletop Simulator
+  filename: TTS.png
+  url: https://store.steampowered.com/app/468735/Tabletop_Simulator__Darkrock_Ventures/

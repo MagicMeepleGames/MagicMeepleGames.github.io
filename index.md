@@ -16,10 +16,8 @@ order: 1
     <div class="friends-of-the-meeple home-grid-col">
         <h2>Friends Of The Meeple</h2>
         <marquee behavior="alternate">
-            {% for static_file in site.static_files %}
-            {% if static_file.path contains 'FriendsOftheMeeple' %}
-            <img src="assets/images/FriendsOftheMeeple/{{ static_file.name }}">
-            {% endif %}
+            {% for friend in site.data.friends %}
+            <a href="{{ friend.url }}"><img src="assets/images/FriendsOftheMeeple/{{ friend.filename }}" data-caption="{{ friend.name }}"></a>
             {% endfor %}
         </marquee>
     </div>
