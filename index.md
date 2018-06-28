@@ -13,6 +13,11 @@ order: 1
 {% include progressbar.html logo="/darkrock-ventures/darkrock_ventures-500px.png" alt="Darkrock Ventures" percent="100%" status="In stock now! Click here!" link="/shop.html" %}
 
 <div class="home-grid">
+    <div class="tweet-stream home-grid-col">
+        <h2>Tweets by <a href="https://twitter.com/MagicMeeple">@MagicMeeple</a></h2>
+        <a class="twitter-timeline" href="https://twitter.com/MagicMeeple?ref_src=twsrc%5Etfw" data-chrome="transparent noheader nofooter" width="100%" data-tweet-limit="3"></a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
     <div class="friends-of-the-meeple home-grid-col">
         <h2>Friends Of The Meeple</h2>
         <marquee behavior="alternate">
@@ -20,12 +25,5 @@ order: 1
             <a href="{{ friend.url }}"><img src="assets/images/FriendsOftheMeeple/{{ friend.filename }}" data-caption="{{ friend.name }}" target="_blank" ></a>
             {% endfor %}
         </marquee>
-    </div>
-    <div class="character">
-    </div>
-    <div class="tweet-stream home-grid-col">
-        <h2>Tweets by <a href="https://twitter.com/MagicMeeple">@MagicMeeple</a></h2>
-        <a class="twitter-timeline" href="https://twitter.com/MagicMeeple?ref_src=twsrc%5Etfw" data-chrome="transparent noheader nofooter" width="100%" data-tweet-limit="3"></a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </div>
