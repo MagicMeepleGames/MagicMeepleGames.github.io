@@ -1,9 +1,30 @@
-BGG.PNG https://boardgamegeek.com/boardgamepublisher/29569/magic-meeple-games
-DMG.PNG https://www.dailymagicgames.com/
-GG.PNG https://www.gamelyngames.com/
-IOG.PNG https://www.facebook.com/imperial.outpost.7/
-KS.PNG https://www.kickstarter.com/profile/magicmeeplegames
-TGC.PNG https://www.thegamecrafter.com
-TSS.PNG http://talonstrikes.com/
-TT.PNG https://tabletopia.com/games/fire-of-eidolon
-TTS.PNG  https://store.steampowered.com/app/468735/Tabletop_Simulator__Darkrock_Ventures/
+BGG.png
+	https://boardgamegeek.com/boardgamepublisher/29569/magic-meeple-games
+Cascade.png
+	https://www.cascadegames.com/
+CritHit.png
+	https://www.kickstarter.com/projects/crithit/crit-hit-3-arizonas-tabletop-gaming-convention
+DMG.png
+	https://www.dailymagicgames.com/
+Gatekeeper.png
+	https://www.gatekeepergaming.com/
+GeekCraft.png
+	http://geek-craft.com/
+GG.png
+	https://www.gamelyngames.com/
+IOG.png
+	https://www.facebook.com/imperial.outpost.7/
+KS.png
+	https://www.kickstarter.com/profile/magicmeeplegames
+PBM.png
+	https://www.punchboardmedia.com/
+RinCon.png
+	http://rincongames.com/
+TGC.png
+	thegamecrafter.com
+TSS.png
+	http://talonstrikes.com/
+TT.png
+	https://tabletopia.com/games/fire-of-eidolon
+TTS.png
+	https://store.steampowered.com/app/468735/Tabletop_Simulator__Darkrock_Ventures/
