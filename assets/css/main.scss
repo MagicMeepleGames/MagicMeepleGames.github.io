@@ -96,11 +96,11 @@ ul.product-nav {
 
 /* featured content on the page */
 
-.container>h1, .container>h2, .container>h3 {
+.container>h1, .container>h2, .container>h3, form>h1, form>h2, form>h3 {
 	color: $primary-dark;
 	line-height: 1;
 }
-.container>h1 {
+.container>h1, form>h1 {
     margin: 0;
     margin-bottom: 1rem;
     background-color: $primary-very-light;
@@ -114,11 +114,11 @@ ul.product-nav {
                 .1rem 0 #ddd,
                 -.1rem 0 #ddd;
 }
-.container>h2, .container>h3 {
-    padding-left: 5rem;
+.container>h2, .container>h3, form>h2, form>h3 {
+    padding: 0 5rem 0 5rem;
 }
 
-.pages .container>p, .pages .container>ul {
+.pages .container>p, .pages .container>ul, form>p, form>ul {
     padding-left: 5rem;
     padding-right: 5rem;
 }
@@ -373,7 +373,7 @@ input[type=radio]:checked + label:before {
 
 /* shop */
 
-.shop h3 {
+.shop>h3 {
     padding: 0 5rem;
 }
 .snipcart-summary {
@@ -407,6 +407,9 @@ input[type=radio]:checked + label:before {
     overflow:hidden;
     text-indent:112%;
     white-space:nowrap;
+}
+.product h1 {
+    line-height: 2rem;
 }
 .product h2, .product h3 {
     color: $complement-dark;
