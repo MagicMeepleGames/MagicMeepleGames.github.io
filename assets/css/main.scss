@@ -100,12 +100,11 @@ ul.product-nav {
 	color: $primary-dark;
 	line-height: 1;
 }
-.container>h1, .container>h2 {
+.container>h1 {
     margin: 0;
     margin-bottom: 1rem;
     background-color: $primary-very-light;
     padding: 1rem;
-    border-bottom-right-radius: 3rem;
     text-shadow: 0.1rem 0.1rem #ddd,
                 -0.1rem 0.1rem #ddd,
                 0.1rem -0.1rem #ddd,
@@ -489,7 +488,7 @@ button.btn-buy:disabled {
     background-color: $primary-very-light;
     padding: 1rem;
     border-bottom-right-radius: 3rem;
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 4;
     grid-row: 1;
 }
 .grid h1, .grid .buy {
@@ -504,7 +503,7 @@ button.btn-buy:disabled {
                 -.1rem 0 #ddd;
 }
 .grid .buy {
-    grid-column: 4 / span 2;
+    grid-column: 5 / span 6;
     grid-row: 1;
     color: $primary-dark;
     font-size: xx-large;
@@ -527,27 +526,27 @@ button.btn-buy:disabled {
     list-style-type: none;
 }
 .grid .details-box-image {
-    grid-column: 2;
-    grid-row: 2 / span 2;
+    grid-column: 2 / span 4;
+    grid-row: 2 / span 3;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 .grid .credits {
-    grid-column: 4 / span 2;
+    grid-column: 6;
     grid-row: 3;
     font-style: oblique;
 }
 .grid .links {
-    grid-column: 4 / span 2;
+    grid-column: 6;
     grid-row: 4;
 }
 .grid .short-description {
-    grid-column: 3;
+    grid-column: 6;
     grid-row: 2;
 }
 .grid .long-description {
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 5;
     grid-row: 4;
 }
 
