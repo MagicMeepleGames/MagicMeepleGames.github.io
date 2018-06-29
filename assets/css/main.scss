@@ -80,7 +80,7 @@ ul.product-nav {
 // }
 // .header-tab-background, .header-bottom-background, 
 .main, .footer {
-    background-color: rgba(131,164,185,0.9);
+    background-color: rgb(179, 223, 252, 0.9);
     border: 1rem solid $primary-very-light;
 }
 .header, .main, .footer{
@@ -96,11 +96,11 @@ ul.product-nav {
 
 /* featured content on the page */
 
-.pages h1, .pages h2, .pages h3 {
+.container>h1, .container>h2, .container>h3 {
 	color: $primary-dark;
 	line-height: 1;
 }
-.pages h1, .pages h2 {
+.container>h1, .container>h2 {
     margin: 0;
     margin-bottom: 1rem;
     background-color: $primary-very-light;
@@ -115,11 +115,11 @@ ul.product-nav {
                 .1rem 0 #ddd,
                 -.1rem 0 #ddd;
 }
-.pages h2, .pages h3 {
+.container>h2, .container>h3 {
     padding-left: 5rem;
 }
 
-.pages .container p, .pages .container uls {
+.pages .container>p, .pages .container>ul {
     padding-left: 5rem;
     padding-right: 5rem;
 }
@@ -480,7 +480,7 @@ button.btn-buy:disabled {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
     margin-bottom: 2rem;
-    background-color: rgba(250,250,250,0.7);
+    background-color: rgb(179, 223, 252, 0.9);
 }
 .grid h1 {
     margin: 0;
