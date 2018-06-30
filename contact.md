@@ -38,3 +38,5 @@ order: 5
 <p><textarea name="entry.1856670343" tabindex="6" rows="5" style="width: 90%" required ></textarea></p>
 
 <p><input type="submit" value="Send" tabindex="7" /></p>
+
+</form>

@@ -39,8 +39,11 @@
 {% endfor %}
 
 {{ content }}
-<div name="call-to-action">
-</div>
+
+{% if product.call-to-action %}
+{% include notification-signup-form.html %}
+{% endif %}
+
 </div>
 </div>
 {% include footer.html %}
