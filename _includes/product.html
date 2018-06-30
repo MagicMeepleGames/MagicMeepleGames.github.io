@@ -53,7 +53,7 @@
             </button>
         {% else %}
             <button class="btn-call-to-action" >
-                <a href="{{ site.url }}/{{ p.name | slugify }}.html#call-to-action">
+                <a href="{{ site.url }}/{{ p.name | slugify }}.html#{{ p.name | slugify }}-form">
                     {{ p.call-to-action }}
                 </a>
             </button>

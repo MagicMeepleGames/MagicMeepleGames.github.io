@@ -465,7 +465,7 @@ button.btn-call-to-action:disabled {
 .product-details-page .main {
     background-color: unset;
 }
-.grid {
+.grid, .product-details-page .container>div {
     border: 2rem solid $primary-very-light;
     display: grid;
     grid-column-gap: 2rem;
