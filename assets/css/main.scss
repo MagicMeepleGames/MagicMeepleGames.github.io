@@ -22,6 +22,8 @@ $complement-light: #DFC272;	// light ochre yellow */
 $complement-dark: #755B12;	// raw umber, yellow ochre tan */
 $complement-very-dark: #413000;	// cola, yellowish brown */
 
+$main-pad: 0 5rem 0 5rem;
+
 body {
     font-family: "Josefin Sans", "Proxima Nova", Helvetica, Corbel, sans-serif;
     text-decoration: none;
@@ -60,25 +62,6 @@ ul.product-nav {
     background-position: -2rem -1rem;
 	background-size: 36rem;
 }
-// .header-tab-background, .header-bottom-background {
-//     position: absolute;
-//     left: 11rem;
-// }
-// .header-tab-background {
-//     height: 5rem;
-//     width: 34rem;
-//     border-top-left-radius: 1rem;
-//     border-top-right-radius: 1rem;
-// }
-// .header-bottom-background {
-//     top: 6.5rem;
-//     height: 10rem;
-//     width: 67rem;
-//     border-bottom-right-radius: 1rem;
-//     border-bottom-left-radius: 1rem;
-//     border-top-right-radius: 1rem;
-// }
-// .header-tab-background, .header-bottom-background, 
 .main, .footer {
     background-color: rgba(179, 223, 252, 0.9);
     border: 1rem solid $primary-very-light;
@@ -115,12 +98,10 @@ ul.product-nav {
                 -.1rem 0 #ddd;
 }
 .container>h2, .container>h3, form>h2, form>h3, form>p {
-    padding: 0 5rem 0 5rem;
-}
+    padding: $main-pad;
 
 .pages .container>p, .pages .container>ul, form>p, form>ul {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding: $main-pad;
 }
 
 /* Navigation */
@@ -341,6 +322,9 @@ input[type=text], input[type=email] {
     border: .1rem solid $complement-very-light;
     border-radius: .25rem;
 }
+.radio-button-group {
+    padding: $main-pad;
+}
 input[type=submit], .radio-btn {
     cursor: pointer;
     color: $complement-very-light;
@@ -435,6 +419,7 @@ button.btn-call-to-action {
 }
 button.btn-call-to-action a {
     color: #fff;
+    text-decoration: none;
 }
 button.btn-call-to-action:disabled {
     background-color: $complement-dark;
