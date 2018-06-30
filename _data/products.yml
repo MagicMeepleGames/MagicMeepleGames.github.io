@@ -116,7 +116,7 @@
   graphic-designer: Matt Arnold, Ian Stedman
   publisher: Magic Meeple Games
   ages-official: 14+
-#  ages-community: TBA
+#  ages-community: 
   min-players: 1
   max-players: 4
   solo-mode: true
@@ -125,7 +125,7 @@
   play-time: 30-40 (mins)
   setup-time: 5 (mins)
   teach-learn-time: 15 (mins)
-#  complexity: TBA
+#  complexity: 
   short-description: Strategic, diceless, tile placement/area control game for 1-4 with a retro videogame flair, all in a super-portable package!
   long-description: In every classic JRPG, the heroes encountered a mysterious stranger, who gave them a map to a dungeon, and stocked them with potions, keys, and other provisions. But how was the map drawn? How did the wise stranger learn of all these dire warnings? In Overworld, you are the hero's mysterious mentor. All those years before you sent the hero to the underworld, you mapped the Overworld! By laying tiles, you will seek to claim regions of Forests or Mountains with your Bird meeples, and regions of Reefs or Whirlpools with your Ship meeples. When the tiles form a hole in the world, the player who explored the most tiles there will place a Dungeon Door meeple into the hole. Can you foresee uncertain spots in the geography, indeterminate in the distance? Will you uncover a dungeon... or wander the repeating pixel textures forever?
   logo: overworld-logo-500px.png
@@ -135,9 +135,9 @@
   closeup-back-image: overworld_box_back_1000px.png
   original-msrp: 39.99
   current-msrp: 39.99
-  weight: TBA
+#  weight: 
   wholesale-price: 20.00
-  case-quantity: TBA
+#  case-quantity: 
   expansions-included:  Airship Tile, Provisions Expansion, Towns Expansion, Solo Quest Mode
   expansions-sold-separately: Summoners (5th Player) Expansion
   availability: Shipping Soon
@@ -155,7 +155,7 @@
   graphic-designer: Matt Arnold, Ian Stedman
   publisher: Magic Meeple Games
   ages-official: no change
-  ages-community: TBA
+#  ages-community: 
   min-players: 1
   max-players: 5
   solo-mode: true
@@ -168,20 +168,20 @@
   short-description: AKA "5th Player Add-on" Expand your <em>Overworld</em> experience with playing pieces to add a 5th player to the game, as well as new tiles and tokens for the <em>Summoners</em> game variant! (Base game required to play)
   long-description: <em>Overworld Summoners</em> expands the base game to 5 players with additional tiles and tokens to facilitate ALL of the additional rules found in the booklet, including the <em>Summoners</em> variant! Also introduces Desert and Glacier regions to the game!
   box-image-filename: 500px_OVWsummoners_Contents.jpg
-#  game-contents-image: TBA
-#  closeup-front-image: TBA
-#  closeup-back-image: TBA
+#  game-contents-image: 
+#  closeup-front-image: 
+#  closeup-back-image: 
   original-msrp: 9.99
   current-msrp: 9.99
-  weight: TBA
+#  weight: 
   wholesale-price: 5.00
-  case-quantity: TBA
+#  case-quantity: 
   expands: Overworld
   availability: Shipping Soon
   available: false
   call-to-action: 'Preorder'
   link-to-rules: https://boardgamegeek.com/filepage/162519/overworld-rulebook-optimized
-  link-to-bgg: TBA
+#  link-to-bgg: 
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/overworld-16-bit-tile-placement-and-exploration-bo
 
 - name: Incoming Transmission
@@ -209,7 +209,7 @@
 #  closeup-front-image: 
 #  closeup-back-image: 
 #  original-msrp: 
-  current-msrp: TBA
+#  current-msrp: 
 #  weight: 
 #  wholesale-price: 
 #  case-quantity: 
