@@ -49,7 +49,7 @@
                     data-item-weight="{{ p.weight | replace: 'g', '' }}"
                     data-item-url="https://magicmeeplegames.github.io/shop.html"
                     data-item-description="{{ p.short-description }}" >
-                {% p.call-to-action %}
+                {{ p.call-to-action }}
             </button>
         {% else %}
             <button class="btn-call-to-action" >
