@@ -40,7 +40,7 @@
 
 {{ content }}
 
-{% if product.call-to-action %}
+{% if product.call-to-action != 'Buy' %}
 {% include notification-signup-form.html %}
 {% endif %}
 
