@@ -30,15 +30,16 @@ ages {{ product.ages-official }}
 <div class="call-to-action">
     {% if product.available == true %}
     <button class="snipcart-add-item btn-call-to-action"
-    data-item-id="{{ product.product-code }}"
-    data-item-name="{{ product.name }}"
-    data-item-price="{{ product.current-msrp }}"
-    data-item-weight="{{ product.weight | replace: 'g', '' }}"
-    data-item-url="https://magicmeeplegames.github.io/shop.html"
-    data-item-description="{{ product.short-description }}" >
-    {{ product.call-to-action }}
-</button>
-{% endif %}
+        data-item-id="{{ product.product-code }}"
+        data-item-name="{{ product.name }}"
+        data-item-price="{{ product.current-msrp }}"
+        data-item-weight="{{ product.weight | replace: 'g', '' }}"
+        data-item-url="https://magicmeeplegames.github.io/shop.html"
+        data-item-description="{{ product.short-description }}" >
+        {{ product.call-to-action }}
+    </button>
+    {% else %}
+    {% endif %}
 <span class="price">${{ product.current-msrp }}</span>
 </div>
 <div class="credits text-box">

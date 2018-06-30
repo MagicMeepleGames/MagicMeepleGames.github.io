@@ -1,4 +1,5 @@
 <div class="progressbar">
+  <a href="{{ site.url }}/{{ include.link | slugify }}.html#{{ include.link | slugify }}-form">
   {% if include.heroimage %}
   <div class="inline-hero" style="background-image: url(assets/images/{{ include.heroimage | replace: " ", "%20" }})" role="img" alt="{{ include.alt }}">
   </div>
@@ -9,9 +10,12 @@
   {% endif %}
   <div class="project-status">Project Status:
     <div class="whole-meter">
-      <span class="status-message">{{ include.status }} </span>
+      <span class="status-message">
+        {{ include.status }}
+      </span>
       <span class="meter-bar p{{ include.percent | remove: "%" }}" style="width: {{ include.percent | remove: "%" | times: 0.97 | round }}%">
       </span>
     </div>
   </div>
+  </a>
 </div>
