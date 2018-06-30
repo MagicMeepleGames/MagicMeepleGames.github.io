@@ -433,6 +433,9 @@ button.btn-call-to-action {
     border-bottom: 0.2rem solid $primary-very-dark;
     border-left: 0.2rem solid $primary-mid;
 }
+button.btn-call-to-action a {
+    color: #fff;
+}
 button.btn-call-to-action:disabled {
     background-color: $complement-dark;
     border: none;

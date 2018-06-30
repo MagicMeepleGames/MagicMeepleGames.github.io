@@ -59,9 +59,11 @@
             </button>
         {% endif %}
         </h2>
+        {% if p.current-msrp %}
         <h2>
             <span class="price">${{ p.current-msrp | replace: "$", "" }}</span>
         </h2>
+        {% endif %}
         {% if player-range %}
         <h3 class="players">{{ player-range }} </h3>
         {% endif %}
