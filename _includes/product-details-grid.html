@@ -27,7 +27,7 @@ ages {{ product.ages-official }}
 <div class="details-box-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.box-image }})">
 </div>
 {% endif %}
-<div class="buy">
+<div class="call-to-action">
     {% if product.available == true %}
     <button class="snipcart-add-item btn-buy"
     data-item-id="{{ product.product-code }}"
@@ -36,7 +36,7 @@ ages {{ product.ages-official }}
     data-item-weight="{{ product.weight | replace: 'g', '' }}"
     data-item-url="https://magicmeeplegames.github.io/shop.html"
     data-item-description="{{ product.short-description }}" >
-    Buy
+    {{ product.call-to-action }}
 </button>
 {% endif %}
 <span class="price">${{ product.current-msrp }}</span>

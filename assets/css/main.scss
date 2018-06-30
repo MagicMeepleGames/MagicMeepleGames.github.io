@@ -114,7 +114,7 @@ ul.product-nav {
                 .1rem 0 #ddd,
                 -.1rem 0 #ddd;
 }
-.container>h2, .container>h3, form>h2, form>h3 {
+.container>h2, .container>h3, form>h2, form>h3, form>p {
     padding: 0 5rem 0 5rem;
 }
 
@@ -420,7 +420,7 @@ input[type=radio]:checked + label:before {
     float: left;
     margin: 0 1rem 0 0;    
 }
-button.btn-buy {
+button.btn-call-to-action {
     font-size: x-large;
     font-weight: bold;
     font-family: "Josefin Sans", sans-serif;
@@ -433,7 +433,7 @@ button.btn-buy {
     border-bottom: 0.2rem solid $primary-very-dark;
     border-left: 0.2rem solid $primary-mid;
 }
-button.btn-buy:disabled {
+button.btn-call-to-action:disabled {
     background-color: $complement-dark;
     border: none;
 }
@@ -494,7 +494,7 @@ button.btn-buy:disabled {
     grid-column: 1 / span 4;
     grid-row: 1;
 }
-.grid h1, .grid .buy {
+.grid h1, .grid .call-to-action {
     align-self: center;
     text-shadow: 0.1rem 0.1rem #ddd,
                 -0.1rem 0.1rem #ddd,
@@ -505,8 +505,8 @@ button.btn-buy:disabled {
                 .1rem 0 #ddd,
                 -.1rem 0 #ddd;
 }
-.grid .buy {
-    grid-column: 5 / span 6;
+.grid .call-to-action {
+    grid-column: 5 / span 2;
     grid-row: 1;
     color: $primary-dark;
     font-size: xx-large;
@@ -604,12 +604,12 @@ li.cart a {
 /* "Friends Of The Meeple" Carousel */
 .home-grid {
     display: grid;
-    grid-template-columns: 22rem 22rem 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
     grid-template-rows: 55rem;
 }
 .friends-of-the-meeple {
-    grid-row: 1;
-    grid-column: 3;
+    // grid-row: 1;
+    // grid-column: 3;
 }
 marquee {
     border: 1rem solid $complement-dark;
@@ -619,19 +619,19 @@ marquee {
 marquee img {
     max-width: 100%;
     object-fit: cover;
-  }
+}
 marquee img:hover:after {
     content: attr(data-caption);
     position: absolute;
     bottom: -1.25rem;
 }
 .tweet-stream {
-    grid-column: 1;
-    grid-row: 1 / span 2;
+    // grid-column: 1;
+    // grid-row: 1 / span 2;
 }
 .home-grid-col {
     background-color: $complement-light;
-    padding: .5rem;
+    padding: .5rem 5rem .5rem 5rem;
     margin: 1rem;
 }
 

@@ -42,14 +42,20 @@
         </div>
         <h2>
         {% if p.available == true %}
-            <button class="snipcart-add-item btn-buy"
+            <button class="snipcart-add-item btn-call-to-action"
                     data-item-id="{{ p.product-code }}"
                     data-item-name="{{ p.name }}"
                     data-item-price="{{ p.current-msrp }}"
                     data-item-weight="{{ p.weight | replace: 'g', '' }}"
                     data-item-url="https://magicmeeplegames.github.io/shop.html"
                     data-item-description="{{ p.short-description }}" >
-                Buy
+                {% p.call-to-action %}
+            </button>
+        {% else %}
+            <button class="btn-call-to-action" >
+                <a href="{{ site.url }}/{{ p.name | slugify }}.html#call-to-action">
+                    {{ p.call-to-action }}
+                </a>
             </button>
         {% endif %}
         </h2>

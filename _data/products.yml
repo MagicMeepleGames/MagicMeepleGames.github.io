@@ -31,6 +31,7 @@
   expansions-sold-separately: Darkrock Ventures Expansion Pack #1
   availability: Now available
   available: true
+  call-to-action: 'Buy'
   link-to-rules: https://boardgamegeek.com/filepage/118140/darkrock-ventures-official-rulebook
   link-to-bgg: https://boardgamegeek.com/boardgame/166418/darkrock-ventures
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/darkrock-ventures-asteroid-mining-in-deep-space-bo
@@ -64,6 +65,7 @@
   expands: Darkrock Ventures
   availability: Now available
   available: true
+  call-to-action: 'Buy'
   link-to-rules: https://boardgamegeek.com/filepage/118140/darkrock-ventures-official-rulebook
   link-to-bgg: https://boardgamegeek.com/boardgameexpansion/208856/darkrock-ventures-expansion-pack-1
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/darkrock-ventures-asteroid-mining-in-deep-space-bo
@@ -100,6 +102,7 @@
   expansions-included:  All Kickstarter Stretch Goals, Advanced Heroes (6), Scenario Quests (4), Warp Zone tiles Add-on
   expansions-sold-separately: coming soon
   availability: Now available
+  call-to-action: 'Buy'
   link-to-rules: https://boardgamegeek.com/filepage/151678/fire-eidolon-official-rulebook
   link-to-bgg: https://boardgamegeek.com/boardgame/190333/fire-eidolon
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/fire-of-eidolon-16-bit-inspired-co-op-dungeon-boar
@@ -139,6 +142,7 @@
   expansions-sold-separately: Summoners (5th Player) Expansion
   availability: Shipping Soon
   available: false
+  call-to-action: 'Preorder'
   link-to-rules: https://boardgamegeek.com/filepage/162519/overworld-rulebook-optimized
   link-to-bgg: https://boardgamegeek.com/boardgame/220843/overworld
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/overworld-16-bit-tile-placement-and-exploration-bo
@@ -175,6 +179,7 @@
   expands: Overworld
   availability: Shipping Soon
   available: false
+  call-to-action: 'Preorder'
   link-to-rules: https://boardgamegeek.com/filepage/162519/overworld-rulebook-optimized
   link-to-bgg: TBA
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/overworld-16-bit-tile-placement-and-exploration-bo
@@ -210,6 +215,7 @@
 #  case-quantity: 
   availability: In Development
   available: false
+  call-to-action: 'Notify Me'
 #  link-to-rules: 
 #  link-to-bgg: 
 #  link-to-kickstarter: 
