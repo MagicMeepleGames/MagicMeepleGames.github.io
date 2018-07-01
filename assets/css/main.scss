@@ -474,17 +474,18 @@ button.btn-call-to-action:disabled {
     background-color: rgba(179, 223, 252, 0.9);
 }
 .grid h1 {
+    line-height: 2rem;
     margin: 0;
     margin-left: unset;
     margin-bottom: 1rem;
     background-color: $primary-very-light;
     padding: 1rem;
     border-bottom-right-radius: 3rem;
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 3;
     grid-row: 1;
 }
 .grid h1, .grid .buy {
-    align-self: center;
+    align-self: start;
     text-shadow: 0.1rem 0.1rem #ddd,
                 -0.1rem 0.1rem #ddd,
                 0.1rem -0.1rem #ddd,
@@ -498,10 +499,13 @@ button.btn-call-to-action:disabled {
     font-size: xx-large;
 }
 .grid .call-to-action {
-    grid-column: 5 / span 2;
+    grid-column: 4 / span 3;
     grid-row: 1;
     color: $primary-dark;
     font-weight: bold;
+}
+.input-group {
+    display: flex;
 }
 .grid .text-box {
     background-color: $primary-very-light;
