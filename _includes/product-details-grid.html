@@ -1,5 +1,41 @@
 <div class="grid">
 <h1>{{ product.name }} - {{ product.availability }}</h1>
+<div class="call-to-action">
+    {% if product.available == true %}
+    <button class="snipcart-add-item btn-call-to-action"
+        data-item-id="{{ product.product-code }}"
+        data-item-name="{{ product.name }}"
+        data-item-price="{{ product.current-msrp }}"
+        data-item-weight="{{ product.weight | replace: 'g', '' }}"
+        data-item-url="https://magicmeeplegames.github.io/shop.html"
+        data-item-description="{{ product.short-description }}" >
+        {{ product.call-to-action }}
+    </button>
+    {% elsif product.call-to-action | slugify == "notify-me" %}
+    <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScgZciwTXGyU8kFptXcS3KOfNi2BkW0tD7SOkGqm8daLVkEhQ/formResponse" target="hidden_iframe" onsubmit="submitted=true;" method="POST" id="mG61Hd">
+
+        <div class="input-group">
+            <label for="email">Your Email:</label>
+            <input name="email" type="email" tabindex="0" max-length="70" name="emailAddress" required />
+        </div>
+
+        <div class="input-group">
+            <label for="name">Your Name:</label>
+            <input type="text" tabindex="1" max-length="70" name="entry.1924108681" required />
+        </div>
+
+        <input type="radio" name="entry.1466018481" id="notify-about-{{product-name}}" value="Notify About {{product-name}}" hidden>
+        <textarea name="entry.1856670343" rows="5" style="width: 90%" hidden>{{ product.call-to-action }}</textarea>
+
+        <div class="input-group">
+            <p>Sign up to be notified about this game's availability!</p>
+            <p><input type="submit" value="Send" tabindex="2" /></p>
+        </div>
+
+    </form>
+    {% endif %}
+    <span class="price">${{ product.current-msrp }}</span>
+</div>
 <ul class="gameplay">
 <li>For {{ product.min-players }} to {{ product.max-players }} players</li>
 <li>
@@ -27,21 +63,6 @@ ages {{ product.ages-official }}
 <div class="details-box-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.box-image }})">
 </div>
 {% endif %}
-<div class="call-to-action">
-    {% if product.available == true %}
-    <button class="snipcart-add-item btn-call-to-action"
-        data-item-id="{{ product.product-code }}"
-        data-item-name="{{ product.name }}"
-        data-item-price="{{ product.current-msrp }}"
-        data-item-weight="{{ product.weight | replace: 'g', '' }}"
-        data-item-url="https://magicmeeplegames.github.io/shop.html"
-        data-item-description="{{ product.short-description }}" >
-        {{ product.call-to-action }}
-    </button>
-    {% else %}
-    {% endif %}
-<span class="price">${{ product.current-msrp }}</span>
-</div>
 <div class="credits text-box">
 <ul>
 {% if product.designer %}
