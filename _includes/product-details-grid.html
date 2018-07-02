@@ -11,6 +11,7 @@
         data-item-description="{{ product.short-description }}" >
         {{ product.call-to-action }}
     </button>
+    <span class="price">${{ product.current-msrp }}</span>
     {% elsif product.call-to-action | slugify == "notify-me" %}
     <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScgZciwTXGyU8kFptXcS3KOfNi2BkW0tD7SOkGqm8daLVkEhQ/formResponse" target="hidden_iframe" onsubmit="submitted=true;" method="POST" id="mG61Hd">
 
@@ -34,7 +35,6 @@
 
     </form>
     {% endif %}
-    <span class="price">${{ product.current-msrp }}</span>
 </div>
 <ul class="gameplay">
 <li>For {{ product.min-players }} to {{ product.max-players }} players</li>
