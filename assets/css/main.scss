@@ -507,6 +507,12 @@ button.btn-call-to-action:disabled {
 .input-group {
     display: flex;
 }
+.input-group>*:last-child {
+    padding-left: 2rem;
+}
+.grid form {
+    margin: 1rem 1rem -2rem 1rem;
+}
 .grid .text-box {
     background-color: $primary-very-light;
     padding: .5rem;

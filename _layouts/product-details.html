@@ -28,9 +28,6 @@
 {% assign product-name = product.name | slugify %}
 {% if product-name == page-title %}
 {% include product-details-grid.html %}
-{% if product.call-to-action != 'Buy' %}
-{% include notification-signup-form.html %}
-{% endif %}
 {% endif %}
 {% endfor %}
 
@@ -38,9 +35,6 @@
 {% assign product-expands = product.expands | slugify  %}
 {% if page-title == product-expands %}
 {% include product-details-grid.html %}
-{% endif %}
-{% if product.call-to-action != 'Buy' %}
-{% include notification-signup-form.html %}
 {% endif %}
 {% endfor %}
 
