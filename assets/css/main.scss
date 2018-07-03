@@ -495,7 +495,7 @@ button.btn-call-to-action:disabled {
                 .1rem 0 #ddd,
                 -.1rem 0 #ddd;
 }
-.grid .buy {
+.grid .price {
     font-size: xx-large;
 }
 .grid .call-to-action {
@@ -503,6 +503,10 @@ button.btn-call-to-action:disabled {
     grid-row: 1;
     color: $primary-dark;
     font-weight: bold;
+    padding-top: 2rem;
+}
+.grid .call-to-action>* {
+    margin-right: 1rem;
 }
 .input-group {
     display: flex;
