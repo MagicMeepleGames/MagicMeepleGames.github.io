@@ -206,6 +206,10 @@ ul.product-nav {
     clear: both;
     margin: 1rem;
 }
+.progressbar>a {
+    width: 100%;
+    display: inherit;
+}
 .progressbar a>div {
     float: left;
     margin: 0.5rem;
