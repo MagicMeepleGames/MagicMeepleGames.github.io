@@ -22,20 +22,20 @@
 
         <div class="input-group">
             <label for="email">Your Email:</label>
-            <input name="email" type="email" tabindex="0" max-length="70" name="emailAddress" required />
+            <input name="email" type="email" tabindex="1" max-length="70" name="emailAddress" required />
         </div>
 
         <div class="input-group">
             <label for="name">Your Name:</label>
-            <input type="text" tabindex="1" max-length="70" name="entry.1924108681" required />
+            <input type="text" tabindex="2" max-length="70" name="entry.1924108681" required />
         </div>
 
-        <input type="radio" name="entry.1466018481" id="notify-about-{{product-name}}" value="Notify About {{product-name}}" hidden>
+        <input type="radio" tabindex="3" name="entry.1466018481" id="notify-about-{{product-name}}" value="Notify About {{product-name}}" hidden>
         <textarea name="entry.1856670343" rows="5" style="width: 90%" hidden>{{ product.call-to-action }}</textarea>
 
         <div class="input-group">
-            <p>Sign up to be notified about this game's availability!</p>
-            <p><input type="submit" value="Send" tabindex="2" /></p>
+            <p>Sign up to be notified when this game's Kickstarter launches!</p>
+            <p><input type="submit" tabindex="4" value="Send" /></p>
         </div>
 
     </form>
