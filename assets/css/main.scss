@@ -615,6 +615,16 @@ li.cart a {
 .snip-footer__copyright {
     color: #eee !important;
 }
+.snip-layout__close:before {
+    content: 'Continue Shopping';
+    font-family: "Josefin Sans", "Proxima Nova", Helvetica, Corbel, sans-serif;
+    font-family: "Josefin Sans", "Proxima Nova", Helvetica, Corbel, sans-serif;
+    background-color: $primary-dark;
+    padding: .25rem;
+    border-radius: .5rem;
+    font-size: small;
+    margin-right: .5rem;
+}
 
 /* "Friends Of The Meeple" Carousel */
 .home-grid {
