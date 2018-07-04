@@ -358,7 +358,7 @@ input[type=radio] {
 input[type=radio]:checked + label:before {
     content: '\2713 ';
     position: absolute;
-    left: -1.25rem;
+    left: 1rem;
 }
 
 /* shop */
