@@ -41,6 +41,10 @@
     </form>
     {% endif %}
 </div>
+{% if product.box-image %}
+<div class="details-box-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.box-image }})">
+</div>
+{% endif %}
 <ul class="gameplay">
 <li>For {{ product.min-players }} to {{ product.max-players }} players</li>
 <li>
@@ -64,10 +68,6 @@ ages {{ product.ages-official }}
 <li>Complexity {{ product.complexity }}.</li>
 {% endif %}
 </ul>
-{% if product.box-image %}
-<div class="details-box-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.box-image }})">
-</div>
-{% endif %}
 <div class="credits text-box">
 <ul>
 {% if product.designer %}

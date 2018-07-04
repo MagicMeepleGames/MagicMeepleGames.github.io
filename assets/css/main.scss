@@ -704,6 +704,12 @@ body {
     border-bottom-right-radius: 3rem;
 }
 .grid {
-    display: block;
+    display: block !important;
+}
+.grid .details-box-image {
+    height: 28rem !important;
+}
+.grid .form {
+    margin: 1rem;
 }
 }
