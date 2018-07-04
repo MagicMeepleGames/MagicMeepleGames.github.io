@@ -646,7 +646,7 @@ marquee img:hover:after {
 }
 .home-grid-col {
     background-color: $complement-light;
-    padding: .5rem 5rem .5rem 5rem;
+    padding: .5rem .25rem .5rem .25rem;
     margin: 1rem;
 }
 
@@ -657,11 +657,10 @@ body {
     padding-top: 2rem;
 }
 .header {
-    top: 3rem;
+    top: 4rem;
     height: 16rem;
     background-size: contain;
     margin-bottom: 4rem;
-    background-color: rgba(131,164,185,0.8);
 }
 .header-tab-background {
     display: none;
@@ -673,7 +672,7 @@ body {
     top: -3.7rem;
 }
 .header ul {
-    top: 12rem;
+    bottom: 2rem;
 }
 .header, .main, .footer {
     width: 50rem;
@@ -681,13 +680,11 @@ body {
 .container {
     width: 100%;
     border-right: 0;
-    padding: 0 6rem;
 }
 .progressbar {
-    display: block;
     padding-top: 0.5rem;
 }
-.progressbar>div {
+.progressbar>a>div {
     font-size: xx-large;
     float: none;
     width: 97%;
@@ -705,5 +702,8 @@ body {
 .full {
     border-top-right-radius: 3rem;
     border-bottom-right-radius: 3rem;
+}
+.grid {
+    display: block;
 }
 }
