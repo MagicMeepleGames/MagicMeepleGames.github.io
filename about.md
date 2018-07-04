@@ -56,12 +56,14 @@ Guest of Honor : [Penguicon](http://2018.penguicon.org/) 2018
 A bold leader and respected I.T. and Convention professional. Managerial involvement with gaming conventions including Phoenix Comicon, RinCon, and Crit Hit for years as an experienced event planner. Often wearing the hats of: developer, consultant, business analyst, finance officer, editor, server administrator, long-term planning, outreach, public speaker, and customer relations.
   
 ## Nemo Rathwald - _Graphic Design, Game Designer: **Overworld**_
-
 "Overworld" is Nemo's first game to be published, but will not be the last. Nemo specializes in game components that physically prevent you from breaking rules, so you don't have to remember them.
 
 Nemo got into game design in 2003, at the first Penguicon (a convention of all geeky interests) and has been helping to run the convention ever since, where he playtests new board games of his own design every year.
 
 He laser-cuts his game prototypes at the local hackerspace i3Detroit, where he teaches classes on how to use Adobe Illustrator to create cutting paths for machine tools.
+
+## Michael Eskue - _Game Designer: **Darkrock Ventures**_
+Michael Eskue is the designer of Darkrock Ventures and a few other games like Council of Verona and For The Win.  He and his wife, Lisa, live in the White Mountains of Arizona, and have co-designed a few games that should be available soon: Trash Pandas, Titan Dice, and Oracles.  Michael can often be found at AZ gaming conventions and enjoys teaching and learning all types of games.
   
 ## Michael Lipton - _Game Designer: **Fire of Eidolon**, Game Designer: **Incoming Transmission**_
 
