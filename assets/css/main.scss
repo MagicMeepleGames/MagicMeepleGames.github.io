@@ -620,7 +620,6 @@ li.cart a {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
-    grid-template-rows: 55rem;
 }
 .friends-of-the-meeple {
     // grid-row: 1;
@@ -680,6 +679,10 @@ body {
 .container {
     width: 100%;
     border-right: 0;
+}
+.container>* {
+    border-radius: .5rem;
+    padding: 0 .5rem;
 }
 .progressbar {
     padding-top: 0.5rem;
