@@ -28,6 +28,7 @@
 {% assign product-name = product.name | slugify %}
 {% if product-name == page-title %}
 {% include product-details-grid.html %}
+{% include gallery.html %}
 {% endif %}
 {% endfor %}
 
@@ -35,6 +36,7 @@
 {% assign product-expands = product.expands | slugify  %}
 {% if page-title == product-expands %}
 {% include product-details-grid.html %}
+{% include gallery.html %}
 {% endif %}
 {% endfor %}
 

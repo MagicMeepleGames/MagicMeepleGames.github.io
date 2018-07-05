@@ -358,7 +358,11 @@ input[type=radio] {
 input[type=radio]:checked + label:before {
     content: '\2713 ';
     position: absolute;
-    left: 1rem;
+    left: -.1rem;
+    top: -.1rem;
+    background-color: $complement-dark;
+    border-radius: .5rem;
+    padding: .48rem .8rem;
 }
 
 /* shop */
@@ -567,6 +571,17 @@ button.btn-call-to-action:disabled {
 .grid .long-description {
     grid-column: 1 / span 5;
     grid-row: 4;
+}
+
+/* gallery */
+
+.gallery-image {
+    float: left;
+    width: 22rem;
+    height: 10rem;
+    background-size: cover, 9rem;
+    background-position: center;
+    border: 1rem solid $complement-light;
 }
 
 /* snipcart customization */
