@@ -575,11 +575,16 @@ button.btn-call-to-action:disabled {
 
 /* gallery */
 
+.gallery {
+    display: block !important;
+}
 .gallery-image {
     float: left;
-    width: 22rem;
-    height: 10rem;
-    background-size: cover, 9rem;
+    width: 18rem;
+    height: 12rem;
+    margin: .5rem;
+    background-color: $complement-light;
+    background-size: contain;
     background-position: center;
     border: 1rem solid $complement-light;
 }
