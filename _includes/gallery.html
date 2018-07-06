@@ -3,7 +3,7 @@
 {% for static_file in site.static_files %}
 {%   assign path_segments = static_file.path | split: "/"" %}
 {%   assign folder = path_segments[3] %}
-{%   if folder == product-name %}
+{%   if path_segments == 4 and folder == product-name %}
 <div class="gallery-image" style="background-image: url('assets/images/{{ product-name }}/{{ static_file.name }}')">
 </div>
 {%   endif %}
