@@ -567,6 +567,8 @@ button.btn-call-to-action:disabled {
 .grid .short-description {
     grid-column: 6;
     grid-row: 2;
+    font-weight: bold;
+    font-size: larger;
 }
 .grid .long-description {
     grid-column: 1 / span 5;
@@ -577,16 +579,20 @@ button.btn-call-to-action:disabled {
 
 .gallery {
     display: block !important;
+    overflow: auto;
+    border: none !important;
+    background-color: transparent !important;
 }
 .gallery-image {
     float: left;
     width: 18rem;
     height: 12rem;
-    margin: .5rem;
-    background-color: $complement-light;
+    margin: 1rem;
+    background-color: $primary-light;
     background-size: contain;
     background-position: center;
-    border: 1rem solid $complement-light;
+    background-repeat: no-repeat;
+    border: 1rem solid $primary-light;
 }
 
 /* snipcart customization */

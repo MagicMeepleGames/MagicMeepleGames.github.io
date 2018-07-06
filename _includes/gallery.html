@@ -1,7 +1,9 @@
 <div class="gallery">
 {% assign product-name = product.name | slugify %}
 {% for static_file in site.static_files %}
-{%   if static_file.path contains product-name %}
+{%   assign path_segments = static_file.path | split: '/' %}
+{%   assign folder = path_segments[1] %}
+{%   if folder == product-name %}
 <div class="gallery-image" style="background-image: url('assets/images/{{ product-name }}/{{ static_file.name }}')">
 </div>
 {%   endif %}
