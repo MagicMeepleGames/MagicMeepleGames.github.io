@@ -12,6 +12,7 @@ order: 1
 
 {% include progressbar.html heroimage="/darkrock-ventures/darkrock-ventures-closeup-500px.png" logo="/darkrock-ventures/darkrock_ventures-500px.png" alt="Darkrock Ventures" percent="100%" status="In stock now! Click here!" link="darkrock-ventures" %}
 
+<div class="subcontainer">
 <div class="home-grid">
     <div class="tweet-stream home-grid-col">
         <h2>Tweets by <a href="https://twitter.com/MagicMeeple">@MagicMeeple</a></h2>
@@ -26,4 +27,5 @@ order: 1
             {% endfor %}
         </marquee>
     </div>
+</div>
 </div>

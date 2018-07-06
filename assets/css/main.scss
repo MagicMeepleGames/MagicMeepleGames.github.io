@@ -654,6 +654,10 @@ li.cart a {
 }
 
 /* "Friends Of The Meeple" Carousel */
+.subcontainer {
+    margin: auto;
+    width: 44rem;
+}
 .home-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
