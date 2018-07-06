@@ -1,6 +1,6 @@
 <div class="gallery">
 {% assign product-name = product.name | slugify %}
-{% image_extensions == '.png, .jpg, .jpeg' | split: ', ' %}
+{% assign image_extensions = '.png, .jpg, .jpeg' | split: ', ' %}
 {% for static_file in site.static_files %}
 {%   assign path_segments = static_file.path | split: "/"" %}
 {%   assign folder = path_segments[3] %}
