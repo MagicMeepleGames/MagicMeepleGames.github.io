@@ -6,6 +6,8 @@
 {%   if folder == product-name %}
 <div class="gallery-image" style="background-image: url('assets/images/{{ product-name }}/{{ static_file.name }}')">
 </div>
+{%   else %}
+. {{folder}} - {{product-name}} .
 {%   endif %}
 {% endfor %}
 </div>
