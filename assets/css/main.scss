@@ -597,6 +597,8 @@ button.btn-call-to-action:disabled {
 .lightbox-image {
     width: 64rem;
     height: 43rem;
+    background-color: $primary-very-light;
+    border: 1rem solid $primary-very-light;
 }
 
 /* snipcart customization */
