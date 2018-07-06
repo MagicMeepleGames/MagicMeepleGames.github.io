@@ -371,7 +371,7 @@ input[type=radio]:checked + label:before {
     padding: 0 5rem;
 }
 .snipcart-summary {
-    padding-left: 5rem;
+    padding: 0 5rem;
 }
 .product {
     width: 22rem;
@@ -588,11 +588,11 @@ button.btn-call-to-action:disabled {
     width: 18rem;
     height: 12rem;
     margin: 1rem;
-    background-color: $primary-very-light;
+    background-color: $complement-very-light;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    border: 1rem solid $primary-very-light;
+    border: 1rem solid $complement-very-light;
 }
 .lightbox-image {
     width: 64rem;
