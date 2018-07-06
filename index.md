@@ -23,7 +23,7 @@ order: 1
         <h2>Friends Of The Meeple</h2>
         <marquee behavior="alternate">
             {% for friend in site.data.friends %}
-            <a href="{{ friend.url }}"><img src="assets/images/FriendsOftheMeeple/{{ friend.filename }}" data-caption="{{ friend.name }}" target="_blank" ></a>
+            <a href="{{ friend.url }}" target="_blank"><img src="assets/images/FriendsOftheMeeple/{{ friend.filename }}" data-caption="{{ friend.name }}" ></a>
             {% endfor %}
         </marquee>
     </div>
