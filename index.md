@@ -10,7 +10,7 @@ order: 1
 
 {% include progressbar.html heroimage="/fire-of-eidolon/fire-of-eidolon-closeup-500px.png" logo="/fire-of-eidolon/fire-of-eidolon-logo-500px.png" alt="Fire Of Eidolon" percent="100%" status="In stock now! Click here!" link="fire-of-eidolon" %}
 
-{% include progressbar.html heroimage="/darkrock-ventures/darkrock-ventures-closeup-500px.png" logo="/darkrock-ventures/darkrock_ventures-500px.png" alt="Darkrock Ventures" percent="100%" status="In stock now! Click here!" link="darkrock-ventures" %}
+{% include progressbar.html heroimage="/darkrock-ventures/Darkrock-Ventures-Centerboard-Red-Closeup.jpg" logo="/darkrock-ventures/darkrock_ventures-500px.png" alt="Darkrock Ventures" percent="100%" status="In stock now! Click here!" link="darkrock-ventures" %}
 
 <div class="subcontainer">
 <div class="home-grid">
