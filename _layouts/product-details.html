@@ -45,5 +45,19 @@
 </div>
 </div>
 {% include footer.html %}
+<script>
+  $(document).ready(function () {
+    var gallery_images = document.getElementsByClassName("gallery-image");
+
+    var makeLarge = function(e) {
+      $(".gallery-image").removeClass("lightbox");
+      $(e.target).addClass("lightbox");
+    };
+
+    for (var i = 0; i < gallery_images.length; i++) {
+      gallery_images[i].addEventListener('click', makeLarge, false);
+    }
+  });
+</script>
 </body>
 </html>
