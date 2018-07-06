@@ -312,7 +312,7 @@ ul.product-nav {
 }
 
 .footer > p {
-    margin: 0 3rem;
+    margin: 3rem;
 }
 
 /* forms */
@@ -585,7 +585,7 @@ button.btn-call-to-action:disabled {
 }
 .gallery-image {
     float: left;
-    width: 18rem;
+    width: 18.65rem;
     height: 12rem;
     margin: 1rem;
     background-color: $complement-very-light;
@@ -593,12 +593,19 @@ button.btn-call-to-action:disabled {
     background-position: center;
     background-repeat: no-repeat;
     border: 1rem solid $complement-very-light;
+    border-radius: 1rem;
 }
 .lightbox-image {
     width: 64rem;
     height: 43rem;
     background-color: $primary-very-light;
     border: 1rem solid $primary-very-light;
+    border-radius: unset;
+}
+
+.gallery-image:not(.lightbox-image):hover {
+    border-color: $primary-dark;
+    background-color: $primary-dark;
 }
 
 /* snipcart customization */
