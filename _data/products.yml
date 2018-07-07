@@ -116,7 +116,7 @@
   graphic-designer: Matt Arnold, Ian Stedman
   publisher: Magic Meeple Games
   ages-official: 14+
-#  ages-community: 
+  ages-community: 10+
   min-players: 1
   max-players: 4
   solo-mode: true
@@ -125,7 +125,7 @@
   play-time: 30-40 (mins)
   setup-time: 5 (mins)
   teach-learn-time: 15 (mins)
-#  complexity: 
+  complexity: 2.00
   short-description: Strategic, diceless, tile placement/area control game for 1-4 with a retro videogame flair, all in a super-portable package!
   long-description: In every classic JRPG, the heroes encountered a mysterious stranger, who gave them a map to a dungeon, and stocked them with potions, keys, and other provisions. But how was the map drawn? How did the wise stranger learn of all these dire warnings? In Overworld, you are the hero's mysterious mentor. All those years before you sent the hero to the underworld, you mapped the Overworld! By laying tiles, you will seek to claim regions of Forests or Mountains with your Bird meeples, and regions of Reefs or Whirlpools with your Ship meeples. When the tiles form a hole in the world, the player who explored the most tiles there will place a Dungeon Door meeple into the hole. Can you foresee uncertain spots in the geography, indeterminate in the distance? Will you uncover a dungeon... or wander the repeating pixel textures forever?
   logo: overworld-logo-500px.png
@@ -155,7 +155,7 @@
   graphic-designer: Matt Arnold, Ian Stedman
   publisher: Magic Meeple Games
   ages-official: no change
-#  ages-community: 
+  ages-community: 10
   min-players: 1
   max-players: 5
   solo-mode: true
@@ -187,35 +187,35 @@
 - name: Incoming Transmission
   product-code: MMG301
   designer: Michael Lipton
-#  developer: Ian Stedman
-#  artist: 
-  graphic-designer: Matt Arnold
+  developer: Ian Stedman
+  artist: Jeff Perryman, Ian Stedman 
+  graphic-designer: Ian Stedman, Matt Arnold
   publisher: Magic Meeple Games
-#  ages-official: 
+  ages-official: 14+
 #  ages-community: 
   min-players: 1
   max-players: 5
   solo-mode: true
   cooperative-mode: true
   competitive-mode: false
-#  play-time: 
-#  setup-time: 
-#  teach-learn-time: 
+  play-time: 10-30 (mins)
+  setup-time: 5 (mins)
+  teach-learn-time: 5 (mins)
 #  complexity: 
-#  short-description: 
-#  long-description: 
+  short-description: Strategic, diceless, tile placement/area control game for 1-4 with a retro video game flair, all in a super-portable package!
+  long-description: In every classic JRPG, the heroes encountered a mysterious stranger, who gave them a map to a dungeon, and stocked them with potions, keys, and other provisions. But how was the map drawn? How did the wise stranger learn of all these dire warnings? In Overworld, you are the hero's mysterious mentor. All those years before you sent the hero to the underworld, you mapped the Overworld! By laying tiles, you will seek to claim regions of Forests or Mountains with your Bird meeples, and regions of Reefs or Whirlpools with your Ship meeples. When the tiles form a hole in the world, the player who explored the most tiles there will place a Dungeon Door meeple into the hole. Can you foresee uncertain spots in the geography, indeterminate in the distance? Will you uncover a dungeon... or wander the repeating pixel textures forever?
   box-image: incoming-transmission-box-image-500px.png
-#  game-contents-image: 
-#  closeup-front-image: 
+  game-contents-image: Incoming-Transmission-Full-Board-Mission-Included.jpg
+  closeup-front-image: Incoming-Transmission-Front-Box.png
 #  closeup-back-image: 
 #  original-msrp: 
 #  current-msrp: 
 #  weight: 
 #  wholesale-price: 
 #  case-quantity: 
-  availability: In Development
+  availability: Kickstarter Launches on July 12, 2018!
   available: false
   call-to-action: 'Notify Me'
-#  link-to-rules: 
-#  link-to-bgg: 
+  link-to-rules: https://boardgamegeek.com/filepage/162519/overworld-rulebook-optimized
+  link-to-bgg: https://boardgamegeek.com/boardgame/220843/overworld
 #  link-to-kickstarter: 
