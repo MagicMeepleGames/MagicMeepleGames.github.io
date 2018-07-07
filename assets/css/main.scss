@@ -735,7 +735,7 @@ body {
     width: 100%;
     border-right: 0;
 }
-.container>* {
+.container>*:not(.grid) {
     border-radius: .5rem;
     padding: 0 .5rem;
 }
@@ -768,6 +768,12 @@ body {
 }
 .grid {
     display: block !important;
+}
+.product-details-page .container>div{
+    border: unset;
+}
+.grid h1 {
+    margin-left: -.5rem;
 }
 .grid .details-box-image {
     height: 28rem !important;
