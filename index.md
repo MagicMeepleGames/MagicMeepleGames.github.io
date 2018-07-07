@@ -4,7 +4,7 @@ layout: default
 category: pages
 order: 1
 ---
-{% include progressbar.html heroimage="Oxygen Converter.jpg" logo="/incoming-transmission/incoming-transmission-logo-500px.png" alt="Incoming Transmission" percent="10%" status="Pre-Kickstarter Review And Development" link="incoming-transmission" %}
+{% include progressbar.html heroimage="/incoming-transmission/Oxygen Converter.jpg" logo="/incoming-transmission/incoming-transmission-logo-500px.png" alt="Incoming Transmission" percent="10%" status="Pre-Kickstarter Review And Development" link="incoming-transmission" %}
 
 {% include progressbar.html heroimage="/overworld/overworld-closeup-500px.png" logo="/overworld/overworld-logo-500px.png" alt="Overworld" percent="90%" status="Prepress" link="https://magicmeeple.pledgemanager.com/projects/overworld-16-bit-tile-placement-and-exploration-bo/participate/" link="overworld" %}
 
