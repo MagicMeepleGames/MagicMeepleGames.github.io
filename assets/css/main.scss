@@ -743,13 +743,14 @@ body {
     padding-top: 0.5rem;
 }
 .progressbar>a {
-    display:block;
+    display: flex;
+    flex-wrap: wrap;
 }
 .progressbar>a>div {
     display: block;
     font-size: xx-large;
     float: none;
-    width: 97%;
+    width: 47%;
     height: 10rem;
 }
 .whole-meter {
