@@ -742,6 +742,9 @@ body {
 .progressbar {
     padding-top: 0.5rem;
 }
+.progressbar>a {
+    display:block;
+}
 .progressbar>a>div {
     display: block;
     font-size: xx-large;
