@@ -209,6 +209,7 @@ ul.product-nav {
 .progressbar>a {
     width: 100%;
     display: inherit;
+    text-decoration: none;
 }
 .progressbar a>div {
     float: left;
@@ -742,6 +743,7 @@ body {
     padding-top: 0.5rem;
 }
 .progressbar>a>div {
+    display: block;
     font-size: xx-large;
     float: none;
     width: 97%;
