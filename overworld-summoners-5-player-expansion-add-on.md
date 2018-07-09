@@ -1,5 +1,5 @@
 ---
-title: Overworld 5 Player Expansion
+title: Overworld Summoners & 5 Player Expansion Add-on
 layout: product-details
 category: expansions
 order: 5
