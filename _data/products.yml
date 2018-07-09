@@ -53,7 +53,7 @@
   complexity: 2.4 (out of 5)
   short-description: "Adds ten (10) additional cards to expand the <em>Darkrock Ventures</em> base game. (Requires <em>Darkrock Ventures</em> base game to play)"
   long-description: "<em>Darkrock Ventures Expansion Pack #1</em> includes an additional ten cards: 5 new Research Cards and 5 new Corporate Sponsors cards. They can be included into any game mode in <em>Darkrock Ventures</em> that uses these cards! (Not a stand-alone game. Requires <em>Darkrock Ventures</em> base game to play.)"
-  box-image: Darkrock-Ventures-Centerboard-Cargohold-Closeup.jpg
+  box-image-filename: Darkrock-Ventures-Centerboard-Cargohold-Closeup.jpg
   game-contents-image: 500px_DRV_ExpPack1Contents.jpg
   closeup-front-image: DRV_ExpPack1_CoverCard_Front-500px.png
 #  closeup-back-image: n/a
@@ -118,7 +118,7 @@
   ages-official: 14+
   ages-community: 10+
   min-players: 1
-  max-players: 4
+  max-players: 4 (5 with Add-on)
   solo-mode: true
   cooperative-mode: false
   competitive-mode: true
@@ -147,7 +147,7 @@
   link-to-bgg: https://boardgamegeek.com/boardgame/220843/overworld
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/overworld-16-bit-tile-placement-and-exploration-bo
 
-- name: Overworld 5 Player Expansion
+- name: Overworld Summoners & 5 Player Expansion Add-on
   product-code: MMG201a
   designer: Nemo Rathwald
   developer: Ian Stedman
@@ -167,7 +167,7 @@
   complexity: Small increase from base game
   short-description: AKA "5th Player Add-on" Expand your <em>Overworld</em> experience with playing pieces to add a 5th player to the game, as well as new tiles and tokens for the <em>Summoners</em> game variant! (Base game required to play)
   long-description: <em>Overworld Summoners</em> expands the base game to 5 players with additional tiles and tokens to facilitate ALL of the additional rules found in the booklet, including the <em>Summoners</em> variant! Also introduces Desert and Glacier regions to the game!
-  box-image: 500px_OVWsummoners_Contents.jpg
+  box-image-filename: 500px_OVWsummoners_Contents.jpg
 #  game-contents-image: 
 #  closeup-front-image: 
 #  closeup-back-image: 
@@ -202,8 +202,8 @@
   setup-time: 5 (mins)
   teach-learn-time: 5 (mins)
 #  complexity: 
-  short-description: Strategic, diceless, tile placement/area control game for 1-4 with a retro video game flair, all in a super-portable package!
-  long-description: In every classic JRPG, the heroes encountered a mysterious stranger, who gave them a map to a dungeon, and stocked them with potions, keys, and other provisions. But how was the map drawn? How did the wise stranger learn of all these dire warnings? In Overworld, you are the hero's mysterious mentor. All those years before you sent the hero to the underworld, you mapped the Overworld! By laying tiles, you will seek to claim regions of Forests or Mountains with your Bird meeples, and regions of Reefs or Whirlpools with your Ship meeples. When the tiles form a hole in the world, the player who explored the most tiles there will place a Dungeon Door meeple into the hole. Can you foresee uncertain spots in the geography, indeterminate in the distance? Will you uncover a dungeon... or wander the repeating pixel textures forever?
+# short-description:
+# long-description: 
   box-image: incoming-transmission-box-image-500px.png
   game-contents-image: Incoming-Transmission-Full-Board-Mission-Included.jpg
   closeup-front-image: Incoming-Transmission-Front-Box.png
