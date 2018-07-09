@@ -202,8 +202,8 @@
   setup-time: 5 (mins)
   teach-learn-time: 5 (mins)
 #  complexity: 
-# short-description:
-# long-description: 
+  short-description:Incoming Transmission is an Asymmetrical, Co-operative, Deduction-based "Puzzle" game for two or more players which takes 30 minutes to play.
+#  long-description: 
   box-image: incoming-transmission-box-image-500px.png
   game-contents-image: Incoming-Transmission-Full-Board-Mission-Included.jpg
   closeup-front-image: Incoming-Transmission-Front-Box.png
