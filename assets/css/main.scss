@@ -775,6 +775,9 @@ body {
 .grid h1 {
     margin-left: -.5rem;
 }
+.grid li {
+    display: inline-block;
+}
 .grid .text-box {
     padding: 1rem;
     margin: 1rem;
