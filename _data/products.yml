@@ -203,7 +203,7 @@
   teach-learn-time: 5 (mins)
 #  complexity: 
   short-description:Incoming Transmission is an Asymmetrical, Co-operative, Deduction-based "Puzzle" game for two or more players which takes 30 minutes to play.
-#  long-description: 
+  long-description: One player is Mission Control, feeding instructions to the rest of the players who act as a single team controlling the Cadet meeple on the Board. Mission Control will have a list of objectives to complete, and may only be able to communicate to the Cadet by use of command cards providing simple instructions to move East, West, North, or South, or to Collect or Drop objects. Each round a card will tell Mission control how many of these cards to give to the Cadet, but they are randomized before they are turned over. Work cooperatively, but without speaking, to figure out the solution within the allotted number of rounds to win.
   box-image: incoming-transmission-box-image-500px.png
   game-contents-image: Incoming-Transmission-Full-Board-Mission-Included.jpg
   closeup-front-image: Incoming-Transmission-Front-Box.png
