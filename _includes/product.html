@@ -33,6 +33,9 @@
 {% if p.available == true %}
 <div class="product">
     <div class="product-frame">
+{% elsif p.available | size < 14 %}
+<div class="product ribbon coming-soon" data-availability="{{ p.availability }}">
+    <div class="product-frame banner" data-availability="{{ p.availability }}">
 {% else %}
 <div class="product ribbon coming-soon" data-availability="{{ p.availability }}">
     <div class="product-frame ribbon" data-availability="{{ p.availability }}">
