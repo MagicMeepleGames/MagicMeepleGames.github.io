@@ -71,12 +71,6 @@ Michael is an avid game designer, with two games published through Magic Meeple 
 ## Tiffany “TJ” Johnston – _Director of Staffing_
 Tiffany brings 14 years of convention experience to Magic Meeple Games. She is responsible for all of Magic Meeple Game’s staffing and staff training. Her team can tackle any issue and the attendees will continue having an amazing experience. She inspires loyalty and excellence in her team and they would follow her through a war zone (typically known as a convention).
 
-## Dan Griffith – _Director of Industry Relations_
-Bringing 2 years of convention experience and over 20 years of customer service and management experience, Dan is our charismatic Industry Relations Director. He is responsible for reaching out to our wonderful world of Gaming in all shapes and sizes to foster and build relationships to benefit our clients. He has contacts in the video, board, and card game industry and ensures that our offerings are robust and fresh!
-
-## Cole Brafford – _Director of Special Events and Panels_
-Cole was gracious enough to join our team this year and we couldn’t be more thrilled. She has 5 years of extensive special event and panel planning experience for the largest Pop Culture convention in the Southwest, Phoenix Comicon. Her expertise and knowledge ensures our panel and special event offerings run smoothly and are constantly being vetted and evolved to ensure a fresh and engaging time for all attendees.
-
 # The (brief version of the) History of Magic Meeple Games
 
 A long time ago, Magic Meeple Games founders Ian Stedman and Trish Stedman wanted to start a business. Something outside of the everyday, something relevant to their passions and interests as gamers and business-people. Landing on a target was not easy, and Magic Meeple Games went through several transformations before it became what you see today. Our humble beginnings in 2006 took the form of a video game training and tournament organizer called Gamer’s University, which later became a news and review outlet covering new relevant board and video games. G.U. Games arose when co-founder Ian Stedman changed his focus to board game design and through much hard work, soon became a published designer. In 2015 we shifted our focus completely and now we want to bring more awesome games made by all kinds of designers into the world.
