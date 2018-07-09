@@ -516,13 +516,15 @@ button.btn-call-to-action:disabled {
     grid-row: 1;
     color: $primary-dark;
     font-weight: bold;
-    padding-top: 2rem;
 }
 .grid .call-to-action.longer {
     grid-column: 4 / span 3;
 }
 .grid .call-to-action>* {
     margin-right: 1rem;
+}
+.grid .call-to-action button {
+    margin-top: 2rem;
 }
 .input-group {
     display: flex;
