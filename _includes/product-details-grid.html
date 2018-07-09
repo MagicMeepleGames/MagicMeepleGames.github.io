@@ -6,7 +6,7 @@
 <h1>{{ product.name }} - {{ product.availability }}</h1>
 <div class="call-to-action longer">
 {% endif %}
-{{ product.availability }}
+<h2>{{ product.availability }}</h2>
 {% if product.available == true or product.call-to-action == "Preorder" %}
     <button class="snipcart-add-item btn-call-to-action"
         data-item-id="{{ product.product-code }}"
