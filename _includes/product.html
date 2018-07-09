@@ -33,15 +33,15 @@
 {% if p.available == true %}
 <div class="product">
     <div class="product-frame">
-{% elsif p.availability | size < 14 %}
-    <div class="product ribbon coming-soon" data-availability="{{ p.availability }}">
-        <div class="product-frame ribbon" data-availability="{{ p.availability }}">
+{% elsif p.availability.size < 14 %}
+<div class="product ribbon coming-soon" data-availability="{{ p.availability }}">
+    <div class="product-frame ribbon" data-availability="{{ p.availability }}">
 {% else %}
-    <div class="product coming-soon" data-availability="{{ p.availability }}">
-        <div class="product-frame" data-availability="{{ p.availability }}">
-            <div class="banner">
-                {{product.availability}}
-            </div>
+<div class="product coming-soon">
+    <div class="product-frame">
+        <div class="banner">
+            {{product.availability}}
+        </div>
 {% endif %}
         <div class="box-image" style="background-image: url(assets/images/{{ p.name | slugify }}/{{ p.box-image }})" >
             <a href="{{ site.url }}/{{ p.name | slugify }}.html" >More info about {{ p.name }}</a>
