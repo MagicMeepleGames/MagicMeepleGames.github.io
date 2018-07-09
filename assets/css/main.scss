@@ -458,19 +458,10 @@ button.btn-call-to-action:disabled {
     top: 63px;
 }
 .product-frame.banner {
-    padding-top: 5rem;
-}
-.product-frame.banner:after {
-    content: attr(data-availability);
     color: white;
     font-weight: bold;
-    position: absolute;
-    width: 9rem;
-    right: 24px;
-    top: 1.5rem;
     padding: 1rem;
     background-color:#164B6C;
-    opacity: .7;
 }
 
 /* product details pages */
