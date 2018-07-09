@@ -459,11 +459,18 @@ button.btn-call-to-action:disabled {
 }
 .product-frame .banner {
     margin: -1rem;
-    position: relative;
     color: white;
     font-weight: bold;
     padding: 1rem;
     background-color:#164B6C;
+}
+.product-frame.ribbon .banner {
+    color: transparent;
+    background-color: transparent;
+    height: 0;
+}
+.coming-soon {
+    margin-top: -10rem;
 }
 
 /* product details pages */
