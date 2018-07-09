@@ -66,6 +66,7 @@ He laser-cuts his game prototypes at the local hackerspace i3Detroit, where he t
 Michael Eskue is the designer of Darkrock Ventures and a few other games like Council of Verona and For The Win.  He and his wife, Lisa, live in the White Mountains of Arizona, and have co-designed a few games that should be available soon: Trash Pandas, Titan Dice, and Oracles.  Michael can often be found at AZ gaming conventions and enjoys teaching and learning all types of games.
   
 ## Michael Lipton - _Game Designer: **Fire of Eidolon**, Game Designer: **Incoming Transmission**_
+Michael is an avid game designer, with two games published through Magic Meeple Games and a couple more on the way! His engineering background lends to games that are streamlined for the players, while all the background mathematics and mechanisms are intricately balanced. Always happy to talk to folks about design, development, and testing of games.
 
 ## Tiffany “TJ” Johnston – _Director of Staffing_
 Tiffany brings 14 years of convention experience to Magic Meeple Games. She is responsible for all of Magic Meeple Game’s staffing and staff training. Her team can tackle any issue and the attendees will continue having an amazing experience. She inspires loyalty and excellence in her team and they would follow her through a war zone (typically known as a convention).
