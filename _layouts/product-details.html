@@ -11,7 +11,8 @@
 {% assign product-name = product.name | slugify %}
 {% if product-name == page-title %}
   <meta property="og:image" content="https://magicmeeplegames.github.io/assets/images/{{product-name}}/{{product.box-image}}" />
-{% } %>
+{% endif %}
+{% endfor %}
   <link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
   <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico"  | absolute_url }}" type="image/x-icon">
