@@ -1,8 +1,17 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>Magic Meeple Games, Inc: {{ page.title }}</title>
+  <title>{{ page.title }} by Magic Meeple Games, Inc</title>
   <meta name="description" content="An independent tabletop games design, development, and publishing company. {{ page.title }}." />	
+  <meta property="og:url"
+    content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:title" content="{{ page.title }} by Magic Meeple Games, Inc" />
+  <meta property="og:description" content="An independent tabletop games design, development, and publishing company." />
+{% for product in site.data.products %}
+{% assign product-name = product.name | slugify %}
+{% if product-name == page-title %}
+  <meta property="og:image" content="https://magicmeeplegames.github.io/assets/images/{{product-name}}/{{product.box-image}}" />
+{% } %>
   <link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
   <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico"  | absolute_url }}" type="image/x-icon">
