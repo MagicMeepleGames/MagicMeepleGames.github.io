@@ -3,6 +3,11 @@
 <head>
   <title>Magic Meeple Games, Inc: {{ page.title }}</title>
   <meta name="description" content="An independent tabletop games design, development, and publishing company. {{ page.title }}." />	
+  <meta property="og:url"
+    content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:title" content="Magic Meeple Games, Inc: {{ page.title }}" />
+  <meta property="og:title" content="An independent tabletop games design, development, and publishing company." />
+  <meta property="og:image" content="https://magicmeeplegames.github.io/assets/images/magic-meeple-games-logo-v2.svg" />
   <link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
   <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico"  | absolute_url }}" type="image/x-icon">
