@@ -361,7 +361,7 @@ input[type=radio]:checked + label:before {
     position: absolute;
     left: -.1rem;
     top: -.1rem;
-    background-color: $complement-dark;
+    background-color: $primary-dark;
     border-radius: .5rem;
     padding: .48rem .8rem;
 }
