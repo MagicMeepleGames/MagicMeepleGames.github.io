@@ -18,12 +18,6 @@
         {{ product.call-to-action }}
     </button>
     <span class="price">${{ product.current-msrp }}</span>
-    {% elsif product.call-to-action | slugify contains "kickstart" %}
-    {% if product.link-to-kickstarter %}
-    <button href="{{ product.link-to-kickstarter }}">
-        Back This<br/>Project Today!
-    </button>
-    {% endif %}
     {% elsif product.call-to-action | slugify == "notify-me" %}
     <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScgZciwTXGyU8kFptXcS3KOfNi2BkW0tD7SOkGqm8daLVkEhQ/formResponse" target="hidden_iframe" onsubmit="submitted=true;" method="POST" id="mG61Hd">
 
@@ -41,11 +35,17 @@
         <textarea name="entry.1856670343" rows="5" style="width: 90%" hidden>{{ product.call-to-action }}</textarea>
 
         <div class="input-group">
-            <p>Sign up to be notified of this game's availability!</p>
+            <p>Sign up to be notified about this game!</p>
             <p><input type="submit" tabindex="4" value="Send" /></p>
         </div>
 
     </form>
+    {% elsif product.call-to-action | slugify contains "kickstart" %}
+    {%      if product.link-to-kickstarter %}
+    <button href="{{ product.link-to-kickstarter }}">
+        Back This<br/>Project Today!
+    </button>
+    {%     endif %}
     {% endif %}
 </div>
 {% if product.box-image %}
