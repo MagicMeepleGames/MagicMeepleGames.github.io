@@ -7,12 +7,13 @@
     content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 {% for product in site.data.products %}
 {% assign product-name = product.name | slugify %}
+{% assign page-title = page.title | slugify %}
 {% if product-name == page-title %}
   <meta property="og:image" content="https://magicmeeplegames.github.io/assets/images/{{product-name}}/{{product.box-image}}" />
   <meta name="description" content="{{ product.name }} board game: {{ short-description | escape }}" />	
   <meta property="og:description" content="{{ product.name }} board game: {{ short-description | escape }}" />
 {% else %}
-  <meta productname={{ product-name }} product-name={{ product.name }} page-title={{ page-title }} >
+  <meta productname="{{ product.name }}" product-name="{{ product-name }}" pagetitle="{{ page.title }}" page-title="{{ page-title }}" >
 {% endif %}
 {% endfor %}
   <link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
