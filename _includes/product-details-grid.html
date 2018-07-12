@@ -14,7 +14,7 @@
         data-item-name="{{ product.name }}"
         data-item-price="{{ product.current-msrp }}"
         data-item-weight="{{ product.weight | replace: 'g', '' }}"
-        data-item-url="https://magicmeeplegames.github.io/shop.html"
+        data-item-url="{{ site.url }}/shop.html"
         data-item-description="{{ product.short-description | escape }}" >
         {{ product.call-to-action }}
     </button>

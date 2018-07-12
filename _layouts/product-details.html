@@ -9,7 +9,7 @@
 {% assign product-name = product.name | slugify %}
 {% assign page-title = page.title | slugify %}
 {% if product-name == page-title %}
-  <meta property="og:image" content="https://magicmeeplegames.github.io/assets/images/{{product-name}}/{{product.box-image}}" />
+  <meta property="og:image" content="{{ site.url }}/assets/images/{{product-name}}/{{product.box-image}}" />
   <meta name="description" content="{{ product.name }} board game: {{ product.short-description | escape }}" />	
   <meta property="og:description" content="{{ product.name }} board game: {{ product.short-description | escape }}" />
 {% endif %}
