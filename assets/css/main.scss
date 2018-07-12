@@ -427,12 +427,13 @@ input[type=radio]:checked + label:before {
     border-right: 0.2rem solid $primary-very-dark;
     border-bottom: 0.2rem solid $primary-very-dark;
     border-left: 0.2rem solid $primary-mid;
+    text-align: center;
 }
-button.btn-call-to-action a {
+.btn-call-to-action a {
     color: #fff;
     text-decoration: none;
 }
-button.btn-call-to-action:disabled {
+.btn-call-to-action:disabled {
     background-color: $complement-dark;
     border: none;
 }
