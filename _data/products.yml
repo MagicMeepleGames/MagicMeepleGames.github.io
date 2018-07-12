@@ -213,9 +213,9 @@
 #  weight: 
 #  wholesale-price: 
 #  case-quantity: 
-  availability: Kickstarter Launches on July 12, 2018!
+  availability: Crowdfunding Now!
   available: false
-  call-to-action: 'Notify Me'
-  link-to-rules: https://boardgamegeek.com/filepage/162519/overworld-rulebook-optimized
-  link-to-bgg: https://boardgamegeek.com/boardgame/220843/overworld
-#  link-to-kickstarter: 
+  call-to-action: Back The Kickstarter
+#  link-to-rules: https://boardgamegeek.com/filepage/162519/overworld-rulebook-optimized
+  link-to-bgg: https://boardgamegeek.com/boardgame/238355/incoming-transmission
+  link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/incoming-transmission-16-bit-deduction-family-boar
