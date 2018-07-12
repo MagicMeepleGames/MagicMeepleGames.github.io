@@ -1,3 +1,4 @@
+{% assign product-call-to-action = product.call-to-action | slugify %}
 <div class="grid">
 {% if product.availability | slugify = 'now-available' %}
 <h1 class="longer">{{ product.name }}</h1>
@@ -40,7 +41,7 @@
         </div>
 
     </form>
-    {% elsif product.call-to-action | slugify contains "kickstart" %}
+    {% elsif product-call-to-action contains "kickstart" or product-call-to-action contains "crowdfund" %}
     {%      if product.link-to-kickstarter %}
     <button href="{{ product.link-to-kickstarter }}">
         Back This<br/>Project Today!
