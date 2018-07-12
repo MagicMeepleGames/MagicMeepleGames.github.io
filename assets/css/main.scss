@@ -28,9 +28,9 @@ body {
     font-family: "Josefin Sans", "Proxima Nova", Helvetica, Corbel, sans-serif;
     text-decoration: none;
     line-height: 1.5rem;
-}
-.pages {
     background-color: $secondary-dark;
+}
+.pages, .shop {
     background-image: url(/assets/images/meeple-mandala.svg), url(/assets/images/meeple-pattern.svg);
     background-size: cover, 9rem;
     background-position: center;
