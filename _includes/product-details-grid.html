@@ -19,7 +19,7 @@
         {{ product.call-to-action }}
     </button>
     <span class="price">${{ product.current-msrp }}</span>
-    {% elsif product.call-to-action | slugify == "notify-me" %}
+    {% elsif product-call-to-action == "notify-me" %}
     <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScgZciwTXGyU8kFptXcS3KOfNi2BkW0tD7SOkGqm8daLVkEhQ/formResponse" target="hidden_iframe" onsubmit="submitted=true;" method="POST" id="mG61Hd">
 
         <div class="input-group">
@@ -43,8 +43,8 @@
     </form>
     {% elsif product-call-to-action contains "kickstart" or product-call-to-action contains "crowdfund" %}
     {%      if product.link-to-kickstarter %}
-    <button href="{{ product.link-to-kickstarter }}">
-        Back This<br/>Project Today!
+    <button href="{{ product.link-to-kickstarter }}" class="kickstarter-button" >
+        {{ product.call-to-action }}
     </button>
     {%     endif %}
     {% endif %}

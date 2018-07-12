@@ -62,7 +62,12 @@
             </button>
         {% else %}
             <button class="btn-call-to-action" >
+                {% assign product-call-to-action = product.call-to-action | slugify %}
+                {% if product-call-to-action contains "kickstart" or product-call-to-action contains "crowdfund" %}
+                <a href="{{ product.link-to-kickstarter }}">
+                {% else %}
                 <a href="{{ site.url }}/{{ p.name | slugify }}.html#{{ p.name | slugify }}-form">
+                {% endif %}
                     {{ p.call-to-action }}
                 </a>
             </button>
