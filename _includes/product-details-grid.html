@@ -43,7 +43,7 @@
     </form>
     {% elsif product-call-to-action contains "kickstart" or product-call-to-action contains "crowdfund" %}
     {%      if product.link-to-kickstarter %}
-    <button href="{{ product.link-to-kickstarter }}" class="kickstarter-button" >
+    <button href="{{ product.link-to-kickstarter }}" class="btn-call-to-action" >
         {{ product.call-to-action }}
     </button>
     {%     endif %}
