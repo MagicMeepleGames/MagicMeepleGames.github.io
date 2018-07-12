@@ -62,7 +62,7 @@
             </button>
         {% else %}
             <div class="btn-call-to-action" >
-                {% if product.call-to-action | slugify contains "ickstart" %}
+                {% if p.call-to-action | slugify contains "ickstart" %}
                 <a href="{{ product.link-to-kickstarter }}" target="_blank">
                 {% else %}
                 <a href="{{ site.url }}/{{ p.name | slugify }}.html#{{ p.name | slugify }}-form">
