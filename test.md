@@ -54,5 +54,6 @@ carousel = (function(){
     navigate(-1);
   });
   navigate(0);
+  setInterval(() => navigate(1), 5000);
 })();
 </script>
