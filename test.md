@@ -14,11 +14,13 @@ order: 2
     <div class="friends-of-the-meeple home-grid-col">
         <h2>Friends Of The Meeple</h2>
         <div class="carousel">
-          <div class="prev"> ◀ </div>
-          <div class="next"> ▶ </div>
+          <span class="prev-arrow"> ◀ </span>
+          <span class="next-arrow"> ▶ </span>
+          <div class="prev-button"></div>
+          <div class="next-button"></div>
           <ol>
             {% for friend in site.data.friends %}
-            <li style="background-image: url('/assets/images/{{ include.filename }}')" data-caption="{{ friend.name }}">
+            <li style="background-image: url('/assets/images/{{ friend.filename }}')" data-caption="{{ friend.name }}">
               <a href="{{ friend.url }}" target="_blank"></a>
             </li>
             {% endfor %}

@@ -695,7 +695,7 @@ li.cart a {
 .carousel {
     position: relative;
 }
-.prev, .next {
+.carousel .prev-button, .carousel .next-button {
     position: absolute;
     top: 0;
     height: 100%;
@@ -708,17 +708,30 @@ li.cart a {
 .next {
     right: 0;
 }
+.carousel .prev-arrow, .carousel .next-arrow {
+    position: absolute;
+    top: 45%;
+}
+.carousel .prev-arrow {
+    left: .5rem;
+}
+.carousel .next-arrow {
+    right: .5rem;
+}
 .carousel ol {
     display: relative;
     width: 100%;
     height: 100%;
+}
+.carousel li {
+    list-style: none;
+    list-style-type: none;
 }
 .carousel li.current {
     position: absolute;
     width: 100%;
     height: 100%;
     display: block;
-    list-style: none;
     transform: scale(0);
     transition: 1s;
 }
