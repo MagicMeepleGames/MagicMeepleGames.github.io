@@ -29,6 +29,8 @@ body {
     text-decoration: none;
     line-height: 1.5rem;
     background-color: $secondary-dark;
+}
+.pages, .shop {
     background-image: url(/assets/images/meeple-mandala.svg), url(/assets/images/meeple-pattern.svg);
     background-size: cover, 9rem;
     background-position: center;
@@ -190,6 +192,9 @@ ul.product-nav {
 .social > a {
     color: rgba(0,0,0,0);
     text-decoration: none;
+    position: absolute;
+    height: 100%;
+    width: 3rem;
 }
 .timeline-Widget {
     font-family: "Josefin Sans", "Proxima Nova", Helvetica, Corbel, sans-serif;
