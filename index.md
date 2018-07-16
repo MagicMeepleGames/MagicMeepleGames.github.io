@@ -20,12 +20,48 @@ order: 1
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
     <div class="friends-of-the-meeple home-grid-col">
+        <iframe src="https://www.kickstarter.com/projects/magicmeeplegames/incoming-transmission-16-bit-deduction-family-boar/widget/card.html?v=2" width="220" height="420" frameborder="0" scrolling="no"></iframe>
         <h2>Friends Of The Meeple</h2>
-        <marquee behavior="alternate">
-            {% for friend in site.data.friends %}
-            <a href="{{ friend.url }}" target="_blank"><img src="assets/images/FriendsOftheMeeple/{{ friend.filename }}" data-caption="{{ friend.name }}" ></a>
-            {% endfor %}
-        </marquee>
+        <div class="carousel">
+            <span class="prev-arrow"> ◀ </span>
+            <span class="next-arrow"> ▶ </span>
+            <div class="prev"></div>
+            <div class="next"></div>
+            <ol>
+                {% for friend in site.data.friends %}
+                <li style="background-image: url('/assets/images/FriendsOftheMeeple/{{ friend.filename }}')" data-caption="{{ friend.name }}">
+                    <a href="{{ friend.url }}" target="_blank"></a>
+                </li>
+                {% endfor %}
+            </ol>
+        </div>
     </div>
 </div>
 </div>
+<script>
+carousel = (function(){
+    var container = document.querySelector('.carousel');
+    var next = container.querySelector('.next');
+    var prev = container.querySelector('.prev');
+    var counter = 0;
+    var items = container.querySelectorAll('.carousel ol>li');
+    var amount = items.length;
+    var current = items[0];
+    container.classList.add('active');
+    function navigate(direction) {
+        current.classList.remove('current');
+        counter = counter + direction;
+        counter = (direction === -1 && counter < 0) ? amount - 1 : counter; 
+        counter = (direction === 1 && !items[counter]) ? 0 : counter;
+        current = items[counter];
+        current.classList.add('current');
+    }
+    next.addEventListener('click', function(ev) {
+        navigate(1);
+    });
+    prev.addEventListener('click', function(ev) {
+        navigate(-1);
+    });
+    navigate(0);
+})();
+</script>
