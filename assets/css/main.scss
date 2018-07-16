@@ -729,6 +729,8 @@ li.cart a {
 .carousel li {
     list-style: none;
     list-style-type: none;
+    top: 0;
+    left: 0;
 }
 .carousel li.current {
     position: absolute;
