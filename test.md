@@ -20,7 +20,7 @@ order: 2
           <div class="next"></div>
           <ol>
             {% for friend in site.data.friends %}
-            <li style="background-image: url('/assets/images/FriendsOftheMeeple/{{{ friend.filename }}')" data-caption="{{ friend.name }}">
+            <li style="background-image: url('/assets/images/FriendsOftheMeeple/{{ friend.filename }}')" data-caption="{{ friend.name }}">
               <a href="{{ friend.url }}" target="_blank"></a>
             </li>
             {% endfor %}
