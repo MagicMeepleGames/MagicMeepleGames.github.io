@@ -695,12 +695,15 @@ li.cart a {
 .carousel {
     position: relative;
 }
-.carousel .prev-button, .carousel .next-button {
+.carousel .prev, .carousel .next {
     position: absolute;
     top: 0;
     height: 100%;
     width: 2rem;
     background-color: rgba(255, 255, 255, 0.5);
+}
+.carousel .next {
+    right: 0;
 }
 .prev {
     left: 0;
@@ -731,6 +734,9 @@ li.cart a {
     position: absolute;
     width: 100%;
     height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     display: block;
     transform: scale(0);
     transition: 1s;

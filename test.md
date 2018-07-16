@@ -16,11 +16,11 @@ order: 2
         <div class="carousel">
           <span class="prev-arrow"> ◀ </span>
           <span class="next-arrow"> ▶ </span>
-          <div class="prev-button"></div>
-          <div class="next-button"></div>
+          <div class="prev"></div>
+          <div class="next"></div>
           <ol>
             {% for friend in site.data.friends %}
-            <li style="background-image: url('/assets/images/{{ friend.filename }}')" data-caption="{{ friend.name }}">
+            <li style="background-image: url('/assets/images/FriendsOftheMeeple/{{{ friend.filename }}')" data-caption="{{ friend.name }}">
               <a href="{{ friend.url }}" target="_blank"></a>
             </li>
             {% endfor %}
