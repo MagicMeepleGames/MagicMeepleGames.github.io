@@ -1,5 +1,5 @@
 ---
-title: International Publishers
+title: Intl. Publishers
 layout: default
 category: pages
 order: 5
