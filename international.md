@@ -9,7 +9,7 @@ order: 5
 
 Magic Meeple Games is currently seeking tabletop board game and card game publishers outside of the United States interested in licensing products in our catalog for translation and localization in other regions around the globe.
 
-We have previously worked with <a href="https://www.spiele-offensive.de/Spieleschmiede/Overworld/">Spiele Schmiede</a> to produce a German-language version of <a href="{{ site.url }}/overworld">Overworld</a>, which they crowdfunded through <a href="Spiele-offensive.de">Spiele-offensive.de</a>!
+We have previously worked with <a href="https://www.spiele-offensive.de/Spieleschmiede/Overworld/">Spiele Schmiede</a> to produce a German-language version of <a href="{{ site.url }}/overworld">Overworld</a>, which they crowdfunded through <a href="https://spiele-offensive.de">Spiele-offensive.de</a>!
 
 If your organization is interested in producing a localized edition of any of our games, previous or upcoming, please use this form below to reach out to us as soon as possible!
 
