@@ -15,15 +15,16 @@ order: 1
 <div class="subcontainer">
 <div class="home-grid">
     <div class="tweet-stream home-grid-col">
-        <h2>Tweets by <a href="https://twitter.com/MagicMeeple">@MagicMeeple</a></h2>
+        <h2>Tweets by <a href="https://twitter.com/MagicMeeple">@MagicMeeple</a>:</h2>
         <a class="twitter-timeline" href="https://twitter.com/MagicMeeple?ref_src=twsrc%5Etfw" data-chrome="transparent noheader nofooter" width="100%" data-tweet-limit="3"></a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
     <div class="friends-of-the-meeple home-grid-col">
-        <h2>Newsletter</h2>
+        <h2>Newsletter:</h2>
         <p><a href="https://my.sendinblue.com/users/subscribe/js_id/3n0j4/id/1">Subscribe</a> to receive the Magic Meeple Games newsletter in your email!</p>
+        <h2>Current Kickstarter Campaign:</h2>
         <iframe src="https://www.kickstarter.com/projects/magicmeeplegames/incoming-transmission-16-bit-deduction-family-boar/widget/card.html?v=2" width="310" height="420" frameborder="0" scrolling="no"></iframe>
-        <h2>Friends Of The Meeple</h2>
+        <h2>Friends Of The Meeple:</h2>
         <div class="carousel">
             <span class="prev-arrow"> ◀ </span>
             <span class="next-arrow"> ▶ </span>
