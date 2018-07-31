@@ -20,6 +20,8 @@ order: 1
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
     <div class="friends-of-the-meeple home-grid-col">
+        <h2>Newsletter</h2>
+        <p><a href="https://my.sendinblue.com/users/subscribe/js_id/3n0j4/id/1">Subscribe</a> to receive the Magic Meeple Games newsletter in your email!</p>
         <iframe src="https://www.kickstarter.com/projects/magicmeeplegames/incoming-transmission-16-bit-deduction-family-boar/widget/card.html?v=2" width="310" height="420" frameborder="0" scrolling="no"></iframe>
         <h2>Friends Of The Meeple</h2>
         <div class="carousel">
