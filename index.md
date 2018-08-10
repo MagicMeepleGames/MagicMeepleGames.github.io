@@ -3,8 +3,9 @@ title: Projects
 layout: default
 category: pages
 order: 1
+published: true
 ---
-{% include progressbar.html heroimage="/incoming-transmission/Oxygen Converter.jpg" logo="/incoming-transmission/incoming-transmission-logo-500px.png" alt="Incoming Transmission" percent="25%" status="Click Here To Back The Kickstarter Now!" link="incoming-transmission" %}
+{% include progressbar.html heroimage="/incoming-transmission/Oxygen Converter.jpg" logo="/incoming-transmission/incoming-transmission-logo-500px.png" alt="Incoming Transmission" percent="30%" status="Click Here To Back The Kickstarter Now! LAST DAY!" link="incoming-transmission" %}
 
 {% include progressbar.html heroimage="/overworld/overworld-closeup-500px.png" logo="/overworld/overworld-logo-500px.png" alt="Overworld" percent="90%" status="Manufacturing" link="https://magicmeeple.pledgemanager.com/projects/overworld-16-bit-tile-placement-and-exploration-bo/participate/" link="overworld" %}
 
