@@ -208,14 +208,14 @@
   game-contents-image: Incoming-Transmission-Full-Board-Mission-Included.jpg
   closeup-front-image: Incoming-Transmission-Front-Box.png
 #  closeup-back-image: 
-#  original-msrp: 
-#  current-msrp: 
+  original-msrp: $29.99
+  current-msrp: $29.99
 #  weight: 
-#  wholesale-price: 
+#  wholesale-price:
 #  case-quantity: 
-  availability: Crowdfunding Now!
+  availability: Successfully Kickstarted!
   available: false
-  call-to-action: Back The Kickstarter
+  call-to-action: 'Preorder'
 #  link-to-rules: https://boardgamegeek.com/filepage/162519/overworld-rulebook-optimized
   link-to-bgg: https://boardgamegeek.com/boardgame/238355/incoming-transmission
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/incoming-transmission-16-bit-deduction-family-boar
