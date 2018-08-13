@@ -213,9 +213,9 @@
 #  weight: 
 #  wholesale-price: 
 #  case-quantity: 
-  availability: Successfully Crowdfunded
+  availability: Crowdfunding Now!
   available: false
-  call-to-action: 'Preorder'
+  call-to-action: Back The Kickstarter
 #  link-to-rules: https://boardgamegeek.com/filepage/162519/overworld-rulebook-optimized
   link-to-bgg: https://boardgamegeek.com/boardgame/238355/incoming-transmission
   link-to-kickstarter: https://www.kickstarter.com/projects/magicmeeplegames/incoming-transmission-16-bit-deduction-family-boar
