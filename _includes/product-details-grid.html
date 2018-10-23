@@ -8,7 +8,7 @@
 <div class="call-to-action longer">
 {% endif %}
 <h2>{{ product.availability }}</h2>
-{% if product.available == true or product.call-to-action == "Preorder" %}
+{% if product.available == true %}
     <button class="snipcart-add-item btn-call-to-action"
         data-item-id="{{ product.product-code }}"
         data-item-name="{{ product.name }}"
@@ -49,6 +49,13 @@
         </a>
     </div>
     {%     endif %}
+    {% endif %}
+    {% if product.link-to-pledgemanager %}
+        <div class="btn-call-to-action" >
+        <a href="{{ product.link-to-pledgemanager }}" target="_blank" >
+            {{ product.call-to-action }}
+        </a>
+        </div>
     {% endif %}
 </div>
 {% if product.box-image %}
