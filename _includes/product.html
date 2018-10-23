@@ -50,7 +50,7 @@
             <a href="{{ site.url }}/{{ p.name | slugify }}.html" >More info about {{ p.name }}</a>
         </div>
         <h2>
-        {% if p.available == true or p.call-to-action == 'Preorder' %}
+        {% if p.available == true %}
             <button class="snipcart-add-item btn-call-to-action"
                     data-item-id="{{ p.product-code }}"
                     data-item-name="{{ p.name }}"
@@ -60,6 +60,12 @@
                     data-item-description="{{ p.short-description | escape }}" >
                 {{ p.call-to-action }}
             </button>
+        {% else if p.call-to-action == 'Preorder' %}
+            <div class="btn-call-to-action" >
+                <a href="{{ p.link-to-pledgemanager }}" target="_blank">
+                    {{ p.call-to-action }}
+                </a>
+            </div>
         {% else %}
             <div class="btn-call-to-action" >
                 {% if p.call-to-action | slugify contains "ickstart" %}
