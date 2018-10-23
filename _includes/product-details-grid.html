@@ -43,19 +43,15 @@
     </form>
     {% elsif product-call-to-action contains "kickstart" or product-call-to-action contains "crowdfund" %}
     {%      if product.link-to-kickstarter %}
-    <div class="btn-call-to-action" >
-        <a href="{{ product.link-to-kickstarter }}" target="_blank" >
-            {{ product.call-to-action }}
-        </a>
+    <div class="btn-call-to-action" target="_blank" onclick="window.location.href='{{ product.link-to-pledgemanager }}'" >
+        {{ product.call-to-action }}
     </div>
     {%     endif %}
     {% endif %}
     {% if product.link-to-pledgemanager %}
-        <div class="btn-call-to-action" href="{{ product.link-to-pledgemanager }}" target="_blank" >
-        <a >
-            {{ product.call-to-action }}
-        </a>
-        </div>
+    <div class="btn-call-to-action" target="_blank" onclick="window.location.href='{{ product.link-to-pledgemanager }}'" >
+        {{ product.call-to-action }}
+    </div>
     {% endif %}
 </div>
 {% if product.box-image %}
