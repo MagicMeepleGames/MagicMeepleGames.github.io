@@ -22,7 +22,7 @@ Here are some PDF resources retailers can use to help sell our products!
       <a href="https://drive.google.com/file/d/1Mck_kc4BPL8WfHXcuhp5uGaTAbtAVp3G/view?usp=sharing">Overworld shelf hanger without margins. 11"x8.5" PDF</a>
     </div>
   </div>
-  <div class="gallery-image" style="background-image: url('/assets/images/retailer-kit-thumbnails/overworld-flyer.png')">
+  <div class="gallery-image" style="background-image: url('/assets/images/retailer-kit-thumbnails/overworld-flyer-with-margins.png')">
     <div class="gallery-caption">
       <a href="https://drive.google.com/file/d/14S7C87UxIw6OfCMVrdL8FCNo0dH4SmSq/view?usp=sharing">Overworld flyer with margins. 8.5"x11" PDF</a>
     </div>
