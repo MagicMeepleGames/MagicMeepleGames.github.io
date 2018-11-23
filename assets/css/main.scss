@@ -616,6 +616,11 @@ input[type=radio]:checked + label:before {
     border: 1rem solid $complement-very-light;
     border-radius: 1rem;
 }
+.gallery-caption {
+    background-color: #FFEAB0;
+    padding: 1rem;
+    margin: 3rem;
+}
 .lightbox-image {
     width: 64rem;
     height: 43rem;
