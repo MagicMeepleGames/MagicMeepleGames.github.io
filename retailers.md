@@ -11,13 +11,25 @@ Here are some PDF resources retailers can use to help sell our products!
 
 ## Overworld:
 
-- ![alt text](/assets/images/retailer-kit-thumbnails/overworld-shelf-hanger.png "Overworld shelf hanger") [Overworld shelf hanger with margins. 8.5"x11"](https://drive.google.com/file/d/1b2r833YbXVO_J7UxJ61W7Uddit0_6aHR/view?usp=sharing)
+<div class="gallery">
+  <div class="gallery-image" style="background-image: url('/assets/images/retailer-kit-thumbnails/overworld-shelf-hanger.png')">
+    <a href="https://drive.google.com/file/d/1b2r833YbXVO_J7UxJ61W7Uddit0_6aHR/view?usp=sharing">Overworld shelf hanger with margins. 8.5"x11"</a>
+    </div>
+  </div>
+  <div class="gallery-image" style="background-image: url('/assets/images/retailer-kit-thumbnails/overworld-shelf-hanger.png')">
+    <a href="https://drive.google.com/file/d/1Mck_kc4BPL8WfHXcuhp5uGaTAbtAVp3G/view?usp=sharing">Overworld shelf hanger without margins. 8.5"x11"</a>
+    </div>
+  </div>
+  <div class="gallery-image" style="background-image: url('/assets/images/retailer-kit-thumbnails/overworld-flyer.png')">
+    <a href="https://drive.google.com/file/d/14S7C87UxIw6OfCMVrdL8FCNo0dH4SmSq/view?usp=sharing">Overworld flyer with margins. 8.5"x11"</a>
+    </div>
+  </div>
+  <div class="gallery-image" style="background-image: url('/assets/images/retailer-kit-thumbnails/overworld-flyer.png')">
+    <a href="https://drive.google.com/file/d/16vk8RJLm0GxKOyxqV_PI4JL8jWACo4pw/view?usp=sharing">Overworld flyer without margins. 8.5"x11"</a>
+    </div>
+  </div>
+</div>
 
-- ![alt text](/assets/images/retailer-kit-thumbnails/overworld-shelf-hanger.png "Overworld shelf hanger") [Overworld shelf hanger without margins. 8.5"x11"](https://drive.google.com/file/d/1Mck_kc4BPL8WfHXcuhp5uGaTAbtAVp3G/view?usp=sharing)
-
-- ![alt text](/assets/images/retailer-kit-thumbnails/overworld-flyer.png "Overworld flyer") [Overworld flyer with margins. 8.5"x11"](https://drive.google.com/file/d/14S7C87UxIw6OfCMVrdL8FCNo0dH4SmSq/view?usp=sharing)
-
-- ![alt text](/assets/images/retailer-kit-thumbnails/overworld-flyer.png "Overworld flyer") [Overworld flyer without margins. 8.5"x11"](https://drive.google.com/file/d/16vk8RJLm0GxKOyxqV_PI4JL8jWACo4pw/view?usp=sharing)
 
 - ![alt text](/assets/images/retailer-kit-thumbnails/overworld-quick-reference-poster.png "Overworld quick reference poster") [Overworld quick reference poster with margins. 8.5"x11"](https://drive.google.com/file/d/1r6LsR1Zc-yYEt2lbbu5qlO8r0zw3acBy/view?usp=sharing)
 
