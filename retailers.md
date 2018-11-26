@@ -94,7 +94,7 @@ Here are some PDF resources retailers can use to help sell our products!
   <div class="retailer-resources">
     <a href="https://drive.google.com/file/d/1OHrO6Th7edcEYvqf4INXMDbLLrimjmXb/view?usp=sharing">
     </a>
-    <div class="thumbnail" style="background-image: url('/assets/images/retailer-kit-thumbnails/darkrock-ventures-shelf-hanger.png')">
+    <div class="thumbnail" style="background-image: url('/assets/images/retailer-kit-thumbnails/darkrock-ventures-shelf-hanger.jpg')">
     </div>
     <div class="gallery-caption">
       Darkrock Ventures shelf hanger without margins. 11"x8.5" JPG
