@@ -61,7 +61,7 @@ Here are some PDF resources retailers can use to help sell our products!
     <div class="thumbnail" style="background-image: url('/assets/images/retailer-kit-thumbnails/overworld-quick-start-poster.png')">
     </div>
     <div class="gallery-caption">
-      Overworld quick start poster without margins. 8.5"x11" PDF</a>
+      Overworld quick start poster without margins. 8.5"x11" PDF
     </div>
   </div>
   <div class="retailer-resources">
@@ -79,7 +79,7 @@ Here are some PDF resources retailers can use to help sell our products!
     <div class="thumbnail" style="background-image: url('/assets/images/retailer-kit-thumbnails/darkrock-ventures-shelf-hanger.png')">
     </div>
     <div class="gallery-caption">
-      Darkrock Ventures shelf hanger without margins. 11"x8.5" JPG</a>
+      Darkrock Ventures shelf hanger without margins. 11"x8.5" JPG
     </div>
   </div>
 </div>
