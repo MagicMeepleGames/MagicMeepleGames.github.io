@@ -65,7 +65,25 @@ Here are some PDF resources retailers can use to help sell our products!
     </div>
   </div>
   <div class="retailer-resources">
-    <a href="https://drive.google.com/file/d/1E4_006Y81XqbkSmVu9In_xvFM_hbpmOI/view?usp=sharing">\
+    <a href="https://drive.google.com/file/d/1VYtY3CD51TDHckQR6Xf_c1Dney1dfqFI/view?usp=sharing">
+    </a>
+    <div class="thumbnail" style="background-image: url('/assets/images/retailer-kit-thumbnails/fire-of-eidolon-flyer.png')">
+    </div>
+    <div class="gallery-caption">
+      Fire Of Eidolon flyer without margins. 11"x8.5" PDF
+    </div>
+  </div>
+  <div class="retailer-resources">
+    <a href="https://drive.google.com/file/d/14mjX0LJsTekBYkbzr6cMcK07Qlv8wCWq/view?usp=sharing">
+    </a>
+    <div class="thumbnail" style="background-image: url('/assets/images/retailer-kit-thumbnails/fire-of-eidolon-flyer-with-margins.png')">
+    </div>
+    <div class="gallery-caption">
+      Fire Of Eidolon flyer with margins. 11"x8.5" PDF
+    </div>
+  </div>
+  <div class="retailer-resources">
+    <a href="https://drive.google.com/file/d/1E4_006Y81XqbkSmVu9In_xvFM_hbpmOI/view?usp=sharing">
     </a>
     <div class="thumbnail" style="background-image: url('/assets/images/retailer-kit-thumbnails/fire-of-eidolon-shelf-hanger.png')">
     </div>
