@@ -618,7 +618,7 @@ input[type=radio]:checked + label:before {
 }
 .gallery-caption {
     position: relative;
-    bottom: 0;
+    bottom: 6;
     background-color: #FFEAB0;
     padding: 1rem;
 }
@@ -635,7 +635,14 @@ input[type=radio]:checked + label:before {
     background-color: $complement-dark;
 }
 
+a.retailer-resources-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 .thumbnail {
+    width: 100%
     height: 70%;
     background-size: contain;
     background-position: center;

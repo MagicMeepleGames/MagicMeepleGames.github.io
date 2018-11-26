@@ -9,8 +9,6 @@ order: 6
 
 Here are some PDF resources retailers can use to help sell our products!
 
-## Overworld:
-
 <div class="gallery">
   <div class="retailer-resources">
     <a class="retailer-resources-link" href="https://drive.google.com/file/d/1b2r833YbXVO_J7UxJ61W7Uddit0_6aHR/view?usp=sharing">
@@ -34,7 +32,7 @@ Here are some PDF resources retailers can use to help sell our products!
     <a class="retailer-resources-link" href="https://drive.google.com/file/d/14S7C87UxIw6OfCMVrdL8FCNo0dH4SmSq/view?usp=sharing">
     </a>
     <div class="thumbnail" style="background-image: url('/assets/images/retailer-kit-thumbnails/overworld-flyer-with-margins.png')">
-    <div>
+    </div>
     <div class="gallery-caption">
       Overworld flyer with margins. 8.5"x11" PDF
     </div>
@@ -43,6 +41,7 @@ Here are some PDF resources retailers can use to help sell our products!
     <a class="retailer-resources-link" href="https://drive.google.com/file/d/16vk8RJLm0GxKOyxqV_PI4JL8jWACo4pw/view?usp=sharing">
     </a>
     <div class="thumbnail" style="background-image: url('/assets/images/retailer-kit-thumbnails/overworld-flyer.png')">
+    </div>
     <div class="gallery-caption">
       Overworld flyer without margins. 8.5"x11" PDF
     </div>
@@ -65,11 +64,6 @@ Here are some PDF resources retailers can use to help sell our products!
       Overworld quick start poster without margins. 8.5"x11" PDF</a>
     </div>
   </div>
-</div>
-
-## Fire Of Eidolon:
-
-<div class="gallery">
   <div class="retailer-resources">
     <a href="https://drive.google.com/file/d/1E4_006Y81XqbkSmVu9In_xvFM_hbpmOI/view?usp=sharing">\
     </a>
@@ -79,11 +73,6 @@ Here are some PDF resources retailers can use to help sell our products!
       Fire Of Eidolon shelf hanger without margins. 11"x8.5" JPG
     </div>
   </div>
-</div>
-
-## Darkrock Ventures:
-
-<div class="gallery">
   <div class="retailer-resources">
     <a href="https://drive.google.com/file/d/1OHrO6Th7edcEYvqf4INXMDbLLrimjmXb/view?usp=sharing">
     </a>
