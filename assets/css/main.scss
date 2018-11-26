@@ -604,7 +604,7 @@ input[type=radio]:checked + label:before {
     border: none !important;
     background-color: transparent !important;
 }
-.gallery-image {
+.gallery-image, .retailer-resources {
     float: left;
     width: 18.65rem;
     height: 12rem;
@@ -617,6 +617,8 @@ input[type=radio]:checked + label:before {
     border-radius: 1rem;
 }
 .gallery-caption {
+    position: relative;
+    bottom: 0;
     background-color: #FFEAB0;
     padding: 1rem;
     margin: 3rem;
@@ -632,6 +634,13 @@ input[type=radio]:checked + label:before {
 .gallery-image:not(.lightbox-image):hover {
     border-color: $complement-dark;
     background-color: $complement-dark;
+}
+
+.thumbnail {
+    height: 70%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* snipcart customization */
