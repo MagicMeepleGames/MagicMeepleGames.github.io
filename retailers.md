@@ -136,6 +136,7 @@ document.addEventListener("DOMContentLoaded", function() {
 var options = {
     valueNames: [ 'name', 'city', 'state', 'zip' ]
 };
-var retailerList = new List('list', options);
+var retailerList = new List('retailer-list', options);
+console.dir(retailerList);
 });
 </script>
