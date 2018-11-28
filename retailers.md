@@ -9,6 +9,7 @@ order: 6
 
 When you are part of the Magic Meeple Retailer Program, you get more than the retailer programs of other publishers!
 
+<div id="retailer-list">
 <input class="search" placeholder="Search" />
 <button class="sort" data-sort="name">
   Name
@@ -33,6 +34,7 @@ When you are part of the Magic Meeple Retailer Program, you get more than the re
     <span class="name">Pieces and Pages</span> <span class="street">26300 Plymouth Rd</span>, <span class="city">Redford Charter Twp</span>, <span class="state">Michigan</span> <span class="zip">48239</span>
   </li>
 </ul>
+</div>
 
 Here are some PDF resources retailers can use to help sell our products!
 
@@ -129,3 +131,11 @@ Here are some PDF resources retailers can use to help sell our products!
   </div>
 </div>
 <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() { 
+var options = {
+    valueNames: [ 'name', 'city', 'state', 'zip' ]
+};
+var retailerList = new List('list', options);
+});
+</script>
