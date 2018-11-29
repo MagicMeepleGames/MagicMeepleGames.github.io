@@ -5,11 +5,11 @@ category: other
 order: 6
 ---
 
-# Retailer Resources
+# Retailers
 
 <div class="left column">
 
-<h2>Retailers Who Carry Magic Meeple Games</h2>
+<h2>Buy Our Games At</h2>
 
 <div id="retailer-list">
   <p>Filter on: <input class="search" /></p>
