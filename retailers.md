@@ -9,6 +9,8 @@ order: 6
 
 Magic Meeple Games gives retailers more than most other publishers!
 
+<div class="left column">
+
 <div id="retailer-list">
 <div class="table-controls-row">
   <h2>Retailers who carry our games</h2>
@@ -24,6 +26,10 @@ Magic Meeple Games gives retailers more than most other publishers!
 {% endfor %}
 </ul>
 </div>
+
+</div>
+
+<div class="right column">
 
 Here are some PDF resources retailers can use to help sell our products!
 
@@ -129,3 +135,5 @@ var retailerList = new List('retailer-list', options);
 console.dir(retailerList);
 });
 </script>
+
+</div>
