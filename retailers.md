@@ -11,12 +11,13 @@ Magic Meeple Games gives retailers more than most other publishers!
 
 <div id="retailer-list">
 <div class="table-controls-row">
-  <input class="search" placeholder="Search" />
-  <button class="sort" data-sort="name">Name</button>
+  <h2>Retailers who carry our games</h2>
+  <h3>Filter on: <input class="search" />
+  Sort by: <button class="sort" data-sort="name">Name</button>
   <button class="sort" data-sort="street">Street</button>
   <button class="sort" data-sort="city">City</button>
   <button class="sort" data-sort="state">State</button>
-  <button class="sort" data-sort="zip">Zip</button>
+  <button class="sort" data-sort="zip">Zip</button></h3>
 </div>
 <ul class="list">
   <li>

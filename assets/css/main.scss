@@ -631,6 +631,9 @@ input[type=radio]:checked + label:before {
 
 /* retailers page */
 
+#retailer-list{
+    margin-right: 3rem;
+}
 #retailer-list li {
     background-color: $complement-very-light;
     padding: .2rem;
