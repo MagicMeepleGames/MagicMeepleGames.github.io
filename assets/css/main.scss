@@ -643,9 +643,10 @@ input[type=radio]:checked + label:before {
 }
 #retailer-list li {
     background-color: $complement-very-light;
-    padding: .2rem;
-    margin: .2rem;
+    padding: 1rem;
+    margin: .5rem;
     list-style-type: none;
+    border-radius: .5rem;
 }
 .table-controls-row {
     position: relative;
@@ -656,7 +657,7 @@ input[type=radio]:checked + label:before {
     color: $primary-dark;
 }
 .retailer-resources {
-    width: 19.5rem;
+    width: 16rem;
 }
 .gallery-caption {
     position: relative;
