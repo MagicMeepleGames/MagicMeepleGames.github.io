@@ -7,26 +7,21 @@ order: 6
 
 # Retailer Resources
 
-When you are part of the Magic Meeple Retailer Program, you get more than the retailer programs of other publishers!
+Magic Meeple Games gives retailers more than most other publishers!
 
 <div id="retailer-list">
-<input class="search" placeholder="Search" />
-<button class="sort" data-sort="name">
-  Name
-</button>
-<button class="sort" data-sort="street">
-  Street
-</button>
-<button class="sort" data-sort="city">
-  City
-</button>
-<button class="sort" data-sort="state">
-  State
-</button>
-<button class="sort" data-sort="zip">
-  Zip
-</button>
+<div class="table-controls-row">
+  <input class="search" placeholder="Search" />
+  <button class="sort" data-sort="name">Name</button>
+  <button class="sort" data-sort="street">Street</button>
+  <button class="sort" data-sort="city">City</button>
+  <button class="sort" data-sort="state">State</button>
+  <button class="sort" data-sort="zip">Zip</button>
+</div>
 <ul class="list">
+  <li>
+    <span class="name">Imperial Outpost Games</span> <span class="street">4920 W Thunderbird Rd</span>, <span class="city">Glendale</span>, <span class="state">Arizona</span> <span class="zip">85306</span>
+  </li>
   <li>
     <span class="name">Get Your Game On</span> <span class="street">310 S State St</span>, <span class="city">Ann Arbor</span>, <span class="state">Michigan</span> <span class="zip">48104</span>
   </li>

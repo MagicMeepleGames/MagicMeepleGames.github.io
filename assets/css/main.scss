@@ -616,14 +616,6 @@ input[type=radio]:checked + label:before {
     border: 1rem solid $complement-very-light;
     border-radius: 1rem;
 }
-.retailer-resources {
-    position: relative;
-}
-.gallery-caption {
-    position: relative;
-    bottom: 0;
-    background-color: #FFEAB0;
-}
 .lightbox-image {
     width: 64rem;
     height: 43rem;
@@ -637,12 +629,35 @@ input[type=radio]:checked + label:before {
     background-color: $complement-dark;
 }
 
+/* retailers page */
+
+#retailer-list li {
+    background-color: $complement-very-light;
+    padding: .2rem;
+    margin: .2rem;
+    list-style-type: none;
+}
+.table-controls-row {
+    position: relative;
+    left: 3rem;
+}
+#retailer-list .name {
+    font-weight: 900;
+    color: $primary-dark;
+}
+.retailer-resources {
+    position: relative;
+}
+.gallery-caption {
+    position: relative;
+    bottom: 0;
+    background-color: $complement-very-light;
+}
 a.retailer-resources-link {
     position: absolute;
     width: 100%;
     height: 100%;
 }
-
 .thumbnail {
     width: 100%;
     height: 80%;
