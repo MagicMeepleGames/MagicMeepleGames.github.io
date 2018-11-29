@@ -7,15 +7,13 @@ order: 6
 
 # Retailer Resources
 
-Magic Meeple Games gives retailers more than most other publishers!
-
 <div class="left column">
 
 <div id="retailer-list">
 <div class="table-controls-row">
-  <h2>Retailers who carry our games</h2>
-  <h3>Filter on: <input class="search" />
-  Sort by: <button class="sort" data-sort="name">Name</button>
+  <h2>Retailers Who Carry Magic Meeple Games</h2>
+  <h3>Filter on: <input class="search" /></h3>
+  <h3>Sort by: <button class="sort" data-sort="name">Name</button>
   <button class="sort" data-sort="city">City</button>
   <button class="sort" data-sort="state">State / Province</button>
   <button class="sort" data-sort="zip">Postal Code</button></h3>
@@ -31,7 +29,8 @@ Magic Meeple Games gives retailers more than most other publishers!
 
 <div class="right column">
 
-Here are some PDF resources retailers can use to help sell our products!
+<h2>Resources For Retailers</h2>
+<p>Here are some PDF resources retailers can use to help sell our products!</p>
 
 <div class="gallery">
   <div class="retailer-resources">
