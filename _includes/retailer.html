@@ -1,4 +1,4 @@
-{% assign raw_address = r.address1 | append " " | r.address2 | append " " | append r.city | append " " | append r.state | append " " | append r.zip %}
+{% assign raw_address = r.address1 | append " " | append r.address2 | append " " | append r.city | append " " | append r.state | append " " | append r.zip %}
 {% assign full_address = raw_address | replace "  ", " " %}
 {% assign url = full_address | replace " ", "%20" %}
 <li>
