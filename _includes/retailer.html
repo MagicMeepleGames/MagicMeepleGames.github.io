@@ -1,6 +1,6 @@
 {% assign raw_address = r.address1 | append " " | append r.address2 | append " " | append r.city | append " " | append r.state | append " " | append r.zip %}
-{% assign full_address = raw_address | replace "  ", " " %}
-{% assign url = full_address | replace " ", "%20" %}
+{% assign full_address = raw_address | replace "  ", " " | replace " " "%20" %}
+{% assign url = "https://www.google.com/maps/search/?api=1&query=" | append full_address %}
 <li>
-  <span class="name"><a href=https://www.google.com/maps/search/?api=1&query={{url}}>{{r.name}}</a></span> <span class="address1">{{r.address1}}</span> <span class="address2">{{r.address2}}</span> <span class="city">{{r.city}}</span> <span class="state">{{r.state}}</span> <span class="zip">{{r.zip}}</span> <span class="country">{{r.country}}</span>
+  <span class="name"><a href="{{url}}">{{r.name}}</a></span> <span class="address1">{{r.address1}}</span> <span class="address2">{{r.address2}}</span> <span class="city">{{r.city}}</span> <span class="state">{{r.state}}</span> <span class="zip">{{r.zip}}</span> <span class="country">{{r.country}}</span>
 </li>
