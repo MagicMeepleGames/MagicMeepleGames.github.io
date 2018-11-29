@@ -14,21 +14,14 @@ Magic Meeple Games gives retailers more than most other publishers!
   <h2>Retailers who carry our games</h2>
   <h3>Filter on: <input class="search" />
   Sort by: <button class="sort" data-sort="name">Name</button>
-  <button class="sort" data-sort="street">Street</button>
   <button class="sort" data-sort="city">City</button>
-  <button class="sort" data-sort="state">State</button>
-  <button class="sort" data-sort="zip">Zip</button></h3>
+  <button class="sort" data-sort="state">State / Province</button>
+  <button class="sort" data-sort="zip">Postal Code</button></h3>
 </div>
 <ul class="list">
-  <li>
-    <span class="name">Imperial Outpost Games</span> <span class="street">4920 W Thunderbird Rd</span>, <span class="city">Glendale</span>, <span class="state">Arizona</span> <span class="zip">85306</span>
-  </li>
-  <li>
-    <span class="name">Get Your Game On</span> <span class="street">310 S State St</span>, <span class="city">Ann Arbor</span>, <span class="state">Michigan</span> <span class="zip">48104</span>
-  </li>
-  <li>
-    <span class="name">Pieces and Pages</span> <span class="street">26300 Plymouth Rd</span>, <span class="city">Redford Charter Twp</span>, <span class="state">Michigan</span> <span class="zip">48239</span>
-  </li>
+{% for r in site.data.retailers %}
+{% include retailer.html %}
+{% endfor %}
 </ul>
 </div>
 
