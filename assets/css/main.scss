@@ -631,8 +631,15 @@ input[type=radio]:checked + label:before {
 
 /* retailers page */
 
-#retailer-list{
+.column {
+    display: inline-grid;
+}
+.left.column {
+    width: 24rem;
     margin-right: 3rem;
+}
+.right.column {
+    width: 40rem;
 }
 #retailer-list li {
     background-color: $complement-very-light;
@@ -649,7 +656,7 @@ input[type=radio]:checked + label:before {
     color: $primary-dark;
 }
 .retailer-resources {
-    position: relative;
+    width: 19.5rem;
 }
 .gallery-caption {
     position: relative;
