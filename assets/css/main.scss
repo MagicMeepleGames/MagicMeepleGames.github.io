@@ -932,4 +932,12 @@ body {
     width: 45rem;
     height: 30rem;
 }
+.column {
+    width: 100%;
+    display: block;
+}
+.left.column {
+    margin-right: 0;
+    padding-left: 0;
+}
 }
