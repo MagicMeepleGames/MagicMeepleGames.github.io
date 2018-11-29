@@ -12,11 +12,13 @@ order: 6
 <div id="retailer-list">
 <div class="table-controls-row">
   <h2>Retailers Who Carry Magic Meeple Games</h2>
-  <h3>Filter on: <input class="search" /></h3>
-  <h3>Sort by: <button class="sort" data-sort="name">Name</button>
-  <button class="sort" data-sort="city">City</button>
-  <button class="sort" data-sort="state">State / Province</button>
-  <button class="sort" data-sort="zip">Postal Code</button></h3>
+  <h3>Filter on: <input class="search" /> Sort by:</h3>
+  <ul class="sort-controls">
+    <li class="sort" data-sort="name">Name</li>
+    <li class="sort" data-sort="city">City</li>
+    <li class="sort" data-sort="state">State/Prov</li>
+    <li class="sort" data-sort="zip">Postcode</li>
+  </ul>
 </div>
 <ul class="list">
 {% for r in site.data.retailers %}
