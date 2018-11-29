@@ -10,16 +10,15 @@ order: 6
 <div class="left column">
 
 <div id="retailer-list">
-<div class="table-controls-row">
   <h2>Retailers Who Carry Magic Meeple Games</h2>
-  <h3>Filter on: <input class="search" /> Sort by:</h3>
-  <div class="sort-controls">
+  <p>Filter on: <input class="search" /></p>
+  <p class="sort-controls">
+    Sort by: 
     <button class="sort" data-sort="name">Name</button>
     <button class="sort" data-sort="city">City</button>
     <button class="sort" data-sort="state">State/Prov</button>
     <button class="sort" data-sort="zip">Postcode</button>
   </div>
-</div>
 <ul class="list">
 {% for r in site.data.retailers %}
 {% include retailer.html %}
