@@ -127,7 +127,7 @@ order: 6
     </div>
   </div>
 </div>
-<div class="add-retailer-modal">
+<div id="add-retailer-modal">
 <h1>List your store</h1>
 <p>Please allow five business days for processing.</p>
 <label  for="r-name">Name of store:</label>
