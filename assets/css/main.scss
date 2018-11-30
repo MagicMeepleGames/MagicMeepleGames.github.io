@@ -652,9 +652,14 @@ input[type=radio]:checked + label:before {
     list-style-type: none;
     border-radius: .5rem;
 }
-.table-controls-row {
-    position: relative;
-    left: 3rem;
+input.search, .sort-controls button {
+    height: 1.5rem;
+}
+.sort-controls button {
+    border-left: 0.1rem solid $primary-very-light;
+    border-right: 0.1rem solid $primary-mid;
+    border-radius: .25rem;
+    background-color: $primary-light;
 }
 #retailer-list .name {
     font-weight: 900;
