@@ -704,6 +704,19 @@ a.retailer-resources-link {
 #add-retailer-modal .field {
     float: left;
     width: 49%;
+    padding: .5rem;
+}
+.field.submit-field {
+    position: relative;
+    height: 5rem;
+    padding-left: 0 !important;
+}
+.submit-field input[type="submit"] {
+    position: absolute;
+    bottom: 0;
+    height: 2.65rem;
+    width: 19.5rem;
+    margin: 1rem;
 }
 
 /* snipcart customization */

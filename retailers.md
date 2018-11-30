@@ -163,7 +163,7 @@ order: 6
 <label  for="r-zip">Zip/Postal Code:</label>
 <input name="r-zip" type="text" class="add-retailer-field" />
 </div>
-<div class="field">
+<div class="field submit-field">
 <input type="submit" value="Submit" />
 </div>
 </div>
