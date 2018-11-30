@@ -688,6 +688,20 @@ a.retailer-resources-link {
     background-position: center;
     background-repeat: no-repeat;
 }
+.add-retailer-modal {
+    display: none;
+    position: fixed;
+    margin: 0 auto;
+    top: 2rem;
+    width: 90%;
+    height: 90%;
+    background-color: $primary-light;
+    border: 1rem solid $primary-dark;
+    width: 68rem;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
 
 /* snipcart customization */
 li.cart {

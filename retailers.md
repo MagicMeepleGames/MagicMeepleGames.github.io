@@ -20,6 +20,7 @@ order: 6
     <button class="sort" data-sort="state">State/Prov</button>
     <button class="sort" data-sort="zip">Postcode</button>
   </p>
+<button id="list-your-store">List Your Store</button>
 <ul class="list">
 {% for r in site.data.retailers %}
 {% include retailer.html %}
@@ -126,14 +127,39 @@ order: 6
     </div>
   </div>
 </div>
+<div class="add-retailer-modal">
+<h1>List your store</h1>
+<p>Please allow five business days for processing.</p>
+<label  for="r-name">Name of store:</label>
+<input name="r-name" type="text" class="add-retailer-field" />
+<label  for="r-care-of">Care of:</label>
+<input name="r-care-of" type="text" class="add-retailer-field" />
+<label  for="r-address1">Address 1:</label>
+<input name="r-address1" type="text" class="add-retailer-field" />
+<label  for="r-address2">Address 2:</label>
+<input name="r-address2" type="text" class="add-retailer-field" />
+<label  for="r-city">City:</label>
+<input name="r-city" type="text" class="add-retailer-field" />
+<label  for="r-state">State/Province:</label>
+<input name="r-state" type="text" class="add-retailer-field" />
+<label  for="r-country">Country:</label>
+<input name="r-country" type="text" class="add-retailer-field" />
+<label  for="r-zip">Zip/Postal Code:</label>
+<input name="r-zip" type="text" class="add-retailer-field" />
+<input type="submit" value="Submit" />
+</div>
 <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 <script>
+var show_store_form_btn = document.getElementById('list-your-store');
+var add_retailer_modal = document.getElementById('add-retailer-modal');
+show_store_form_btn.addEventListener("click", function() {
+add_retailer_modal.style.display = 'block';
+});
 document.addEventListener("DOMContentLoaded", function() { 
 var options = {
     valueNames: [ 'name', 'city', 'state', 'zip' ]
 };
 var retailerList = new List('retailer-list', options);
-console.dir(retailerList);
 });
 </script>
 
