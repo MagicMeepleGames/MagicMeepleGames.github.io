@@ -652,6 +652,9 @@ input[type=radio]:checked + label:before {
     list-style-type: none;
     border-radius: .5rem;
 }
+input.search {
+    width: 15rem;
+}
 input.search, .sort-controls button {
     height: 1.5rem;
 }
