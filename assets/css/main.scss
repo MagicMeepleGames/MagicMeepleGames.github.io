@@ -693,14 +693,18 @@ a.retailer-resources-link {
     position: fixed;
     margin: 0 auto;
     top: 2rem;
-    width: 90%;
+    width: 90% !important;
     height: 90%;
     background-color: $primary-light;
     border: 1rem solid $primary-dark;
-    width: 68rem;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 1rem;
+}
+#add-retailer-modal .field {
+    float: left;
+    width: 49%;
 }
 
 /* snipcart customization */

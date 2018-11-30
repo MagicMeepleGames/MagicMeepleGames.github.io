@@ -131,23 +131,41 @@ order: 6
 <div id="add-retailer-modal">
 <h1>List your store</h1>
 <p>Please allow five business days for processing.</p>
+<div class="field">
 <label  for="r-name">Name of store:</label>
 <input name="r-name" type="text" class="add-retailer-field" />
+</div>
+<div class="field">
 <label  for="r-care-of">Care of:</label>
 <input name="r-care-of" type="text" class="add-retailer-field" />
+</div>
+<div class="field">
 <label  for="r-address1">Address 1:</label>
 <input name="r-address1" type="text" class="add-retailer-field" />
+</div>
+<div class="field">
 <label  for="r-address2">Address 2:</label>
 <input name="r-address2" type="text" class="add-retailer-field" />
+</div>
+<div class="field">
 <label  for="r-city">City:</label>
 <input name="r-city" type="text" class="add-retailer-field" />
+</div>
+<div class="field">
 <label  for="r-state">State/Province:</label>
 <input name="r-state" type="text" class="add-retailer-field" />
+</div>
+<div class="field">
 <label  for="r-country">Country:</label>
 <input name="r-country" type="text" class="add-retailer-field" />
+</div>
+<div class="field">
 <label  for="r-zip">Zip/Postal Code:</label>
 <input name="r-zip" type="text" class="add-retailer-field" />
+</div>
+<div class="field">
 <input type="submit" value="Submit" />
+</div>
 </div>
 <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 <script>
