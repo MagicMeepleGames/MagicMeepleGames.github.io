@@ -127,6 +127,7 @@ order: 6
     </div>
   </div>
 </div>
+</div>
 <div id="add-retailer-modal">
 <h1>List your store</h1>
 <p>Please allow five business days for processing.</p>
@@ -162,5 +163,3 @@ var options = {
 var retailerList = new List('retailer-list', options);
 });
 </script>
-
-</div>
