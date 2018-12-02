@@ -130,6 +130,7 @@ order: 6
 </div>
 <div id="add-retailer-modal">
 <h1>List your store</h1>
+<button sort="cancel-btn">Cancel</button>
 <p>Please allow five business days for processing.</p>
 <div class="field">
 <label  for="r-name">Name of store:</label>
@@ -171,9 +172,13 @@ order: 6
 <script>
 var show_store_form_btn = document.getElementById('list-your-store');
 var add_retailer_modal = document.getElementById('add-retailer-modal');
+var hide_store_form_btn = document.getElementsByClassName('cancel-btn')[0];
 show_store_form_btn.addEventListener("click", function() {
 add_retailer_modal.style.display = 'block';
 });
+var hide_store_form_btn.addEventListener('click', function() {
+  add_retailer_modal.style.display = 'none';
+})
 document.addEventListener("DOMContentLoaded", function() { 
 var options = {
     valueNames: [ 'name', 'city', 'state', 'zip' ]

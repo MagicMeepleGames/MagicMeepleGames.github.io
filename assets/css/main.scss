@@ -336,7 +336,7 @@ input[type=text], input[type=email] {
 .radio-button-group {
     padding: $main-pad;
 }
-input[type=submit], .radio-btn {
+input[type=submit], .radio-btn, .cancel-btn {
     cursor: pointer;
     color: $complement-very-light;
     background-color: $primary-mid;
@@ -706,6 +706,12 @@ a.retailer-resources-link {
     width: 31%;
     padding: .5rem;
 }
+.cancel-btn {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    height: 2.65rem;
+}
 .field.submit-field {
     position: relative;
     height: 5rem;
@@ -977,5 +983,11 @@ body {
 .left.column {
     margin-right: 0;
     padding-left: 0;
+}
+#add-retailer-modal {
+    width: 40rem !important;
+}
+#add-retailer-modal .field {
+    width: 47%;
 }
 }
