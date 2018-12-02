@@ -176,7 +176,7 @@ var hide_store_form_btn = document.getElementsByClassName('cancel-btn')[0];
 show_store_form_btn.addEventListener("click", function() {
 add_retailer_modal.style.display = 'block';
 });
-var hide_store_form_btn.addEventListener('click', function() {
+hide_store_form_btn.addEventListener('click', function() {
   add_retailer_modal.style.display = 'none';
 })
 document.addEventListener("DOMContentLoaded", function() { 
