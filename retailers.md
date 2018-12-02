@@ -172,7 +172,7 @@ order: 6
 <script>
 var show_store_form_btn = document.getElementById('list-your-store');
 var add_retailer_modal = document.getElementById('add-retailer-modal');
-var hide_store_form_btn = document.getElementsById('cancel-btn');
+var hide_store_form_btn = document.getElementById('cancel-btn');
 show_store_form_btn.addEventListener("click", function() {
 add_retailer_modal.style.display = 'block';
 });
