@@ -7,9 +7,21 @@ order: 6
 
 # Retailers
 
+What are the benefits a retailer gets working directly with us?
+
+- All products priced at starting at 50% Off MSRP
+- Bonus library copies & volume bonus extra copies
+- Fliers/Shelf Talkers/Stickers included in order package
+- Access to Half-off and Free promos
+- “Talkless” short advert videos to play in their store/website
+- 1on1 support, product and rules questions answered directly
+- Access to entire back catalog (while supplies last)
+- We’ll ship anywhere, any way they prefer it shipped (if it is possible) no distributor restrictions or nonsense (shipping is still paid by buyer)
+- Organized play rules/instructions, signup form, flier templates
+
 <div class="left column">
 
-<h2>Buy Our Games At</h2>
+<h2>Buy Our Games Locally From:</h2>
 
 <div id="retailer-list">
   <p>Filter on: <input class="search" /></p>
@@ -21,6 +33,9 @@ order: 6
     <button class="sort" data-sort="zip">Postcode</button>
   </p>
 <button id="list-your-store">List Your Store</button>
+<div style="display: none">
+  <p>Thank you. Please allow five business days for processing.</p>
+</div>
 <ul class="list">
 {% for r in site.data.retailers %}
 {% include retailer.html %}
