@@ -631,7 +631,7 @@ input[type=radio]:checked + label:before {
 
 /* retailers page */
 
-.retailer-benefits {
+p + ul {
     -webkit-columns: 3 14rem;
     -moz-columns: 3 14rem;
     columns: 3 14rem;
