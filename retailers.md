@@ -9,6 +9,7 @@ order: 6
 
 What are the benefits a retailer gets working directly with us?
 
+<div class="retailer-benefits">
 - All products priced at starting at 50% Off MSRP
 - Bonus library copies & volume bonus extra copies
 - Fliers/Shelf Talkers/Stickers included in order package
@@ -18,6 +19,7 @@ What are the benefits a retailer gets working directly with us?
 - Access to entire back catalog (while supplies last)
 - We’ll ship anywhere, any way they prefer it shipped (if it is possible) no distributor restrictions or nonsense (shipping is still paid by buyer)
 - Organized play rules/instructions, signup form, flier templates
+</div>
 
 <div class="left column">
 

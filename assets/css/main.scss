@@ -631,6 +631,17 @@ input[type=radio]:checked + label:before {
 
 /* retailers page */
 
+ul.retailer-benefits {
+    -webkit-columns: 3 14rem;
+    -moz-columns: 3 14rem;
+    columns: 3 14rem;
+    -webkit-column-gap: 3rem;
+    -moz-column-gap: 3rem;
+    column-gap: 3rem;
+    -webkit-column-rule: 1px solid $primary-very-light;
+    -moz-column-rule: 1px solid $primary-very-light;
+    column-rule: 1px solid $primary-very-light;
+}
 .column {
     display: inline-grid;
 }
