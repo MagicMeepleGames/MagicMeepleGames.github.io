@@ -7,17 +7,17 @@ order: 6
 
 # Retailers
 
-What are the benefits a retailer gets working directly with us?
+What are the benefits retailers get from working directly with us?
 
-- All products priced at starting at 50% Off MSRP
-- Bonus library copies & volume bonus extra copies
+- All products priced at a discount, starting at 50% Off MSRP
+- Bonus library copies & volume-bonus extra copies
 - Fliers/Shelf Talkers/Stickers included in order package
 - Access to Half-off and Free promos
 - “Talkless” short advert videos to play in their store/website
-- 1on1 support, product and rules questions answered directly
+- 1-on-1 support: product and rules questions answered directly
 - Access to entire back catalog (while supplies last)
-- We’ll ship anywhere, any way they prefer it shipped (if it is possible) no distributor restrictions or nonsense (shipping is still paid by buyer)
-- Organized play rules/instructions, signup form, flier templates
+- We’ll ship anywhere, with any shipment method (when possible), with no distributor restrictions or nonsense (shipping is still paid by buyer)
+- Organized play rules/instructions, signup form, and flier templates
 
 <div class="left column">
 
