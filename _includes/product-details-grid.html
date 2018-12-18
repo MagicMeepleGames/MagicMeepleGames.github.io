@@ -62,7 +62,7 @@
 {% if product.box-image %}
 <div class="details-box-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.box-image }})">
     {% if product.video %}
-    <video class="how-to-play-video" hidden><source src=/assets/images/{{product.name | slugify }}/{{ product.video }} type="video/mpg">
+    <video class="how-to-play-video" hidden><source src={{ product.video }} type="video/mpg">
         Sorry, your browser doesn't support embedded videos.
     </video>
 </div>
