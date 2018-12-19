@@ -423,9 +423,11 @@ input[type=radio]:checked + label:before {
 .btn-video {
     width: 28rem;
 }
+.video-player-box {
+    display: none;
+}
 .how-to-play-video {
     width: 100%;
-    display: none;
 }
 .btn-call-to-action, .btn-video {
     font-size: x-large;

@@ -1,16 +1,14 @@
 {% assign product-call-to-action = product.call-to-action | slugify %}
 {% if product.video %}
 {% assign video-btn = "" %}
+<div class="video-player-box">
+    <video class="how-to-play-video" controls><source src="{{ product.video }}" type="video/mpg">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+</div>
 {% else %}
 {% assign video-btn = "hidden" %}
 {% endif %}
-<div class="how-to-play-video">
-    {% if product.video %}
-    <video controls><source src="{{ product.video }}" type="video/mpg">
-        Sorry, your browser doesn't support embedded videos.
-    </video>
-    {% endif %}
-</div>
 <div class="grid">
 {% if product.availability | slugify = 'now-available' %}
 <h1 class="longer">{{ product.name }} <button class='btn-video' {{ video-btn }}>Watch a HOW TO PLAY video!</button></h1>
@@ -142,10 +140,10 @@ ages {{ product.ages-official }}
 <script>
     window.onload = function() {
         var video_btn = document.getElementsByClassName('btn-video')[0];
-        var how_to_play_video = document.getElementsByClassName('how-to-play-video')[0];
+        var video_player_box = document.getElementsByClassName('video-player-box')[0];
         video_btn.addEventListener('click', function(){
             video_btn.style.display = 'none';
-            how_to_play_video.style.display = 'block';
+            video_player_box.style.display = 'block';
         })
     };
 </script>
