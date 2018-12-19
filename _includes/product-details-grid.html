@@ -4,6 +4,13 @@
 {% else %}
 {% assign video-btn = "hidden" %}
 {% endif %}
+<div class="how-to-play-video">
+    {% if product.video %}
+    <video controls><source src="{{ product.video }}" type="video/mpg">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+    {% endif %}
+</div>
 <div class="grid">
 {% if product.availability | slugify = 'now-available' %}
 <h1 class="longer">{{ product.name }} <button class='btn-video' {{ video-btn }}>Watch a HOW TO PLAY video!</button></h1>
@@ -61,11 +68,6 @@
 </div>
 {% if product.box-image %}
 <div class="details-box-image" style="background-image: url(assets/images/{{ product.name | slugify }}/{{ product.box-image }})">
-    {% if product.video %}
-    <video controls class="how-to-play-video" hidden><source src="{{ product.video }}" type="video/mpg">
-        Sorry, your browser doesn't support embedded videos.
-    </video>
-    {% endif %}
 </div>
 {% endif %}
 <ul class="gameplay">
@@ -143,7 +145,7 @@ ages {{ product.ages-official }}
         var how_to_play_video = document.getElementsByClassName('how-to-play-video')[0];
         video_btn.addEventListener('click', function(){
             video_btn.style.display = 'none';
-            how_to_play_video.setAttribute("hidden", false);
+            how_to_play_video.style.display = 'block';
         })
     };
 </script>
