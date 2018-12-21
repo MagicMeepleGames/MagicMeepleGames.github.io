@@ -505,6 +505,9 @@ input[type=radio]:checked + label:before {
     position: absolute;
     height: 100%;
 }
+.ytp-title-channel-logo {
+    display: none;
+}
 .grid, .product-details-page .container>div {
     border: 2rem solid $primary-very-light;
     display: grid;
