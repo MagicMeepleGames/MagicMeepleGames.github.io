@@ -6,7 +6,7 @@
 {% endif %}
 <div class="grid">
 {% if product.availability | slugify = 'now-available' %}
-<h1 class="longer">{{ product.name }} <button class='btn-video' {{ video-btn }}>Watch a HOW TO PLAY video!</button></h1>
+<h1 class="longer">{{ product.name }} <button class='btn-video' {{ video-btn }} href="#video">Watch a HOW TO PLAY video!</button></h1>
 <div class="call-to-action">
 {% else %}
 <h1>{{ product.name }} - {{ product.availability }}</h1>
@@ -131,8 +131,6 @@ ages {{ product.ages-official }}
 </div>
 <!-- end of grid: -->
 </div>
-<div class="video-player-box">
-    <video class="how-to-play-video" controls><source src="{{ product.video }}" type="video/mpeg">
-        Sorry, your browser doesn't support embedded videos.
-    </video>
+<div id="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bwoiFLa8i4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
