@@ -496,6 +496,15 @@ input[type=radio]:checked + label:before {
 .product-details-page .main {
     background-color: unset;
 }
+#video {
+    position: relative;
+    height: 36rem;
+}
+#video iframe {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
 .grid, .product-details-page .container>div {
     border: 2rem solid $primary-very-light;
     display: grid;
