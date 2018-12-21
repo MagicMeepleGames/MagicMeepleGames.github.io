@@ -1,11 +1,6 @@
 {% assign product-call-to-action = product.call-to-action | slugify %}
 {% if product.video %}
 {% assign video-btn = "" %}
-<div class="video-player-box">
-    <video class="how-to-play-video" controls><source src="{{ product.video }}" type="video/mpeg">
-        Sorry, your browser doesn't support embedded videos.
-    </video>
-</div>
 {% else %}
 {% assign video-btn = "hidden" %}
 {% endif %}
@@ -136,15 +131,8 @@ ages {{ product.ages-official }}
 </div>
 <!-- end of grid: -->
 </div>
-{% if product.video %}
-<script>
-    window.onload = function() {
-        var video_btn = document.getElementsByClassName('btn-video')[0];
-        var video_player_box = document.getElementsByClassName('video-player-box')[0];
-        video_btn.addEventListener('click', function(){
-            video_btn.style.display = 'none';
-            video_player_box.style.display = 'block !important';
-        })
-    };
-</script>
-{% endif %}
+<div class="video-player-box">
+    <video class="how-to-play-video" controls><source src="{{ product.video }}" type="video/mpeg">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+</div>
