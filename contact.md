@@ -37,8 +37,6 @@ order: 5
 
 <p><textarea name="entry.1856670343" tabindex="6" rows="7" style="width: 90%" required ></textarea></p>
 
-<div class="g-recaptcha" data-sitekey="6LfORmcUAAAAAESxRxudn42Oz58XjOWU9qpJpqsO"></div>
-
-<p><input type="submit" value="Send" tabindex="8" /></p>
+<p><div class="g-recaptcha" data-sitekey="6LfORmcUAAAAAESxRxudn42Oz58XjOWU9qpJpqsO"></div> <input type="submit" value="Send" tabindex="8" /></p>
 
 </form>
