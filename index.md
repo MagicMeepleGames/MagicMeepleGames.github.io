@@ -7,7 +7,7 @@ published: true
 ---
 {% include progressbar.html heroimage="/incoming-transmission/Oxygen Converter.jpg" logo="/incoming-transmission/incoming-transmission-logo-500px.png" alt="Incoming Transmission" percent="30%" status="Pre-production File Prep - Click To Sign Up For Updates!" link="incoming-transmission" %}
 
-{% include progressbar.html heroimage="/overworld/overworld-closeup-500px.png" logo="/overworld/overworld-logo-500px.png" alt="Overworld" percent="93%" status="Shipping" link="https://magicmeeple.pledgemanager.com/projects/overworld-16-bit-tile-placement-and-exploration-bo/participate/" link="overworld" %}
+{% include progressbar.html heroimage="/overworld/overworld-closeup-500px.png" logo="/overworld/overworld-logo-500px.png" alt="Overworld" percent="94%" status="Shipping" link="https://magicmeeple.pledgemanager.com/projects/overworld-16-bit-tile-placement-and-exploration-bo/participate/" link="overworld" %}
 
 {% include progressbar.html heroimage="/fire-of-eidolon/fire-of-eidolon-closeup-500px.png" logo="/fire-of-eidolon/fire-of-eidolon-logo-500px.png" alt="Fire Of Eidolon" percent="100%" status="In stock now! Click here!" link="fire-of-eidolon" %}
 
