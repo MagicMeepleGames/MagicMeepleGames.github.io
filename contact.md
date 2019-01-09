@@ -69,5 +69,5 @@ order: 5
         };
     email_field.addEventListener('change', measure, false);
     name_field.addEventListener('change', measure, false);
-  }
+  });
 </script>
