@@ -15,6 +15,10 @@ order: 5
 
 <p>We'll need all fields filled in, please. Give us five business days for an email response, OK? It will be our pleasure to talk to you!</p>
 
+<h1>Overworld Final Delivery:</h2>
+
+<p>We have received reports that Amazon mailed the base game and expansion separately to many backers. Those who received one part tend to get the other part within the week. Please let us know if you don't hear anything from Amazon about it.<p>
+
 <h2>Your Email: <input type="email" tabindex="1" max-length="70" name="emailAddress" required /></h2>
 
 <h2>Your Name: <input type="text" tabindex="2" max-length="70" name="entry.1924108681" required /></h2>
