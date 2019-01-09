@@ -44,7 +44,7 @@ order: 5
 
 <p><textarea name="entry.1856670343" tabindex="7" rows="7" style="width: 90%" required ></textarea><label for="entry.1620700245" style="visibility: hidden; height: 0; padding: 0;">Leave empty:</label><input type="text" max-length="70" name="entry.1620700245" style="visibility: hidden; height: 0; padding: 0;" /></p>
 
-<p><input id="send" type="submit" value="Send" tabindex="8" disabled/></p>
+<p><input id="send" type="submit" value="Send" tabindex="8"/></p>
 
 </form>
 <script type="text/javascript">
