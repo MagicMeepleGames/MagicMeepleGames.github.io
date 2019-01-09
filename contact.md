@@ -53,7 +53,6 @@ order: 5
         slow = document.getElementById('slow'),
         email_field = document.getElementsByName('emailAddress')[0],
         name_field = document.getElementsByName('entry.1924108681')[0],
-        send_btn = document.getElementById('send'),
         start_time = new Date(),
         milliseconds = 0,
         measure = function (e) {
@@ -61,7 +60,6 @@ order: 5
           milliseconds = elapsed_time - start_time;
           if (milliseconds > 999) {
             slow.checked = true;
-            send_btn.setAttribute("disabled", false);
             e.target.removeEventListener('change', measure, false);
           } else {
             quick.checked = true;
