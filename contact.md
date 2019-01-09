@@ -56,7 +56,7 @@ order: 5
         send_btn = document.getElementById('send'),
         start_time = new Date(),
         milliseconds = 0,
-        measure = function () {
+        measure = function (e) {
           elapsed_time = new Date();
           milliseconds = elapsed_time - start_time;
           if (milliseconds > 999) {
