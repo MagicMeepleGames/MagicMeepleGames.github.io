@@ -23,7 +23,6 @@ What are the benefits retailers get from working directly with us?
 
 Here are some PDF resources retailers can use to help sell our products!
 
-<div class="left column">
 <div class="gallery">
   <div class="retailer-resources">
     <a class="retailer-resources-link" href="https://drive.google.com/file/d/1b2r833YbXVO_J7UxJ61W7Uddit0_6aHR/view?usp=sharing">
@@ -79,10 +78,6 @@ Here are some PDF resources retailers can use to help sell our products!
       Overworld quick start poster without margins. 8.5"x11" PDF
     </div>
   </div>
-</div>
-</div>
-<div class="left column">
-<div class="gallery">
   <div class="retailer-resources">
     <a href="https://drive.google.com/file/d/1VYtY3CD51TDHckQR6Xf_c1Dney1dfqFI/view?usp=sharing">
     </a>
@@ -119,5 +114,4 @@ Here are some PDF resources retailers can use to help sell our products!
       Darkrock Ventures shelf hanger without margins. 11"x8.5" JPG
     </div>
   </div>
-</div>
 </div>
