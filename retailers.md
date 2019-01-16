@@ -1,11 +1,11 @@
 ---
 title: Retailers
 layout: default
-category: other
+category: pages
 order: 6
 ---
 
-# Retailers
+# Retailer Benefits
 
 What are the benefits retailers get from working directly with us?
 
@@ -19,37 +19,11 @@ What are the benefits retailers get from working directly with us?
 - We’ll ship anywhere, with any shipment method (when possible), with no distributor restrictions or nonsense (shipping is still paid by buyer)
 - Organized play rules/instructions, signup form, and flier templates
 
+# Resources For Retailers
+
+Here are some PDF resources retailers can use to help sell our products!
+
 <div class="left column">
-
-<h2>Buy Our Games Locally From:</h2>
-
-<div id="retailer-list">
-  <p>Filter on: <input class="search" /></p>
-  <p class="sort-controls">
-    Sort by: 
-    <button class="sort" data-sort="name">Name</button>
-    <button class="sort" data-sort="city">City</button>
-    <button class="sort" data-sort="state">State/Prov</button>
-    <button class="sort" data-sort="zip">Postcode</button>
-  </p>
-<button id="list-your-store">List Your Store</button>
-<div style="display: none">
-  <p>Thank you. Please allow five business days for processing.</p>
-</div>
-<ul class="list">
-{% for r in site.data.retailers %}
-{% include retailer.html %}
-{% endfor %}
-</ul>
-</div>
-
-</div>
-
-<div class="right column">
-
-<h2>Resources For Retailers</h2>
-<p>Here are some PDF resources retailers can use to help sell our products!</p>
-
 <div class="gallery">
   <div class="retailer-resources">
     <a class="retailer-resources-link" href="https://drive.google.com/file/d/1b2r833YbXVO_J7UxJ61W7Uddit0_6aHR/view?usp=sharing">
@@ -105,6 +79,10 @@ What are the benefits retailers get from working directly with us?
       Overworld quick start poster without margins. 8.5"x11" PDF
     </div>
   </div>
+</div>
+</div>
+<div class="left column">
+<div class="gallery">
   <div class="retailer-resources">
     <a href="https://drive.google.com/file/d/1VYtY3CD51TDHckQR6Xf_c1Dney1dfqFI/view?usp=sharing">
     </a>
@@ -143,61 +121,3 @@ What are the benefits retailers get from working directly with us?
   </div>
 </div>
 </div>
-<div id="add-retailer-modal">
-<h1>List your store</h1>
-<button id="cancel-btn">Cancel</button>
-<p>Please allow five business days for processing.</p>
-<div class="field">
-<label  for="r-name">Name of store:</label>
-<input name="r-name" type="text" class="add-retailer-field" />
-</div>
-<div class="field">
-<label  for="r-care-of">Care of:</label>
-<input name="r-care-of" type="text" class="add-retailer-field" />
-</div>
-<div class="field">
-<label  for="r-address1">Address 1:</label>
-<input name="r-address1" type="text" class="add-retailer-field" />
-</div>
-<div class="field">
-<label  for="r-address2">Address 2:</label>
-<input name="r-address2" type="text" class="add-retailer-field" />
-</div>
-<div class="field">
-<label  for="r-city">City:</label>
-<input name="r-city" type="text" class="add-retailer-field" />
-</div>
-<div class="field">
-<label  for="r-state">State/Province:</label>
-<input name="r-state" type="text" class="add-retailer-field" />
-</div>
-<div class="field">
-<label  for="r-country">Country:</label>
-<input name="r-country" type="text" class="add-retailer-field" />
-</div>
-<div class="field">
-<label  for="r-zip">Zip/Postal Code:</label>
-<input name="r-zip" type="text" class="add-retailer-field" />
-</div>
-<div class="field submit-field">
-<input type="submit" value="Submit" />
-</div>
-</div>
-<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-<script>
-var show_store_form_btn = document.getElementById('list-your-store');
-var add_retailer_modal = document.getElementById('add-retailer-modal');
-var hide_store_form_btn = document.getElementById('cancel-btn');
-show_store_form_btn.addEventListener("click", function() {
-add_retailer_modal.style.display = 'block';
-});
-hide_store_form_btn.addEventListener('click', function() {
-  add_retailer_modal.style.display = 'none';
-})
-document.addEventListener("DOMContentLoaded", function() { 
-var options = {
-    valueNames: [ 'name', 'city', 'state', 'zip' ]
-};
-var retailerList = new List('retailer-list', options);
-});
-</script>
