@@ -17,7 +17,7 @@ order: 5
 
 <h2>Overworld Final Delivery:</h2>
 
-<p class="alert">We have received reports that Amazon mailed the base game and expansion separately to many backers. We have seen reports of a two-week gap between received one package and receiving the other package. Please let us know if it takes longer than that for you.<p>
+<p class="alert">We have received reports that Amazon mailed the base game and expansion separately to many backers. There has been a gap between receiving one package and receiving the other package, sometimes as long as two weeks. Please let us know if it takes longer than that for you.<p>
 
 <h2>Your Email: <input type="email" tabindex="1" max-length="70" name="emailAddress" required /></h2>
 
