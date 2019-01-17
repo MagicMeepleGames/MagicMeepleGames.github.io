@@ -17,7 +17,7 @@ order: 5
 
 <h2>Overworld Final Delivery:</h2>
 
-<p>We have received reports that Amazon mailed the base game and expansion separately to many backers. Those who received one part tend to get the other part within the week. Please let us know if you don't hear anything from Amazon about it.<p>
+<p class="alert">We have received reports that Amazon mailed the base game and expansion separately to many backers. Those who received one part tend to get the other part within the week. Please let us know if you don't hear anything from Amazon about it.<p>
 
 <h2>Your Email: <input type="email" tabindex="1" max-length="70" name="emailAddress" required /></h2>
 
