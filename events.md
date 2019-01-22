@@ -2,7 +2,7 @@
 title: Events
 layout: default
 category: pages
-order: 4
+order: 3
 ---
 # Penguicon, May 4-6, 2018, Westin Southfield, Michigan, USA
 

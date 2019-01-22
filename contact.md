@@ -2,7 +2,7 @@
 title: Contact Us
 layout: default
 category: pages
-order: 5
+order: 4
 ---
 
 <script type="text/javascript">var submitted=false;</script>

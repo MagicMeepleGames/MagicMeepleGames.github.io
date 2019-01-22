@@ -2,7 +2,7 @@
 title: Shop
 layout: shop
 category: pages
-order: 5
+order: 8
 ---
 # Shop
 
