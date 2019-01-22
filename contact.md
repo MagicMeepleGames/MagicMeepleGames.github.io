@@ -17,7 +17,7 @@ order: 4
 
 <h2>Overworld Final Delivery:</h2>
 
-<p class="alert">We have received reports that Amazon mailed the base game and expansion separately to many backers. There has been a gap between receiving one package and receiving the other package, sometimes as long as two weeks. Please let us know if it takes longer than that for you.<p>
+<p class="alert">We expect all Overworld backer rewards to arrive to backers this week! If yours has not arrived by Friday, January 25, please let us know.<p>
 
 <h2>Your Email: <input type="email" tabindex="1" max-length="70" name="emailAddress" required /></h2>
 
@@ -47,6 +47,7 @@ order: 4
 <p><input id="send" type="submit" value="Send" tabindex="8"/></p>
 
 </form>
+
 <script type="text/javascript">
   $(document).ready(function () {
     var quick = document.getElementById('quick'),
