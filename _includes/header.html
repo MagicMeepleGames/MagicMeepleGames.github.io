@@ -12,7 +12,7 @@
   {% include social_media.html filename="social/instagram-logo-meeple.png" caption="Instagram" link="https://www.instagram.com/magicmeeplegames/" %}
   {% include social_media.html filename="social/bgg-logo-meeple.png" caption="BoardGameGeek" link="https://boardgamegeek.com/boardgamepublisher/29569/magic-meeple-games" %}
   </div>
-  <ul class="product-nav">
+  <ul class="pages-nav">
   {% assign games = site.pages | sort: "order" %}
   {% for nav in games %}
   {% if nav.category == "games" %}

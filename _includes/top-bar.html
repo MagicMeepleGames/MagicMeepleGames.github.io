@@ -1,5 +1,5 @@
 <div class="top-bar">
-  <ul class="pages-nav">
+  <ul class="product-nav">
   {% assign pages = site.pages | sort: "order" %}
     {% for nav in pages %}
     {% if nav.category == "pages" %}
@@ -12,7 +12,7 @@
       {% endif %}
       </li>
     {% endif %}
-  {% endfor %}
+    {% endfor %}
       <li class="cart"><a href="#" class="snipcart-checkout">Cart</a></li>
     </ul>
 </div>
