@@ -1,7 +1,7 @@
 ---
 title: Crafting
 layout: default
-category: hidden
+category: pages
 order: 7
 ---
 
