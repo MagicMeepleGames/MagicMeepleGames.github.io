@@ -1,17 +1,18 @@
 <div class="top-bar">
-  <ul class="product-nav">
-{% assign games = site.pages | sort: "order" %}
-  {% for nav in games %}
-  {% if nav.category == "games" %}
-    {% if nav.title == page.title %}
-    <li class="thispage" >
-      {{ nav.title }}
-    {% else %}
-    <li>
-      <a href="{{ nav.url | absolute_url }}">{{ nav.title }}</a>
+  <ul class="pages-nav">
+  {% assign pages = site.pages | sort: "order" %}
+    {% for nav in pages %}
+    {% if nav.category == "pages" %}
+      {% if nav.title == page.title %}
+      <li class="thispage" >
+          {{ nav.title }}
+      {% else %}
+      <li>
+        <a href="{{ nav.url | absolute_url }}">{{ nav.title }}</a>
+      {% endif %}
+      </li>
     {% endif %}
-    </li>
-  {% endif %}
-{% endfor %}
-  </ul>
+  {% endfor %}
+      <li class="cart"><a href="#" class="snipcart-checkout">Cart</a></li>
+    </ul>
 </div>

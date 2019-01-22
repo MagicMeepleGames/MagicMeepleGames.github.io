@@ -12,20 +12,19 @@
   {% include social_media.html filename="social/instagram-logo-meeple.png" caption="Instagram" link="https://www.instagram.com/magicmeeplegames/" %}
   {% include social_media.html filename="social/bgg-logo-meeple.png" caption="BoardGameGeek" link="https://boardgamegeek.com/boardgamepublisher/29569/magic-meeple-games" %}
   </div>
-  <ul class="pages-nav">
-{% assign pages = site.pages | sort: "order" %}
-  {% for nav in pages %}
-  {% if nav.category == "pages" %}
+  <ul class="product-nav">
+  {% assign games = site.pages | sort: "order" %}
+  {% for nav in games %}
+  {% if nav.category == "games" %}
     {% if nav.title == page.title %}
     <li class="thispage" >
-        {{ nav.title }}
+      {{ nav.title }}
     {% else %}
     <li>
       <a href="{{ nav.url | absolute_url }}">{{ nav.title }}</a>
     {% endif %}
     </li>
   {% endif %}
-{% endfor %}
-    <li class="cart"><a href="#" class="snipcart-checkout">Cart</a></li>
+  {% endfor %}
   </ul>
 </div>
