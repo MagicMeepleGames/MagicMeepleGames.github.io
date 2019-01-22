@@ -46,8 +46,6 @@ order: 4
 
 <p><input id="send" type="submit" value="Send" tabindex="8"/></p>
 
-</form>
-
 <script type="text/javascript">
   $(document).ready(function () {
     var quick = document.getElementById('quick'),
@@ -70,3 +68,4 @@ order: 4
     name_field.addEventListener('change', measure, false);
   });
 </script>
+</form>
