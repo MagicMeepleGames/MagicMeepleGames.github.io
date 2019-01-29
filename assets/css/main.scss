@@ -156,20 +156,16 @@ ul.product-nav {
 
 .social-nav-group {
     position: absolute;
-    top: 1.2rem;
-    right: 1rem;
+    top: 2rem;
+    right: 2rem;
 }
 .social {
     float: left;
     height: 3rem;
-    width: 3rem;
+    width: 3.6rem;
     margin: 0.5rem 1rem 0.5rem 0;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-    border-left: 0.5rem solid #ddd;
+    border-radius: 3rem;
     padding-right: 0.5rem;
-    border-top: 0.25rem solid #ddd;
-    border-bottom: 0;
     background-color: white;
     background-size: contain;
     background-repeat: no-repeat;
