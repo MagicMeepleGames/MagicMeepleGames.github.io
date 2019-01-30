@@ -17,8 +17,6 @@ order: 4
 
 <h2>Overworld Final Delivery:</h2>
 
-<p class="alert">We expect all Overworld backer rewards to arrive to backers this week! If yours has not arrived by Friday, January 25, please let us know.<p>
-
 <h2>Your Email: <input type="email" tabindex="1" max-length="70" name="emailAddress" required /></h2>
 
 <h2>Your Name: <input type="text" tabindex="2" max-length="70" name="entry.1924108681" required /></h2>
