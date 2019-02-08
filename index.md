@@ -24,7 +24,7 @@ published: true
         <h2>Newsletter:</h2>
         <p><a href="https://my.sendinblue.com/users/subscribe/js_id/3n0j4/id/1">Subscribe</a> to receive the Magic Meeple Games newsletter in your email!</p>
         <h2>Current Kickstarter Campaign:</h2>
-        <iframe src="https://www.kickstarter.com/projects/magicmeeplegames/incoming-transmission-16-bit-deduction-family-boar/widget/card.html?v=2" width="310" height="420" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://www.kickstarter.com/projects/magicmeeplegames/incoming-transmission-an-app-enhanced-deduction-bo/widget/card.html?v=2" width="310" height="420" frameborder="0" scrolling="no"></iframe>
         <h2>Friends Of The Meeple:</h2>
         <div class="carousel">
             <span class="prev-arrow"> ◀ </span>
