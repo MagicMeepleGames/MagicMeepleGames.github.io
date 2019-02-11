@@ -9,15 +9,18 @@ order: 6
 
 What are the benefits retailers get from working directly with us?
 
-- All products priced at a discount, starting at 50% Off MSRP
+- Full 50% direct-to-retailer margin
 - Bonus library copies & volume-bonus extra copies
 - Fliers/Shelf Talkers/Stickers included in order package
 - Access to Half-off and Free promos
 - “Talkless” short advert videos to play in their store/website
 - 1-on-1 support: product and rules questions answered directly
-- Access to entire back catalog (while supplies last)
-- We’ll ship anywhere, with any shipment method (when possible), with no distributor restrictions or nonsense (shipping is still paid by buyer)
+- Priority access to entire back catalog (while supplies last)
+- Wholesale orders over $300 ship free
 - Organized play rules/instructions, signup form, and flier templates
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"845b16d962ecfe887326cdabb","lid":"8e488e7d17","uniqueMethods":true}) })</script>
 
 # Resources For Retailers
 
