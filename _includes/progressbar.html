@@ -1,5 +1,9 @@
 <div class="progressbar">
+  {% if include.link contains 'http' %}
+  <a href="{{ include.link }}">
+  {% else %}
   <a href="{{ site.url }}/{{ include.link | slugify }}.html#{{ include.link | slugify }}-form">
+  {% endif %}
   {% if include.heroimage %}
   <div class="inline-hero" style="background-image: url(assets/images/{{ include.heroimage | replace: " ", "%20" }})" role="img" alt="{{ include.alt }}">
   </div>

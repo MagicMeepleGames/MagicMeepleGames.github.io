@@ -5,7 +5,7 @@ category: pages
 order: 1
 published: true
 ---
-{% include progressbar.html heroimage="/incoming-transmission/Oxygen Converter.jpg" logo="/incoming-transmission/incoming-transmission-logo-500px.png" alt="Incoming Transmission" percent="30%" status="Pre-production File Prep - Click To Sign Up For Updates!" link="incoming-transmission" %}
+{% include progressbar.html heroimage="/incoming-transmission/Oxygen Converter.jpg" logo="/incoming-transmission/incoming-transmission-logo-500px.png" alt="Incoming Transmission" percent="40%" status="Back On Kickstarter Now!" link="https://www.kickstarter.com/projects/magicmeeplegames/incoming-transmission-an-app-enhanced-deduction-bo" %}
 
 {% include progressbar.html heroimage="/overworld/overworld-closeup-500px.png" logo="/overworld/overworld-logo-500px.png" alt="Overworld" percent="98%" status="U.S. Backers Received; Intl. Backers Are Receiving" link="https://magicmeeple.pledgemanager.com/projects/overworld-16-bit-tile-placement-and-exploration-bo/participate/" link="overworld" %}
 
