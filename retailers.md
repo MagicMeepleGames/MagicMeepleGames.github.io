@@ -5,6 +5,10 @@ category: pages
 order: 6
 ---
 
+# Recommend A Store Local To You
+
+Do you want our games to be sold at a retailer near you? If you use [this form](https://docs.google.com/forms/d/e/1FAIpQLSdujAzfCGlexwRVH6mDwQz2HQplKIn3LlceR9P8uCaL0hIkpQ/viewform), we will reach out to them!
+
 # Retailer Benefits
 
 What are the benefits retailers get from working directly with us?
@@ -18,9 +22,6 @@ What are the benefits retailers get from working directly with us?
 - Priority access to entire back catalog (while supplies last)
 - Wholesale orders over $300 ship free
 - Organized play rules/instructions, signup form, and flier templates
-
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-<script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"845b16d962ecfe887326cdabb","lid":"8e488e7d17","uniqueMethods":true}) })</script>
 
 # Resources For Retailers
 
