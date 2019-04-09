@@ -29,7 +29,7 @@ Here are some PDF resources retailers can use to help sell our products!
 
 <div class="gallery">
   <div class="retailer-resources">
-    <a class="retailer-resources-link" href="https://drive.google.com/file/d/1b2r833YbXVO_J7UxJ61W7Uddit0_6aHR/view?usp=sharing">
+    <a class="retailer-resources-link" href="https://drive.google.com/file/d/1Yg9A_3PsumggZEVZmXTnRn957UJfUYLI/view?usp=sharing">
     </a>
     <div class="thumbnail" style="background-image: url('/assets/images/retailer-kit-thumbnails/overworld-shelf-hanger-with-margin.png')">
     </div>
@@ -38,7 +38,7 @@ Here are some PDF resources retailers can use to help sell our products!
     </div>
   </div>
   <div class="retailer-resources">
-    <a class="retailer-resources-link" href="https://drive.google.com/file/d/1Mck_kc4BPL8WfHXcuhp5uGaTAbtAVp3G/view?usp=sharing">
+    <a class="retailer-resources-link" href="https://drive.google.com/file/d/1DBXzQV6MoouIHXDpjb482Tqj_EmeSMUb/view?usp=sharing">
     </a>
     <div class="thumbnail" style="background-image: url('/assets/images/retailer-kit-thumbnails/overworld-shelf-hanger.png')">
     </div>
