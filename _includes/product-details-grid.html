@@ -18,13 +18,9 @@
 {% endif %}
 <h2>{{ product.availability }}</h2>
 {% if product.available == true %}
-    <button class="snipcart-add-item btn-call-to-action"
-        data-item-id="{{ product.product-code }}"
-        data-item-name="{{ product.name }}"
-        data-item-price="{{ product.current-msrp }}"
-        data-item-weight="{{ product.weight | replace: 'g', '' }}"
-        data-item-url="{{ site.url }}/shop.html"
-        data-item-description="{{ product.short-description | escape }}" >
+    <button class="btn-call-to-action">
+        <a href="{{ product.link-to-amazon }}" >
+        </a>
         {{ product.call-to-action }}
     </button>
     <span class="price">${{ product.current-msrp }}</span>
